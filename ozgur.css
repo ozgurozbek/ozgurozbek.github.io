@@ -1,0 +1,23 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif
+}
+
+.ozicon {
+    color: rgb(0, 140, 255) !important;
+}
+
+.oziconbar {
+    background-color: rgb(0, 140, 255) !important;
+}
+
+.oztitle {
+    color: rgb(70, 145, 230) !important;
+}
+
+.ozbgdark {
+    background-color: rgb(33, 33, 33) !important;
+}
+
+.ozbglight {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
