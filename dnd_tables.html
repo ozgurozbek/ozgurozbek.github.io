@@ -43,11 +43,11 @@
     }
 
     tr:nth-child(even) {
-        background-color: lightseagreen;
+        background-color: rgb(120, 100, 140);
     }
 </style>
 
-<body style="background-color:black; color: blanchedalmond">
+<body style="background-color:rgb(33,44,44); color: blanchedalmond">
 
     <div style="text-align: center; margin-top: 10%; margin-left: 10%; margin-right: 10%; font-size: 200%">
         ozgurozbek.github.io</div>
@@ -57,17 +57,18 @@
     <br>
 
     <div class="w3-margin" style="text-align: center">
-        <a class="w3-button" style="background-color: lightseagreen" href="#Weapons">Weapons</a>
-        <a class="w3-button" style="background-color: lightseagreen" href="#Armor">Armor</a>
-        <a class="w3-button" style="background-color: lightseagreen" href="#MaterialVariants">Material Variants</a>
-        <a class="w3-button" style="background-color: lightseagreen" href="#Potions">Potions</a>
-        <a class="w3-button" style="background-color: lightseagreen" href="#Dusts">Dusts</a>
-        <a class="w3-button" style="background-color: lightseagreen" href="#Runes">Runes</a>
-        <a class="w3-button" style="background-color: lightseagreen" href="#Oils">Oils</a>
-        <a class="w3-button" style="background-color: lightseagreen" href="#Tools">Tool Kits</a>
-        <a class="w3-button" style="background-color: lightseagreen" href="#ArmorEnch">Armor Enchantments</a>
-        <a class="w3-button" style="background-color: lightseagreen" href="#Okri">Okri's Deeds</a>
-        <a class="w3-button" style="background-color: lightseagreen" href="#Resurrection">Resurrection</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#Weapons">Weapons</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#Armor">Armor</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#MaterialVariants">Material Variants</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#Potions">Potions</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#Dusts">Dusts</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#Runes">Runes</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#Oils">Oils</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#Tools">Tool Kits</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#ArmorEnch">Armor Enchantments</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#Okri">Okri's Deeds</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#Resurrection">Resurrection</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#Cooking">Cooking</a>
     </div>
 
     <div class="w3-container">
@@ -645,6 +646,7 @@
                     <tr><td>10000</td><td>Expert</td><td>A diamond of 2000GP</td><td>100%</td><td>90%</td></tr>
                 </table>
             </div>
+            
         </div>
 
         <div class="w3-third">
@@ -859,6 +861,31 @@
                     </tr>
                 </table>
             </div>
+            <br>
+
+            <div class="w3-padding" id="Cooking">
+                <h2>Cooking</h2>
+                A path for a chef. You select what effect you want your food to have, consult it with your DM, then a percentile will be rolled. You spend the amount of gold stated beforehand, so it can be lost. If proficient with chef's utensils or any other cooking equipment, percentage has a plus 25%. The chef can choose to add their wisdom modifier to the percentage. Snacks can be made in an instant, Everyday food requires a small rest, Gourmet food takes a long rest and can take multiple days. Select materials cost little. Choice materials cost more. Prime materials cost significantly higher. All materials can be scavenged. Materials also signify the duration that the food will keep its effects. Fodd goes to spoil after 24 hours. Starting from the worst, effect avaibilities are 1-3 hour, 3-7 hours and 5-11 hours.
+                <table>
+                    <tr>
+                        <th>Tier</th>
+                        <th>Material</th>
+                        <th>Percentage</th>
+                        <th>Effect</th>
+                    </tr>
+                    <tr><td>Snack</td><td>Select</td><td>15%</td><td>A small healing bonus</td></tr>
+                    <tr><td>Everyday</td><td>Select</td><td>10%</td><td>A small skill modifier bonus</td></tr>
+                    <tr><td>Gourmet</td><td>Select</td><td>5%</td><td>A significant skill modifier bonus</td></tr>
+                    <tr><td>Snack</td><td>Choice</td><td>30%</td><td>A healing bonus</td></tr>
+                    <tr><td>Everyday</td><td>Choice</td><td>20%</td><td>A skill modifier bonus</td></tr>
+                    <tr><td>Gourmet</td><td>Choice</td><td>10%</td><td>Multiple skill modifier bonuses</td></tr>
+                    <tr><td>Snack</td><td>Prime</td><td>35%</td><td>A significant healing bonus</td></tr>
+                    <tr><td>Everyday</td><td>Prime</td><td>25%</td><td>A significant status bonus</td></tr>
+                    <tr><td>Gourmet</td><td>Prime</td><td>15%</td><td>A significant skill modifier bonus</td></tr>
+                    <tr><td>Signature Dish</td><td>Prime</td><td>50%</td><td>A specific bonus</td></tr>
+                    <tr><td>Sauce & Spice</td><td>Select</td><td>50%</td><td>+3 duration, food still spoils after 24 hours.</td></tr>
+                </table>
+            </div>
         </div>
     </div>
 
@@ -866,8 +893,8 @@
     <br>
 
     <div class="w3-padding">
-        <a class="w3-button" style="background-color: lightslategray"
-            href="https://github.com/ozgurozbek/gibberish_generator">Gibberish Generator</a>
+        <a class="w3-button" style="background-color: rgb(60, 50, 70)" href="https://github.com/ozgurozbek/gibberish_generator">Gibberish Generator</a>
+        <a class="w3-button" style="background-color: rgb(60, 50, 70)" href="https://ozgurozbek.github.io/common_lore.html">Common Lore</a>
     </div>
 </body>
 
