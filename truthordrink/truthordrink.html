@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,33 +9,41 @@
 </head>
 <style>
     .button {
-    display: inline-block;
-    padding: 20px 60px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: blanchedalmond;
-    background-color: black;
-    border: 1px solid blanchedalmond;
-    border-radius: 15px;
-    box-shadow: 0 9px #666;
-}
-.button:hover {background-color: #999}
-.button:active {
-    background-color: #999;
-    box-shadow: 0 5px #333;
-    transform: translateY(4px);
-}
+        display: inline-block;
+        padding: 20px 60px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: blanchedalmond;
+        background-color: rgb(33, 44, 44);
+        border: 1px solid blanchedalmond;
+        border-radius: 15px;
+        box-shadow: 0 9px #666;
+    }
+
+    .button:hover {
+        background-color: #999
+    }
+
+    .button:active {
+        background-color: #999;
+        box-shadow: 0 5px #333;
+        transform: translateY(4px);
+    }
 </style>
-<body style="background-color:black; color: blanchedalmond">
-    <div id="quote" style="text-align: center; margin-top: 20%; margin-left: 10%; margin-right: 10%; font-size: 200%"></div>
-    <br>
-    <div style="height: 2px; background-color: blanchedalmond"></div>
-    <br>
-    <div style="text-align: center; color: blanchedalmond">
-        <button class="button" onclick="run();">New Question!</button>
+
+<body style="color: blanchedalmond; background-color: rgb(33, 44, 44);">
+    <div style="position: absolute; top: 35%; width: 99%;">
+        <div id="quote" style="text-align: center; font-size: 200%"></div>
+        <br>
+        <div style="height: 2px; background-color: blanchedalmond"></div>
+        <br>
+        <div style="text-align: center; color: blanchedalmond">
+            <button class="button" onclick="run();">New Question!</button>
+        </div>
     </div>
+
 </body>
 <script>
     text = `What was the last thing you searched for on your phone?
@@ -726,12 +735,13 @@ Have you ever experimented with another guy? If so, did you like it?`
     }    
 </script>
 <script>
-    function fullscreen(){
+    function fullscreen() {
         document.body.requestFullscreen();
     }
 </script>
 <script>
-run();
-fullscreen();
+    run();
+    fullscreen();
 </script>
+
 </html>
