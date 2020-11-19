@@ -1,58 +1,14 @@
-# My Myth
+# Not yet filled books
 
-## The Creation Myth
-
-In the ancient Mythology, Uke and Veri are referred to as the Creators, the Makers, and the Forefathers. They were two of the first beings to exist and were said to be as wise as Mceeju. Mceeju also existed and is given less personification. He acts more like a light.
-
-Mceeju decides that, in order to preserve his legacy, he must create a race of beings who can worship them. He created Uke, Veri and Lcaoc. He blessed Lcaoc with a small part of his smarts and gave Uke and Veri an eternal light of life. Uke and Veri did the actual creating while Lcaoc guided them. First came Cyaxo, creator of all land. Then came Ehx, creator of all sky. Gods started to form after one another and finally, after a big collaboration, the Astral Sea was formed.
-
-In a long lost plane, animals were created first; however, with all of their howling and squawking they did not worship their creators and were thus banished forever to the forest. Unable to decide their strengths, Gods then formed man. Man is created first of mud, but they just crumbled and dissolved away. Once again man is created of multiple elements like wood, fire, air and mud but had no soul, and they soon forgot their makers. After that, unable to decide and in a heated argument, gods were interrupted by Mceeju. Then, with all gods combined, a more complex man was formed, out of flesh and bone. That is why early beings believed that meat was not just the cornerstone of their diet but, they were also made of the same stuff.
-
-## Information on the Johke
-
-## Lcohwuj
-
-The Lcohwuj were four brothers, the sons of Wu and Yu. A creator god placed these skybearers at the four corners of the universe. Because each stands at one of the four cardinal directions, each is associated with a colour and a direction.
-
-- Uufh (later replaced by Msauh) - Lcohwuj of the east.
-- Lawog - Lcohwuj of the north, is assigned the colour white.
-- Raar - Lcohwuj of the west, is assigned the colour black.
-- Hozanek - Lcohwuj of the south, is assigned the colour blue.
-References to the Lcohwuj are found in the writings. At some point, the brothers became associated with the figure of Ecqig, an Johke sage whom took care of the Lcohwuj.
-
-## The First Generation
-
-After the creation, Msauh's notes tells of the struggles of the legendary hero twins, Susaih and Wiob, in defeating the Pedi Lords, the underworld lords. The twins descend into the underworld, perish, and are eventually miraculously reborn. This myth provides a metaphor for the agricultural cycle and the annual rebirth of the crops. These two stories are focal points of early Johke Mythology and often found depicted in art, such as "Rixm Liox", the holy book of the Johke. "Rixm Liox" can be found in any part of the Inner Worlds.
-
-## Susaih and Wiob
-
-Susaih or Su was originally a son of one of Lcohwuj. His twin was Wiob. The two were the Johke Hero Twins.
-
-Susaih and his brother Wiob were quite inseperable in their lives, together outwitting arrogant gods and the lords of the underworld, Nee. Although it is not explicitly stated in the history, Wiob seems to have been the dominant one among the brothers, often the one to do the talking and the planning, although Susaih was not merely a hapless sidekick. In fact Susaih is credited with saving his older brother's life at least once.
-
-Susaih ascended to the Iz after his death and became associated with the sun. Susaih was sometimes referred to as the Lord of The Sun.
-
-## The First Humans
-
-### The Men
-
-- Pedgj
-Meaning first, he married Giyec.
-- Cxiyo
-Meaning smile, was the first of the men created after the black rain. The gods created Czequvev specifically for him to marry.
-- Nefhehsex
-Meaning disturbed. He never had the chance to marry but actually raped Czequvev, out of jealousy.
-- Wiob
-Meaning moon. He died of old age and later became the moon lord, hero of the moon. The woman Gugig was created just for him.
-
-### The Wives
-
-- Giyec
-Meaning woman, she was created specifically to be the wife of Pedgj.
-- Czequvev
-Meaning specific she was a woman created specifically to be the wife of Cxiyo. Happily taking care of her first child Qceey (Son of Cxiyo) but committed suicide after her second child Ugiy (Daughter of Nefhehsex) was born.
-- Gugig
-Meaning water, she was a woman created by the gods specifically to marry Wiob.
+- Planatary Fraction
+- Fisherman Uprising
+- General Jet's Reform
+- Assasination of Narra
+- Spellcaster's Doom
+- Bandit's March to Irene
+- Warrior's Guild and Red Army
+- Fall of Darrok to Zix
+- Burning of Oskutirne
 
 ## The binding of Lwaro
 
@@ -100,7 +56,7 @@ Tricked by them, Gaxqaca did all kinds of time consuming and pointless things. S
 
 ## Radu and Nizi
 
-Radu was the god of honor. Like all gods, he loved drama and contests. His special talent was that he could shape his sense of honor into looking like any thing he wanted. He could shape it into a little mouse or a dangerous animal or a fierce pirate. His favorite shape was that of a handsome young man, dripping in jewels. He had quite sense of humor.
+Radu was the god of honor, heroism. Like all gods, he loved drama and contests. His special talent was that he could shape his sense of honor into looking like any thing he wanted. He could shape it into a little mouse or a dangerous animal or a fierce pirate. His favorite shape was that of a handsome young man, dripping in jewels. He had quite sense of humor.
 
 One day, when Radu was in the form of his favorite shape, a handsome young man, dripping with jewels, he was spotted by some pirates. They thought they had stumbled across a rich prize, someone they could sell for a lot of money as a slave. Laughing cruelly, they grabbed what they thought was a rich young man and carried him off to their pirate ship. They tied him tightly to the mast.
 
@@ -133,3 +89,15 @@ Wodroh was stuck in that vase for a very long time. And for a very long time, th
 Lwaqy would constantly come into conflict with Mceeju and after Mceeju withdrew the use of fire by mortals, Lwaqy famously stole the fire and gave it back to humanity. As punishment for his transgressions, he was chained to a star in the sky for eternity. Every day, in the morning, a beam of light (the symbol of Mceeju) would fly towards the star and burn the eyes of Lwaqy. Since he was immortal, his sight would recover, only for the cycle to repeat the next day. Out of his burned blood, pouring from his eyes would create the Pedi. Lwaqy impressed by these creatures would send them to his home plane.
 
 Eventually, Raxcoh freed Lwaqy from his prison.
+
+## Akkin and the golden statue
+
+"Hello me. I know, I know it's not my first time seeing you here. You've come here thinking you'd be the savior to those in need huh? Oh what a treat you are going to experience, you have no clue. *How do you know who I am!?* I hear you asking. I am you. I was waiting for you here.
+
+See that crystaly thing there? That'll break next time you arrive here. *How can you...*. I know, because it happened to me, to you. Ah time, flowing like a river. Take that runic, bizarre orb with you. You need it to prolong the inevitable. You need to save others! I know they told you that, evil in this cave must be taken care of, must be turned gold, must be hidden forever. I know all that, it's just, I wish you'd realize that the only evil here is me.
+
+I've already taken what you were meant to take. I took it, turned it to gold, hid it forever. Yet there it is still in front of my golden eyes. There you are, moving into it. Placing your hand on top. *Why shouldn't I destroy it?*. I wish I knew why. I thought the same way. I destroyed it once, and all it did was to make me have visions of me, throughout time and eternity with Lwaqy himself. He spoke to me saying this was what I deserved, what I opted for. I got caught out apparently, signing for a different patron. Oh, it's almost time you touch me.
+
+You smile as you touch my hand. I know, it's cold, I did it before. *Wish I could take you with me.* Me too, maybe one day you could? After you dive into that orb that you are trying to cover with gold. It's going to consume you. You can't say you weren't warned, you've experienced this for... forever times. After you replace me and take my place as the golden statue, take me with you? I failed to do that to me before me. *I want to help all and live my live as a free adventurer!* Hahah, I know. Lwaqy does too though. That small prayer is not going to get you anywhere. Bu I know the answer to your problem. Listen carefully and look into my cold eyes. All you need to be free is to just push me and break me. Then it's just you and you are forever.
+
+I wish you could hear me."
