@@ -22,7 +22,7 @@ Lwaro, daughter of Gud, inspired too much fear in Uke and Veri for them to let h
 
 Lwaro grew at an alarming rate. Knowing well how much devastation she would cause if she were allowed to roam free, the gods attempted to bind her with various chains. Modgo first cursed Lwaro to forever be in the form of a wolf. After this, gods were able to gain the wolf’s consent by telling him that these fetters were tests of her strength, and clapping and cheering when, with each new chain they presented her, she broke free.
 
-At last, the gods sent a messenger down to Nhaft "Pjegv in Dwarvish", the realm of the dwarves. The dwarves, being the most skilled craftspeople in the Johke Era, were able to forge a chain whose strength couldn’t be equaled; it was wrought from the sound of a cat’s footsteps, the smell of music, the roots of mountains, and the breath of a fish – in other words, things which don’t exist, and against which it’s therefore futile to struggle. Nteud (“Msaoc” in Johke) was the name sung by the dwarvish.
+At last, the gods sent a messenger down to Nhaft "Pjegv in Dwarvish", the realm of the dwarves. The dwarves, being the most skilled craftspeople in the Johke Era, were able to forge a chain whose strength couldn’t be equaled; it was wrought from the sound of a cat’s footsteps, the smell of music, the roots of mountains, and the breath of a fish – in other words, things which don’t exist, and against which it’s therefore futile to struggle. Nteud ("Msaoc" in Johke) was the name sung by the dwarvish.
 
 No later with their worries gone, Gods asked Mceeju to grant them another overseer, another guardian, thus reforming Raxy one more time.
 
