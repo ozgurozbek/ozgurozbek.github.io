@@ -15,21 +15,21 @@
 
 ### Fisherman Uprising
 
-A stable way of earning wage was every lower class family’s wish for their younglings. About a 100 years before the magic crisis, Any kid that was born to a humble family would be encouraged to be a fisherman so they would never worry about starving. And even though that was a wise path to choose until then, it wasn’t in that particular time.  
+A stable way of earning wage was every lower class family's wish for their younglings. About a 100 years before the magic crisis, Any kid that was born to a humble family would be encouraged to be a fisherman so they would never worry about starving. And even though that was a wise path to choose until then, it wasn't in that particular time.  
 
 For commoners and peasants who are looking not to waste their precious earnings rather than sleep with a full stomach, fish is the best option to stay relatively full since hunting wild game and growing grain is much much harder in harsh climates such as the lower sides of Wavekeep Sea.
 
-Similar to now, back then fish was every folk’s every meal. There were literally plenty of fish in the sea, and plenty of fishermen as well. Being a fisherman paid well, and it was a well respected job. So in overtime the number of fishermen in the Wavekeep Sea grew and grew. Eventually a Fishermen’s Guild was formed. The Guild kept the peace among fishermen and even helped out common folk every now and then. The Guild wasn't based in any country, had its own rules and worked with multiple harbours of multiple countries.
+Similar to now, back then fish was every folk's every meal. There were literally plenty of fish in the sea, and plenty of fishermen as well. Being a fisherman paid well, and it was a well respected job. So in overtime the number of fishermen in the Wavekeep Sea grew and grew. Eventually a Fishermen's Guild was formed. The Guild kept the peace among fishermen and even helped out common folk every now and then. The Guild wasn't based in any country, had its own rules and worked with multiple harbours of multiple countries.
 
 Since at the time countries were not exactly in peace terms, more than one party was interested in the fish since eating anything else got harder and harder for the citizens of both countries. although rulers had other worries. Tension between Akairo and Kheranthe was rising. Contact in between was barely existent and both sides were insistent on their terms.
 
-Akairo’s problem with the guild started when some members of the guild started to smuggle people in and out of Akairo. When Akairo started to take precautions that affected the Guild’s ability to help simple folk in Akairo. Then rulers of Akairo decided to tax the Guild even more to be in their waters. That didn't sit well with the Guild.
+Akairo's problem with the guild started when some members of the guild started to smuggle people in and out of Akairo. When Akairo started to take precautions that affected the Guild's ability to help simple folk in Akairo. Then rulers of Akairo decided to tax the Guild even more to be in their waters. That didn't sit well with the Guild.
 
 The real problem for Akairo began when a drug lord named Junkie Neimann, who is thought to work for the Kheranthe government, bribed some of the fishermen to smuggle opium into Akairo. Its unknown if the Guild knew about this and turned a blind eye, or made profit off of it but many believe that they were not just an innocent bystander. And it was at this time that the war broke between the two countries.
 
 Fishermen were not educated people though, they not only carried opium but also used it. And when the demand for opium increased, so did the amounts of opium carried in a single  ship until the point where fishermen would often not make it to Akairo but choked in opium on the way instead. The rumors got around when highly ranked Guild members started either dying of opium or going insane instead. That caused commoners to lose respect in the Guild. In a short period of time the Guild sank by most members forfeiting their membership and the rest died on opium.
 
-What’s left of the guild is few fishermen ships you can spot crewed with opium crazed fishermen-turned-pirates scourging the Wavekeep Sea.
+What's left of the guild is few fishermen ships you can spot crewed with opium crazed fishermen-turned-pirates scourging the Wavekeep Sea.
 
 ### Mujina Army and the Serpents
 
@@ -37,13 +37,13 @@ Mujina Army was Founded by an ambitious ex soldier named Tywin the Weasel In the
 
 No mercenary group would ever recruit more than 150-200 soldiers and there is a good reason for that. Chances of getting employed with numbers that high is slim to none because people who need more than 100 people to solve their problems are usually kings, or rulers to that degree, and they usually have soldiers to their name. Tywin knew this very well but he also knew that Akairo never had enough soldiers. He offered his services to the 6 rulers of Akario and immediately got employed by their general.
 
-Mujina Army went from war to war under the Akairo banner. Traveled the continent under the orders of the General. It took time for mercenaries to adjust to the harsher life of the battlefields but they managed. After a dragon problem arised within the Akario soil, rulers ordered the Munija to track and slay the beast. With their numbers still 250 to 300 high, they were confident they could succeed. While they were searching for the beast in the Dyatlov Pass, the beast found them and surprised them with an earthquake attack. Whole pass collapsed on them, creating a huge cavern in the pass with no possible exits. Some of the Mujina got crushed under rocks, dying immediately, rest getting trapped inside the newly created cavern. It took the survivors about 2 months to manage to create an exit. Mujina Army’s turn into cannibalism is thought to have happened around this time. Mujina leader, Tywin the Weasel did not survive the cavern. Cause of his death, to this day is still unknown.
+Mujina Army went from war to war under the Akairo banner. Traveled the continent under the orders of the General. It took time for mercenaries to adjust to the harsher life of the battlefields but they managed. After a dragon problem arised within the Akario soil, rulers ordered the Munija to track and slay the beast. With their numbers still 250 to 300 high, they were confident they could succeed. While they were searching for the beast in the Dyatlov Pass, the beast found them and surprised them with an earthquake attack. Whole pass collapsed on them, creating a huge cavern in the pass with no possible exits. Some of the Mujina got crushed under rocks, dying immediately, rest getting trapped inside the newly created cavern. It took the survivors about 2 months to manage to create an exit. Mujina Army's turn into cannibalism is thought to have happened around this time. Mujina leader, Tywin the Weasel did not survive the cavern. Cause of his death, to this day is still unknown.
 
 Survivors of the Dyatlov Pass got kicked out of the Red Army upon arrival to the mainland. There were about 80 of them left. Mujina Army traveled north, looking for jobs but unable to find so. They set camp near Wukhim. They helped out and worked for free in the city and the nearby settlements. They build themselves a lovely commune. But people and children around the area started to go missing.
 
 Southside Serpents got contracted by various people around the area, relatives of the missing people to find their loved ones. Upon short investigation, Serpents concluded that Mujina Commune was at the root of this problem. One night, Serpents attacked the Commune, killing everyone inside easily.
 
-Unfortunately upon investigation Serpents couldn't find any bone remains of the missing victims. And because Mujina Commune managed to build itself a major reputation around the area no one believed the Serpents that members of the commune were cannibals and abductors. Serpents got shunned by society and did not receive any other contracts. Unable to work under contract or any other place in the area, Serpents changed their appearance. Formed another contractor guild in the city, Slayer’s Take, under false identities as new adventurers.
+Unfortunately upon investigation Serpents couldn't find any bone remains of the missing victims. And because Mujina Commune managed to build itself a major reputation around the area no one believed the Serpents that members of the commune were cannibals and abductors. Serpents got shunned by society and did not receive any other contracts. Unable to work under contract or any other place in the area, Serpents changed their appearance. Formed another contractor guild in the city, Slayer's Take, under false identities as new adventurers.
 
 ### Khadrick and his bag of lies
 
@@ -107,18 +107,18 @@ END OF ACT III . SCENE I
 
 ### Fuck, Marry, Kill
 
-The three paths to a complete life. Accomplishing any of these three feats before you die is noteworthy. But for Bann Jacket, noteworthy just wasn’t good enough.
+The three paths to a complete life. Accomplishing any of these three feats before you die is noteworthy. But for Bann Jacket, noteworthy just wasn't good enough.
 
 Catching up with Bann was easy as he is now an old, retired elf who spends most of his time in an old handmade rocking chair. We knew that Bann had both fucked and been married because the local affiliate mage showed us a vision of his children and he seemed unhappy. One look in his eyes face to face confirmed the trifecta—this man had definitely taken a life.
 
 Fuck.
-As the old man harked back to the days of his sexual peak we found ourselves, cringing. There is just something about an 729-year-old elf recalling his past encounters and using words "slurping", "damp", and "honking" throughout those stories that really made us wonder why we were listening anymore. At one point he rambled about how confusing it can be when you’re blindfolded and the woman you’re with has an outie belly button. We will spare you the details, just trust us on this one. This guy fucked.
+As the old man harked back to the days of his sexual peak we found ourselves, cringing. There is just something about an 729-year-old elf recalling his past encounters and using words "slurping", "damp", and "honking" throughout those stories that really made us wonder why we were listening anymore. At one point he rambled about how confusing it can be when you're blindfolded and the woman you're with has an outie belly button. We will spare you the details, just trust us on this one. This guy fucked.
 
 Marry.
 Bann has been married to his beautiful, loving wife, Jonda for 237 years. Much to her approval and help, she made several appearances in his stories from the paragraph above. The two have accumulated 11 children over their time together. They married after Bann saw Jonda one evening, before even talking to her he walked right up to her father the next day and asked for her hand in marriage.
 
 Kill.
-Bann was exuberant to tell us about all the people he’s killed. He spent some time in Seimon Pass but claims the "real fun" happened when he did a brief 30-year stay in Wavekeep Archipelago before Mages Uprising. He explained to us the killings haven’t stopped with his old age, they have merely just slowed down. Bann told us he can not stop killing, it’s more addicting than heroin. Which he also admitted to doing during his Wavekeep Archipelago stint.
+Bann was exuberant to tell us about all the people he's killed. He spent some time in Seimon Pass but claims the "real fun" happened when he did a brief 30-year stay in Wavekeep Archipelago before Mages Uprising. He explained to us the killings haven't stopped with his old age, they have merely just slowed down. Bann told us he can not stop killing, it's more addicting than heroin. Which he also admitted to doing during his Wavekeep Archipelago stint.
 Our time with Bann Jacket has taught us all one thing, legends never die, and they are smarter than the state guards.
 
 ### The binding of Lwaro
@@ -129,7 +129,7 @@ Lwaro, daughter of Gud, inspired too much fear in Uke and Veri for them to let h
 
 Lwaro grew at an alarming rate. Knowing well how much devastation she would cause if she were allowed to roam free, the gods attempted to bind her with various chains. Modgo first cursed Lwaro to forever be in the form of a wolf. After this, gods were able to gain the wolf's consent by telling him that these fetters were tests of her strength, and clapping and cheering when, with each new chain they presented her, she broke free.
 
-At last, the gods sent a messenger down to Nhaft "Pjegv in Dwarvish", the realm of the dwarves. The dwarves, being the most skilled craftspeople in the Johke Era, were able to forge a chain whose strength couldn't be equaled; it was wrought from the sound of a cat's footsteps, the smell of music, the roots of mountains, and the breath of a fish – in other words, things which don't exist, and against which it's therefore futile to struggle. Nteud ("Msaoc" in Johke) was the name sung by the dwarvish.
+At last, the gods sent a messenger down to Nhaft "Pjegv in Dwarvish", the realm of the dwarves. The dwarves, being the most skilled craftspeople in the Johke Era, were able to forge a chain whose strength couldn't be equaled; it was wrought from the sound of a cat's footsteps, the smell of music, the roots of mountains, and the breath of a fish - in other words, things which don't exist, and against which it's therefore futile to struggle. Nteud ("Msaoc" in Johke) was the name sung by the dwarvish.
 
 No later with their worries gone, Gods asked Mceeju to grant them another overseer, another guardian, thus reforming Raxy one more time.
 
