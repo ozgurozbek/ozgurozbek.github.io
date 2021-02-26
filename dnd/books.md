@@ -199,7 +199,7 @@ Wodroh was stuck in that vase for a very long time. And for a very long time, th
 
 ### Creation of Pedi
 
-Lwaqy would constantly come into conflict with Mceeju and after Mceeju withdrew the use of fire by mortals, Lwaqy famously stole the fire and gave it back to humanity. As punishment for his transgressions, he was chained to a star in the sky for eternity. Every day, in the morning, a beam of light (the symbol of Mceeju) would fly towards the star and burn the eyes of Lwaqy. Since he was immortal, his sight would recover, only for the cycle to repeat the next day. Out of his burned blood, pouring from his eyes would create the Pedi. Lwaqy impressed by these creatures would send them to his home plane.
+Lwaqy would constantly come into conflict with Mceeju and after Mceeju withdrew the use of fire by mortals, Lwaqy famously stole the fire and gave it back to humanity. As punishment for his transgressions, he was chained to a star in the sky for eternity. Every day, in the morning, a beam of light (the symbol of Mceeju) would fly towards the star and burn the eyes of Lwaqy. Since he was immortal, his sight would recover, only for the cycle to repeat the next day. Pwazo, out of the burned blood from Lwaqy that is pouring out from his eyes, would then use it to create the Pedi. Later impressed by these creatures would send them to her home plane.
 
 Eventually, Raxcoh freed Lwaqy from his prison.
 
