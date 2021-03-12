@@ -49,6 +49,23 @@
     tr:nth-child(even) {
         background-color: rgb(120, 100, 140);
     }
+
+    .hide {
+        display: none;
+    }
+
+    .hoverimage:hover+.hide {
+        display: block;
+        position: absolute;
+        width: 60%;
+        max-width: 400px;
+        min-width: 200px;
+        background-color: firebrick;
+    }
+
+    .hoverimage {
+        color: gold;
+    }
 </style>
 
 <body style="background-color:rgb(33,44,44); color: blanchedalmond">
@@ -500,34 +517,44 @@
                     <li>You gain proficiency depending on your INT modifier.</li>
                     <li>If we roll for HP, Minimum HP gain when leveled up is 1. If you roll a 2 and your CON MOD is -5,
                         you still gain 1 HP.</li>
-                    <li>Feats make your DM sad. Feats are broken. But SURE I GUESS (<b>LOOK AT THE SENTINEL FEAT</b>).</li>
+                    <li>Feats make your DM sad. Feats are broken. But SURE I GUESS (<b>LOOK AT THE SENTINEL FEAT</b>).
+                    </li>
 
                     <br><b>General</b>
-                    <li>Map based resources use map based skills. You can find them <a style="color:gold" href="./dnd_map_resources.html">here</a>.</li>
+                    <li>Map based resources use map based skills. You can find them <a style="color:gold"
+                            href="./dnd_map_resources.html">here</a>.</li>
                     <li>You get the Lucky Clover item. It replaces the DM given inspiration.</li>
-                    <li>Dealing One-Shot amounts of damage (MAX HP + 1) in healing also kills the person with Radiant damage. Race benefits are applied.</li>
-                    <li>Learning spells take 2 hours and costs 50 GP per spell level if the source is written. If not, the time and cost multiplies by spell level.</li>
+                    <li>Dealing One-Shot amounts of damage (MAX HP + 1) in healing also kills the person with Radiant
+                        damage. Race benefits are applied.</li>
+                    <li>Learning spells take 2 hours and costs 50 GP per spell level if the source is written. If not,
+                        the time and cost multiplies by spell level.</li>
                     <li>Skill checks can crit or botch as long as it's a clear crit or botch.</li>
-                    <li>Magic Item min-max prices for <b>purchase</b> are multiplied by 2 because I only use Gold Pieces.</li>
+                    <li>Magic Item min-max prices for <b>purchase</b> are multiplied by 2 because I only use Gold
+                        Pieces.</li>
                     <li>Retainer spells and bonuses are not loyal to 5E sourcebooks.</li>
                     <li>Additional AC from items are capped with +3 AC.</li>
-                    <li>Public Teleportation happens via Waystones, Teleportation Pillars by using Teleportation Dust on them.</li>
-                    
+                    <li>Moster Cooking is a thing.</li>
+                    <li>Public Teleportation happens via Waystones, Teleportation Pillars by using Teleportation Dust on
+                        them.</li>
+
                     <br><b>Social</b>
                     <li>Having fun is free. Ruining it for others costs you your playtime.</li>
                     <li>Property and business related stuff use influence skill, there is also a feat.</li>
                     <li>PCs can own property and work businesses.</li>
-                    <li>Property prices use D&D5eDM'sGuild resource prices times 20 because balance. Housing etc use basic math based on potential and size.</li>
+                    <li>Property prices use D&D5eDM'sGuild resource prices times 20 because balance. Housing etc use
+                        basic math based on potential and size.</li>
                     <li>Universe and the lore behind are intertwined but mostly overhauled to match my setting.</li>
-                    
+
                     <br><b>Combat</b>
                     <li>Minions from 3E are used for monsters.</li>
                     <li>Retainer cards from 4.5E are used for NPCs.</li>
-                    <li>Two weapon fighting and any other multiattack usually rolls for each if not stated otherwise.</li>
+                    <li>Two weapon fighting and any other multiattack usually rolls for each if not stated otherwise.
+                    </li>
                     <li>Elites from 3E are uncommon but used for monsters.</li>
                     <li>AoE and Cancel effects are DoT, meaning you won't turn into a stone statue from Medusa's Mark in
                         a single turn, having multiple chances to avoid.</li>
-                    <li>Move or Attack can interpret each other. So you can Move a bit, Attack, and Move a bit again.</li>
+                    <li>Move or Attack can interpret each other. So you can Move a bit, Attack, and Move a bit again.
+                    </li>
                     <li>Mounted Combat respects the Move or Attack interpret ruling.</li>
                     <li>Shields are not RAW, but use my above Armor table.</li>
                     <li>AoE and Cancel effects are rarely used.</li>
@@ -721,7 +748,8 @@
                     <tr>
                         <td>200</td>
                         <td>Teleportation Dust</td>
-                        <td>Required for Waystones to operate. You can also make it with Powdered Silver, Powdered Diamond, Charcoal & Magic Infused Liquid</td>
+                        <td>Required for Waystones to operate. You can also make it with Powdered Silver, Powdered
+                            Diamond, Charcoal & Magic Infused Liquid</td>
                     </tr>
                 </table>
             </div>
@@ -1150,6 +1178,40 @@
                         <th>Material</th>
                         <th>Percentage</th>
                         <th>Effect</th>
+                    </tr>
+                    <tr>
+                        <td>Short Rest Food</td>
+                        <td>Monster</td>
+                        <td><a style="color: gold;" title="Gargantuan: 100%, Huge: 50%, Large: 25%, Medium: 12%, Small: 6%, Tiny: 3%. This represents
+                            your chances of scavenging an edible part.">Depending on the monster size.</a></td>
+                        <td>
+                            <a style="color: gold;"
+                                title="Aberrations are not meant for mortal stomachs. Make a DC 15 Wisdom saving throw. On success, gain 1HP per hit die on rest. On a failure, take 2d6 psychic damage.">Aberrations</a>,
+                            <a style="color: gold;"
+                                title="Beasts make nice, normal meals, that normal people eat. Gain 1HP per hit die on rest.">Beasts</a>,
+                            <a style="color: gold;"
+                                title="Celestials are nearly impossible to eat, and extremely not recommended. Gain +3 hit points for every hit die used during a short rest. You gain a number of temporary hit points equal to your level, and your alignment permanently changes to evil. Celestials will recognize you as an enemy on sight, forever.">Celestials</a>,
+                            <a style="color: gold;" title="Constructs are inedible.">Constructs</a>,
+                            <a style="color: gold;"
+                                title="Dragons are the ultimate meat for any true monster chef. If the dragon is a true dragon, regain all hit points, and gain a one-use breath weapon equivalent to the dragonborn breath weapon of the same color.">Dragons</a>,
+                            <a style="color: gold;"
+                                title="Elementals are inedible. You can drink a dead water elemental, but it won't confer any bonuses.">Elementals</a>,
+                            <a style="color: gold;"
+                                title="Gain +2 hit points for every hit die used during a short rest, and you gain one casting of Misty Step, which must be used within the next 24 hours.">Fey</a>,
+                            <a style="color: gold;"
+                                title="If it's not dissolved into foul ichor, you gain one casting of Summon Greater Demon as a 4th-level spell, which must be used within the next 24 hours. The demon is immediately hostile upon summoning, and lasts for an hour or until reduced to 0 hit points..">Fiends</a>
+                            <a style="color: gold;"
+                                title="Gain +2 hit points for every hit die used during a short rest, and you gain one casting of Enlarge/Reduce, which must be used within the next 24 hours, on yourself.">Giants</a>
+                            <a style="color: gold;"
+                                title="Humanoids definitely count as cannibalism, so you must succeed on a DC 10 Charisma saving throw or vomit up the meat (assuming you are a humanoid). Gain +2 hit points for every hit die used during a short rest, if you pass.">Humanoids</a>
+                            <a style="color: gold;"
+                                title="Monstrosities make up the bulk of a monster cook's dishes. Gain +2 hit points for every hit die used during a short rest.">Monstrosities</a>
+                            <a style="color: gold;"
+                                title="Oozes are inedible, and usually corrosive. Don't try.">Oozes</a>
+                            <a style="color: gold;"
+                                title="Plants are an extremely normal meal. Somewhat less so if they were just alive and thrashing about. +1 hit point for every hit die used during a short rest.">Plants</a>
+                            <a style="color: gold;" title="Undeads are inedible.">Undead</a>
+                        </td>
                     </tr>
                     <tr>
                         <td>Snack</td>
