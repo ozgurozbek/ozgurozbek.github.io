@@ -1,7 +1,7 @@
 {
-"companyName": "DefaultCompany",
+"companyName": "OzgurOzbek",
 "productName": "Ishibako",
-"productVersion": "0.3",
+"productVersion": "0.4",
 "dataUrl": "Build.data.unityweb",
 "wasmCodeUrl": "Build.wasm.code.unityweb",
 "wasmFrameworkUrl": "Build.wasm.framework.unityweb",
