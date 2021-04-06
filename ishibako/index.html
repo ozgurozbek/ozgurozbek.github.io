@@ -10,7 +10,7 @@
   <script src="TemplateData/UnityProgress.js"></script>
   <script src="Build/UnityLoader.js"></script>
   <script>
-    var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Alpha5.2.json", {onProgress: UnityProgress});
+    var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Builds.json", {onProgress: UnityProgress});
   </script>
 </head>
 
@@ -21,7 +21,7 @@
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">Ishibako</div>
+        <div class="title">IshibakoAlpha</div>
       </div>
     </div>
   </div>
@@ -29,6 +29,7 @@
     <ul>
       <b>Patch Notes - 06/04/2021</b>
       <li><marquee direction="down" scrollamount="2"> · A N I M A T I O N S · </marquee></li>
+      <li>Hotfixing WEBGL cache because it can't definitely make a clean one. Oh no, I have to do it or the game would crash. Boo.</li>
       <li>Fixed buttons not working due to collision. They were picky about it.</li>
       <li>Level Select Slider now only shows developed levels. Why not earlier?</li>
       <li>Gate rendering fixes.</li>
