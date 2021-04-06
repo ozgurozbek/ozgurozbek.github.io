@@ -1,7 +1,7 @@
 {
-"companyName": "OzgurXeculusOzbek",
-"productName": "IshibakoAlpha",
-"productVersion": "0.5.3",
+"companyName": "OzgurOzbek",
+"productName": "Ishibako",
+"productVersion": "0.5.5",
 "dataUrl": "Alpha5.4.data.unityweb",
 "wasmCodeUrl": "Alpha5.4.wasm.code.unityweb",
 "wasmFrameworkUrl": "Alpha5.4.wasm.framework.unityweb",
@@ -10,7 +10,7 @@
 "splashScreenStyle": "Dark",
 "backgroundColor": "#231F20",
 "cacheControl": {"default": "must-revalidate"},
-"developmentBuild": false,
+"developmentBuild": true,
 "multithreading": false,
 "unityVersion": "2019.4.15f1"
 }
