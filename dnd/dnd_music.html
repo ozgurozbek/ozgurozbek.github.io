@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <script src="https://kit.fontawesome.com/611bc4e639.js"></script>
+    <title>D&D Music</title>
+</head>
+
+<style>
+    a {
+        text-decoration: none;
+        color: blanchedalmond
+    }
+
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Roboto", sans-serif;
+        color: rgb(120, 100, 140);
+    }
+
+    h3 {
+        display: inline;
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td,
+    th {
+        border: 1px solid blanchedalmond;
+        text-align: center;
+        padding: 8px;
+        width: 10%;
+    }
+
+    tr:nth-child(even) {
+        background-color: rgb(120, 100, 140);
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .hoverimage:hover+.hide {
+        display: block;
+        position: absolute;
+        width: 60%;
+        max-width: 400px;
+        min-width: 200px;
+    }
+
+    .hoverimage {
+        color: gold;
+    }
+
+    :target {
+        background-color: rgb(180, 150, 200);
+        color: black;
+        transition: background 3s, color 3s;
+    }
+
+    /* Style the navbar */
+    #navbar {
+      overflow: hidden;
+    }
+
+    /* Navbar links */
+    #navbar a {
+      float: left;
+      display: block;
+      text-align: center;
+      padding: 14px;
+      text-decoration: none;
+    }
+
+    /* Page content */
+    .content {
+      padding: 16px;
+    }
+
+    /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+    .sticky + .content {
+      padding-top: 60px;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+
+<body style="background-color:rgb(33, 44, 44); color: blanchedalmond">
+
+    <div style="text-align: center; margin-top: 10%; margin-left: 10%; margin-right: 10%; font-size: 200%">
+        ozgurozbek.github.io</div>
+    <br>
+
+    <div style="height: 2px; background-color: blanchedalmond"></div>
+    <br>
+
+    <div id="navbar" class="w3-margin" style="text-align: center">
+        <a class="w3-button" style="background-color: rgb(60, 50, 70)" href="./dnd_home.html">D&D Dashboard</a>
+    </div>
+
+    <div class="w3-container" style="margin-left: auto; margin-right: auto; width: 70%;">
+
+        <h1>Music with youtube links</h1>
+        <input type="checkbox" id="wantDiscord"> Add -p for discord?
+        <!-- Playlist -->
+        <div>
+            <h2>Playlist</h2>
+            <hr>
+            <!-- Inn, Tavern -->
+            <div>
+                <h3>Inn, Tavern</h3>
+                <ul>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=fIuO3RpMvHg')">53" Lively inn music</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=VnwD8zsGl2Y')">66" Normal inn music</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=K9XRRCPn5XM')">60" Tavern ambient</a></li>
+                </ul>
+                <h3>Travel</h3>
+                <ul>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=A8qMyBWZNw0')">57" Peaceful travel music</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=3bMAF_C1rbA')">169" Stressful forest travel</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=GMtlp6TA3zA')">117" General wilderness</a></li>
+                </ul>
+                <h3>Dungeon</h3>
+                <ul>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=iX-eKFWXvG4')">180" Darkest dungeon</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=K1JvqHnSHfc')">60" Skyrim dungeon</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=tB_c1R_ir9U')">120" Cold dungeon</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=noZJARt6uuQ')">49" Dark ambient</a></li>
+                </ul>
+                <h3>Ambient</h3>
+                <ul>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=zloJ_yptWU0')">60" Fantasy land</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=f4izWydINP8')">63" Desert music</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=XbS3tPO9sUs')">120" Fantasy, faster</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=GmvM6syadl0')">21" Nordic</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=v2qOllkxwiw')">20" Celtic</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=WHBeIVnvfKE')">600" Your god calls</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=WnWQ56zEuko')">35" Royal ballroom</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=19dx6AkC_GY')">75" Fantasy bazaar</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=zaLNHCsAZCg')">97" Peaceful celtic</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=4bhceZgdWFM')">120" General ambient</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=LgtRqwfJGbI')">61" Medieval Town</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=_FJIH0Yi2Mk')">600" Night near the forest</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=xNN7iTA57jM')">180" Morning near the forest</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=0KvlwMd3C4Y')">75" Calm minecraft</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=jnf2oO2TJ_g')">25" A bit stressful</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=JV_PfGcPewY')">57" Calm</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=EKXiS6PZgE0')">10" Your patron calls</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=26dlYEzOtog')">15" Embarking on a journey</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=jiwuQ6UHMQg')">122" General Celtic</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=ihZwWD4MFtA')">121" General Celtic 2</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=yQGtOrJ3j-I')">110" Relaxing Elder Scrolls</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=IBdmVleJIGc')">377" General purpose</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=eqJFVg05b8Q')">261" General purpose 2</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=QbqY1TbDl_o')">143" Chill music</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=eCbyqm9jcBA')">182" Ori music</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=sZjpMCu2JRc')">71" Hollowknight chill</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=2-LQqnyNYiQ')">7" TPK</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=3fDWd9WkeQE')">69" Shanties</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=GNwv4cH-i5k')">76" Dwarven</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=Or2QHt7BEgI')">120" Dwarven & Cavern</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=YkrsubNxvTU')">180" Dwarven Cavern Danger</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=cctjXjLTQGE')">60" Timeless BG</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=Prtnrms0VdA')">33" Gothic Ritual</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=Ie5koh4qvJc')">62" Blue night</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=G7RJpCTA1E0')">54" Viking ambiance</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=M458GBcknJU')">30" Gothic ambient</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=L1aobvBuoCU')">50" Arena</a></li>
+                </ul>
+                <h3>Combat</h3>
+                <ul>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=JYFU_RiefKk')">18" Darkest dungeon</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=pwRCHMFmsdI')">120" Epic music</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=mIrt5MkGpy0')">121" Dark music</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=SYZao9qhyLI')">17" Fast paced, little at risk</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=TL-s11ypqME')">22" Fast paced, little at risk twist</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=vDL6741wq7s')">61" Boss battle</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=Rrqm-5doAzg')">63" Divine battle</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=M_hrNDhLwvE')">59" Combat music</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=ISjRkP0YdFw')">5" Suspense</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=NoFfgJbkl-o')">43" Powerful battle</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=4uvqbpkowLA')">60" Intense</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=CwykCdNa8Wk')">17" All purpose "I'm gonna hurt you" music</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=hPqgEZzSPxA')">18" All purpose "I'm gonna hurt you" music 2</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=5AJaW5HoztQ')">87" Deadly combat</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=n-Eb4xQ1dnw')">96" Dark bosses</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=rl9tUU3LX0M')">30" Friendly combat</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=lAGm9MTyRJ8')">58" Monster hunting</a></li>
+                </ul>
+                <h3>Goofy</h3>
+                <ul>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=LACbVhgtx9I')">3" Muffin song</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=saesY1Ld9nU')">23" Cute songs</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=jO5jOv_BkNg')">6" Game begins</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=f5B6EQkg0F8')">62" General purpose</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=6W5pq4bIzIw')">4" Boombastic</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=qaHC-vZTlQM')">3" Kamu spotu</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=an2vmeGaLvA')">4" Rockstar</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=fWvHKnmU_ms')">3" GTA IV</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=3okjFDo2aSU')">5" Slim Shady</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=XiV7hwfLXGE')">5" Without Me</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=uMCSdgkdOJc')">75" Conspiracy</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=mkvqhwEItGA')">2" Literally goofy music</a></li>
+                </ul>
+                <h3>Short</h3>
+                <ul>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=4n6WP9qHyRM')">3" Heroic death</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=6WjE6C4nL6g')">2" Boss is coming</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=7G6FfKXvZX8')">7" Calm night before the storm</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=C16bt7b9LJc')">3" Introducing the villain</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=MLDuwLELTls')">1" Short epic cinematic</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=ikl-QYQ252Q')">3" Slow dark music</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=8BAL2IrLumE')">4" Introducing desert</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=YEV4bz4I2cQ')">2" High level intro</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=pU1R05slGWc')">2" Military intro</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=05Zaunr6A-U')">2" Military intro 2</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=MRE3sFxMHl4')">2" Lost battle intro</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=P2icoe8gSDo')">3" Demigod introduced</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=WRG1TISURBU')">2" Demigod introduced 2</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=4oFgg5ZdBY0')">6" Heroic attack scene</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=sPKQMO5nT4E')">2" Befriending a spirit</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=VoF9HUvYPKs')">4" Paladins March</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=hCbJwx7md60')">7" Merlin Final battle</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=Ii_nPTVq_WE')">4" Taylan moment</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=mobtxEJHhY4')">3" Taylan moment 2</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=BSFEv9eaoh4')">6" One versus one</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=yBbR_uODtTY')">4" Entering Du'Ora</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=Ptk_1Dc2iPY')">5" Level 0 Wedding</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=UkyHFBWYsPI')">4" Invite for a fight</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=ZZD6weQ_MV8')">2" Witnessing a massacre</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=vHqifHQwxM8')">3" Intense introduction</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=3ZgkVnJt4fo')">3" Turn of events</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=cwiX4X61gNE')">4" Horrible trigger just triggered</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=rkpu4Ruz8i4')">2" Summoned a lich</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=rQW2klU1cGI')">4" You are headed to your death</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=bn1YCClRF-g')">3" Nostalgia</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=x0k_T72hjdw')">4" Faint hope</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=9-sFa7peyGQ')">5" Burial</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=zRs58D34OLY')">2" Hollowknight new ost</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=QlJOzHNEAq8')">8" Arrived Home</a></li>
+                </ul>
+                <h3>Timer</h3>
+                <ul>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=rFBU1Wozdro')">2" Puzzle timer</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=AHX2lAHyfYo')">2" Divine timer</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=zhu-pX47YDY')">2" Certain death timer</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=nILvHSsjEec')">3" Spirit puzzle timer</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=d4Beo7zhAfM')">5" 5 minute timer</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=n8hGE8PcT58')">15" Party is trapped</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=VfNVR5wDLQo')">1" Deadly timer</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=AGsjA1pXajk')">5" Drowning</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=RlPYaTvSUV0')">5" Being hunted</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=CQa4-s_3m_Q')">150" General very fast timer</a></li>
+                </ul>
+                <h3>Sad</h3>
+                <ul>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=0ewQiU3q5jM')">2" When memories break</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=u9WsZoceais')">3" Melancholic</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=MRKPz7Z0Ai8')">3" Memorable NPC dies</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=eTa1jHk1Lxc')">3" Memorable NPC dies 2</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=SuxSCAVuISA')">2" Memorable NPC dies 3</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=OxvvCjMWEP8')">3" Memorable NPC dies 4</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=KtMnDmuhKQs')">4" Memorable NPC dies 5</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=PqXPW0oBKgg')">5" Forced to betray</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=m3ewe2uF6O4')">1" Leaving a spirit behind</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=M4ROytwvQVs')">3" Weak spirits</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=al1BNB8bKaE')">2" Reality break</a></li>
+                </ul>
+                <h3>Otar the Foul</h3>
+                <ul>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=pP5V7uvv4Rs')">6" Otar Introduced</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=NYCb6IVmmxQ')">4" Otar first phase</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=8Wb4e3x9DM8')">5" Otar second phase</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=zP_lAuTRRCI')">3" Otar the Foul</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=x2g-tomJnEI')">4" Party wins</a></li>
+                </ul>
+                <h3>Ancient Curses</h3>
+                <ul>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=ACk7Ey9anig')">32" Nosk comes</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=VRZ40QfVipA')">13" Nosk second phase</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=5SFJfVSwOR0')">2" Key activates</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=2fPxVIe-18A')">4" Eating</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=Vjf7iG9lFAw')">3" Growing</a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=FHBESqoDA0I')">4" Farewell: </a></li>
+                    <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=gonXlvakXOY')">4" She stays: </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+function copyToClipboard(inputVal) {
+  let textarea = document.createElement('textarea')
+  textarea.id = 't'
+  textarea.style.height = 0
+  document.body.appendChild(textarea)
+  var discordBox = document.getElementById("wantDiscord");
+  if(discordBox.checked == true) {
+    textarea.value = "-p "+inputVal;
+  } else {
+    textarea.value = inputVal;
+  }
+  let selector = document.querySelector('#t')
+  selector.select()
+  document.execCommand('copy')
+  document.body.removeChild(textarea)
+}
+</script>
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</html>

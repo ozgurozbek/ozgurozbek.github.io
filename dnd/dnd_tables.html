@@ -66,6 +66,40 @@
     .hoverimage {
         color: gold;
     }
+
+    :target {
+        background-color: rgb(180, 150, 200);
+        color: black;
+        transition: background 3s, color 3s;
+    }
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+}
+
+/* Navbar links */
+#navbar a {
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
 </style>
 
 <body style="background-color:rgb(33,44,44); color: blanchedalmond">
@@ -77,7 +111,7 @@
     <div style="height: 2px; background-color: blanchedalmond"></div>
     <br>
 
-    <div class="w3-margin" style="text-align: center">
+    <div id="navbar" class="w3-margin" style="text-align: center">
         <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#Weapons">Weapons</a>
         <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#Armor">Armor</a>
         <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#MaterialVariants">Variants</a>
@@ -625,11 +659,6 @@
                         <td>Emits light</td>
                     </tr>
                     <tr>
-                        <td>1000</td>
-                        <td>Spell Slot Potion</td>
-                        <td>Allows regaining a spell slot.</td>
-                    </tr>
-                    <tr>
                         <td>30</td>
                         <td>Minor Contact Poison</td>
                         <td>1d4</td>
@@ -670,16 +699,6 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td>500</td>
-                        <td>Level 4 Spell Storing Potion</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>750</td>
-                        <td>Level 5 Spell Storing Potion</td>
-                        <td></td>
-                    </tr>
-                    <tr>
                         <td>300</td>
                         <td>Strong Alcohol</td>
                         <td>DC 20 CON save, flammable, drinking it whole might cause indefinite physical damage.</td>
@@ -696,27 +715,14 @@
                         <td>DC 16 DEX, or makes everyone in radius fall prone. Lubricant.</td>
                     </tr>
                     <tr>
-                        <td>100</td>
-                        <td>Minor Enhancement Drug</td>
-                        <td>+1 to select stat for 3 minutes. Slight chance of addiction.</td>
-                    </tr>
-                    <tr>
-                        <td>300</td>
-                        <td>Fine Enhancement Drug</td>
-                        <td>+2 to select stat for 3 minutes. Higher chance of addiction.</td>
-                    </tr>
-                    <tr>
-                        <td>200</td>
+                        <td>3000</td>
                         <td>Lesser Enhancement Drug</td>
-                        <td>+3 to select stat for 3 minutes. Higher chance of addiction with a slight chance of
-                            poisoning.</td>
+                        <td>+2 to select stat for 3 minutes. High chance of addiction. You may never be able to use this drug with 50% chance. You roll this die as you swallow the drug.</td>
                     </tr>
                     <tr>
-                        <td>400</td>
+                        <td>5000</td>
                         <td>Greater Enhancement Drug</td>
-                        <td>+4 to select stat for 3 minutes. Insane chance of addiction with a slight chance of
-                            disability.
-                        </td>
+                        <td>+3 to select stat for 3 minutes. High chance of addiction with a slight chance of poisoning. You may never be able to use this drug with 70% chance. You roll this die as you swallow the drug.</td>
                     </tr>
                 </table>
             </div>
@@ -1055,49 +1061,39 @@
                         <th>Description</th>
                     </tr>
                     <tr>
-                        <td>50</td>
-                        <td>Explorer</td>
-                        <td>Knife, Rope, Torches(10)</td>
-                    </tr>
-                    <tr>
-                        <td>20</td>
-                        <td>Fishing</td>
-                        <td>Rod, Bait(10)</td>
+                        <td>250</td>
+                        <td>Alchemist's Supplies</td>
+                        <td>Needs to be set up, allows potion making.</td>
                     </tr>
                     <tr>
                         <td>100</td>
-                        <td>Healer's</td>
-                        <td>Allows first aid</td>
-                    </tr>
-                    <tr>
-                        <td>25</td>
-                        <td>Handcuffs</td>
-                        <td>୧◔ω◔୨</td>
-                    </tr>
-                    <tr>
-                        <td>250</td>
-                        <td>Alchemist's</td>
-                        <td>Needs to be set up, allows basic alchemy.</td>
-                    </tr>
-                    <tr>
-                        <td>50</td>
-                        <td>Thieve's</td>
-                        <td>To get what you actually want.</td>
-                    </tr>
-                    <tr>
-                        <td>50</td>
-                        <td>Saddle</td>
-                        <td></td>
+                        <td>Adventurer's Kit</td>
+                        <td>Dull Knife(-1 to hit), Salve(Heals 1d6), Rope, Torches(10)</td>
                     </tr>
                     <tr>
                         <td>100</td>
                         <td>Chef's Utensils</td>
-                        <td>With a minor chance, food you cook can inspire others.</td>
+                        <td>Allows you to use the <a style="color: gold" href="#Cooking">Cooking</a> table.</td>
                     </tr>
                     <tr>
-                        <td>Varies</td>
+                        <td>50</td>
+                        <td>Thieve's Tools</td>
+                        <td>This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your Proficiency Bonus to any Ability Checks you make to Disarm traps or open locks.</td>
+                    </tr>
+                    <tr>
+                        <td>50-500</td>
                         <td>Instruments</td>
-                        <td>If you need a description for this, maybe you shouldn't use it.</td>
+                        <td>If you have proficiency with a given musical Instrument, you can add your Proficiency Bonus to any Ability Checks you make to play music with the Instrument. A bard can use a musical Instrument as a Spellcasting Focus. Each type of musical Instrument requires a separate proficiency.</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>Kinky Kit</td>
+                        <td>Allows you to use proficiency on the <a style="color: gold" href="#SexyTime">Sexy Time</a> table.</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>Fisherman's Kit</td>
+                        <td>Rod, Bait(10). Having this kit allows you to add your proficiency bonus to fishing related checks.</td>
                     </tr>
                 </table>
             </div>
@@ -1185,32 +1181,32 @@
                         <td><a style="color: gold;" title="Gargantuan: 100%, Huge: 50%, Large: 25%, Medium: 12%, Small: 6%, Tiny: 3%. This represents
                             your chances of scavenging an edible part.">Depending on the monster size.</a></td>
                         <td>
-                            <a style="color: gold;"
+                            <a style="color: cyan;"
                                 title="Aberrations are not meant for mortal stomachs. Make a DC 15 Wisdom saving throw. On success, gain 1HP per hit die on rest. On a failure, take 2d6 psychic damage.">Aberrations</a>,
-                            <a style="color: gold;"
+                            <a style="color: cyan;"
                                 title="Beasts make nice, normal meals, that normal people eat. Gain 1HP per hit die on rest.">Beasts</a>,
-                            <a style="color: gold;"
+                            <a style="color: cyan;"
                                 title="Celestials are nearly impossible to eat, and extremely not recommended. Gain +3 hit points for every hit die used during a short rest. You gain a number of temporary hit points equal to your level, and your alignment permanently changes to evil. Celestials will recognize you as an enemy on sight, forever.">Celestials</a>,
-                            <a style="color: gold;" title="Constructs are inedible.">Constructs</a>,
-                            <a style="color: gold;"
+                            <a style="color: cyan;" title="Constructs are inedible.">Constructs</a>,
+                            <a style="color: cyan;"
                                 title="Dragons are the ultimate meat for any true monster chef. If the dragon is a true dragon, regain all hit points, and gain a one-use breath weapon equivalent to the dragonborn breath weapon of the same color.">Dragons</a>,
-                            <a style="color: gold;"
+                            <a style="color: cyan;"
                                 title="Elementals are inedible. You can drink a dead water elemental, but it won't confer any bonuses.">Elementals</a>,
-                            <a style="color: gold;"
+                            <a style="color: cyan;"
                                 title="Gain +2 hit points for every hit die used during a short rest, and you gain one casting of Misty Step, which must be used within the next 24 hours.">Fey</a>,
-                            <a style="color: gold;"
-                                title="If it's not dissolved into foul ichor, you gain one casting of Summon Greater Demon as a 4th-level spell, which must be used within the next 24 hours. The demon is immediately hostile upon summoning, and lasts for an hour or until reduced to 0 hit points..">Fiends</a>
-                            <a style="color: gold;"
-                                title="Gain +2 hit points for every hit die used during a short rest, and you gain one casting of Enlarge/Reduce, which must be used within the next 24 hours, on yourself.">Giants</a>
-                            <a style="color: gold;"
-                                title="Humanoids definitely count as cannibalism, so you must succeed on a DC 10 Charisma saving throw or vomit up the meat (assuming you are a humanoid). Gain +2 hit points for every hit die used during a short rest, if you pass.">Humanoids</a>
-                            <a style="color: gold;"
-                                title="Monstrosities make up the bulk of a monster cook's dishes. Gain +2 hit points for every hit die used during a short rest.">Monstrosities</a>
-                            <a style="color: gold;"
-                                title="Oozes are inedible, and usually corrosive. Don't try.">Oozes</a>
-                            <a style="color: gold;"
-                                title="Plants are an extremely normal meal. Somewhat less so if they were just alive and thrashing about. +1 hit point for every hit die used during a short rest.">Plants</a>
-                            <a style="color: gold;" title="Undeads are inedible.">Undead</a>
+                            <a style="color: cyan;"
+                                title="If it's not dissolved into foul ichor, you gain one casting of Summon Greater Demon as a 4th-level spell, which must be used within the next 24 hours. The demon is immediately hostile upon summoning, and lasts for an hour or until reduced to 0 hit points..">Fiends</a>,
+                            <a style="color: cyan;"
+                                title="Gain +2 hit points for every hit die used during a short rest, and you gain one casting of Enlarge/Reduce, which must be used within the next 24 hours, on yourself.">Giants</a>,
+                            <a style="color: cyan;"
+                                title="Humanoids definitely count as cannibalism, so you must succeed on a DC 10 Charisma saving throw or vomit up the meat (assuming you are a humanoid). Gain +2 hit points for every hit die used during a short rest, if you pass.">Humanoids</a>,
+                            <a style="color: cyan;"
+                                title="Monstrosities make up the bulk of a monster cook's dishes. Gain +2 hit points for every hit die used during a short rest.">Monstrosities</a>,
+                            <a style="color: cyan;"
+                                title="Oozes are inedible, and usually corrosive. Don't try.">Oozes</a>,
+                            <a style="color: cyan;"
+                                title="Plants are an extremely normal meal. Somewhat less so if they were just alive and thrashing about. +1 hit point for every hit die used during a short rest.">Plants</a>,
+                            <a style="color: cyan;" title="Undeads are inedible.">Undead</a>
                         </td>
                     </tr>
                     <tr>
@@ -1287,5 +1283,25 @@
     <div style="height: 2px; background-color: blanchedalmond"></div>
     <br>
 </body>
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 
 </html>

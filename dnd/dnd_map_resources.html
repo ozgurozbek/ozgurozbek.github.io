@@ -38,12 +38,50 @@
     tr:nth-child(even) {
         background-color: rgb(120, 100, 140);
     }
+
+    :target {
+        background-color: rgb(180, 150, 200);
+        color: black;
+        transition: background 3s, color 3s;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+}
+
+/* Navbar links */
+#navbar a {
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
 </style>
 <div style="text-align: center; margin-top: 10%; margin-left: 10%; margin-right: 10%; font-size: 200%">
     ozgurozbek.github.io</div><br>
 <div style="height: 2px; background-color: blanchedalmond"></div><br>
 
-<div class="w3-margin" style="text-align: center">
+<div id="navbar" class="w3-margin" style="text-align: center">
     <a class="w3-button" style="background-color: rgb(60, 50, 70)" href="./dnd_home.html">D&D Dashboard</a>
 </div>
 <div style="width: 50%; text-align: center; margin-left: auto; margin-right: auto;">
@@ -401,3 +439,23 @@
     </table>
 </div>
 <p>All images are taken from CIV6 website.</p>
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
