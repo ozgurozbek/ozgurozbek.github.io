@@ -1,0 +1,16 @@
+{
+"companyName": "OzgurOzbek",
+"productName": "Ishibako",
+"productVersion": "b.1.0",
+"dataUrl": "Beta1.0.data.unityweb",
+"wasmCodeUrl": "Beta1.0.wasm.code.unityweb",
+"wasmFrameworkUrl": "Beta1.0.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": true,
+"multithreading": false,
+"unityVersion": "2019.4.15f1"
+}
