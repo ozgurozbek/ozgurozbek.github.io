@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <script src="https://kit.fontawesome.com/611bc4e639.js"></script>
+    <title>D&D Domains</title>
+</head>
+
+<body style="background-color:rgb(33, 44, 44); color: blanchedalmond">
+
+    <div style="text-align: center; margin-top: 10%; margin-left: 10%; margin-right: 10%; font-size: 200%">
+        ozgurozbek.github.io</div>
+    <br>
+
+    <div style="height: 2px; background-color: blanchedalmond"></div>
+    <br>
+
+    <div id="navbar" style="text-align: center">
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#Overdeities">Overdeities</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#GGods">Greater Gods</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#IGods">Intermediate Gods</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#LGods">Lesser Gods</a>
+        <a class="w3-button" style="background-color: rgb(120, 100, 140)" href="#Demigods">Demigods</a>
+        ・
+        <a class="w3-button" style="background-color: rgb(60, 50, 70)" href="./dnd_home.html">D&D Dashboard</a>
+    </div>
+
+    <div class="w3-container content" style="margin-left: auto; margin-right: auto; width: 70%;">
+
+        <!-- Gods -->
+        <div>
+            <h2 id="Overdeities">Overdeities</h2>
+            <ul>Mceeju: Fundamental, Endless, Broad and other domains.</ul>
+            <ul>Lcaoc: Knowledge, Tempest</ul>
+            <ul>Veri: Life, Tempest</ul>
+        </div>
+        <hr>
+        <!-- GGods -->
+        <div>
+            <h2 id="GGods">Greater Gods</h2>
+            <ul>Uke: Life</ul>
+            <ul>Cyaxo: Nature, Tempest</ul>
+            <ul>Ehx: Nature, Tempest</ul>
+            <ul>Buib: Nature</ul>
+            <ul>Radu: War, Tempest</ul>
+            <ul>Pwazo: Trickery</ul>
+            <ul>Vihi: Life, Light</ul>
+            <ul>Naahv: Death</ul>
+            <ul>Moradin: Knowledge, Tempest</ul>
+            <ul>Corellon: Knowledge, Nature</ul>
+            <ul>Gruumsh: War</ul>
+        </div>
+        <hr>
+        <!-- IGods -->
+        <div>
+            <h2 id="IGods">Intermediate Gods</h2>
+            <ul>Cfofb: Nature, Tempest</ul>
+            <ul>Vesvjdegz: Nature, Light</ul>
+            <ul>Gud: War</ul>
+            <ul>Lwaqy: Trickery, Death</ul>
+            <ul>Fexyiaf: Trickery</ul>
+            <ul>Modgo: Trickery, War</ul>
+            <ul>Wiob: Light</ul>
+            <ul>Wodroh: Death</ul>
+            <ul>Gond: Knowledge</ul>
+            <ul>Umberlee: Trickery</ul>
+            <ul>Kurtulmak: Nature</ul>
+        </div>
+        <hr>
+        <!-- LGods -->
+        <div>
+            <h2 id="LGods">Lesser Gods</h2>
+            <ul>Mielikki: Nature</ul>
+            <ul>Pedi: Nature, Trickery</ul>
+            <ul>Raxcoh: Tempest, Light</ul>
+            <ul>Tezr: Nature, Life</ul>
+            <ul>Yadseca: Nature</ul>
+            <ul>Nizi: Tempest</ul>
+            <ul>Lunm: Life</ul>
+            <ul>Cyani: Trickery</ul>
+            <ul>Tharizdun: Who knows</ul>
+            <ul>Nepi: Life, Death</ul>
+            <ul>Ayrugcumoak: Knowledge</ul>
+            <ul>Afez: Tempest</ul>
+            <ul>Wusor: Nature, Tempest</ul>
+            <ul>Wugv: Knowledge</ul>
+            <ul>Gaayjx: Trickery</ul>
+            <ul>Gezi: Nature, Trickery</ul>
+            <ul>Pior: Nature, Life</ul>
+            <ul>Czeeg: War</ul>
+            <ul>Waqorafe: Nature, Life</ul>
+            <ul>Megm: Light</ul>
+            <ul>Wadqwofm: Trickery, Tempest</ul>
+            <ul>Lwaro: War, Death</ul>
+            <ul>Gaxqaca: Tempest, Life, Light</ul>
+            <ul>Spina: Life, Death</ul>
+            <ul>Xua: Trickery</ul>
+        </div>
+        <hr>
+        <!-- Demigods -->
+        <div>
+            <h2 id="Demigods">Demigods</h2>
+            <ul>Catequil: Tempest</ul>
+            <ul>Astro: Death</ul>
+            <ul>Oxar Ares: Death</ul>
+            <ul>Czeis: Light</ul>
+            <ul>Lara Navye: Nature</ul>
+            <ul>Sai: Trickery</ul>
+            <ul>Khainock: Life</ul>
+            <ul>Jenelius Londste: Life</ul>
+        </div>
+    </div>
+</body>
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+</html>

@@ -1,0 +1,85 @@
+a {
+    text-decoration: none;
+    color: blanchedalmond
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(120, 100, 140);
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(120, 100, 140);
+}
+
+h3 {
+    display: inline;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid blanchedalmond;
+    text-align: center;
+    padding: 8px;
+    width: 10%;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(120, 100, 140);
+}
+
+.hide {
+    display: none;
+}
+
+.hoverimage:hover+.hide {
+    display: block;
+    position: absolute;
+    width: 60%;
+    max-width: 400px;
+    min-width: 200px;
+}
+
+.hoverimage {
+    color: gold;
+}
+
+:target {
+    background-color: rgb(180, 150, 200);
+    color: black;
+    transition: background 3s, color 3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    overflow: hidden;
+}
+
+#navbar a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(120, 100, 140);
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
