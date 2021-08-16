@@ -48,6 +48,13 @@ tr:nth-child(even) {
 
 .hoverimage {
     color: gold;
+    border-bottom: 1px solid blanchedalmond;
+}
+
+.hoverimage i {
+    float: right;
+    font-variant: small-caps;
+    color: blanchedalmond;
 }
 
 :target {
