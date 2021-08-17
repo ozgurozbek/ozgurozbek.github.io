@@ -53,7 +53,6 @@ table {
 }
 
 td, th {
-    border: 1px solid blanchedalmond;
     text-align: center;
     padding: 8px;
     width: 10%;
@@ -77,7 +76,7 @@ tr:nth-child(even) {
 
 .hoverimage {
     color: gold;
-    border-bottom: 1px solid blanchedalmond;
+    border-bottom: 1px solid white;
 }
 
 .hoverimage i {
