@@ -1,16 +1,45 @@
 a {
     text-decoration: none;
-    color: blanchedalmond
 }
 
 html, body, h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto", sans-serif;
-    color: rgb(120, 100, 140);
+    font-family: "Open Sans", sans-serif;
 }
 
-html, body, h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto", sans-serif;
-    color: rgb(120, 100, 140);
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #040404;
+    color: #fff;
+    position: relative;
+    background: transparent;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    background: #040404 url("../img/bg.jpg") top right no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+}
+
+@media (min-width: 1024px) {
+    body::before {
+        background-attachment: fixed;
+    }
+}
+
+.pageinside {
+    overflow: hidden;
+    width: 100%;
+    top: 140px;
+    bottom: 100%;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.8);
+    padding-bottom: 38px;
 }
 
 h3 {
@@ -31,7 +60,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-    background-color: rgb(120, 100, 140);
+    background-color: rgba(150, 200, 200, 0.7);
 }
 
 .hide {
@@ -58,9 +87,9 @@ tr:nth-child(even) {
 }
 
 :target {
-    background-color: rgb(180, 150, 200);
-    color: black;
-    transition: background 3s, color 3s;
+    background-color: rgba(150, 200, 200, 0.7);
+    text-shadow: -1px -1px 0 #666, 1px -1px 0 #666, -1px 1px 0 #666, 1px 1px 0 #666;
+    transition: background 2s, text-shadow 2s;
 }
 
 html {
@@ -77,16 +106,21 @@ html {
 }
 
 .content {
-    padding: 16px;
+    padding: 20px;
 }
 
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgb(120, 100, 140);
+    background-color: rgb(150, 200, 200);
+    padding-bottom: 42px;
 }
 
 .sticky+.content {
-    padding-top: 60px;
+    padding-top: 30px;
+}
+
+w3-button {
+    background-color: rgba(150, 200, 200, 0.7);
 }
