@@ -76,7 +76,8 @@ tr:nth-child(even) {
 
 .hoverimage {
     color: gold;
-    border-bottom: 1px solid white;
+    border-bottom: 1px dashed white;
+    padding-left: 30px;
 }
 
 .hoverimage i {
@@ -112,8 +113,10 @@ html {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgb(150, 200, 200);
+    background-color: white;
     padding-bottom: 42px;
+    color: black;
+    font-weight: bold;
 }
 
 .sticky+.content {

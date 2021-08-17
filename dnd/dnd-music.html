@@ -10,24 +10,23 @@
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <script src="https://kit.fontawesome.com/611bc4e639.js"></script>
     <title>D&D Music</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 </head>
 
-<body style="background-color:rgb(33, 44, 44); color: blanchedalmond">
+<body>
 
     <div style="text-align: center; margin-top: 10%; margin-left: 10%; margin-right: 10%; font-size: 200%">
-        ozgurozbek.github.io</div>
+        <a href="../index.html">ozgurozbek.github.io</a></div>
     <br>
 
-    <div style="height: 2px; background-color: blanchedalmond"></div>
-    <br>
+    <div style="height: 2px; background-color: white"></div>
 
-    <div id="navbar" style="text-align: center">
-        <a class="w3-button" style="background-color: rgb(60, 50, 70)" href="./dnd_home.html">D&D Dashboard</a>
-    </div>
+    <div class="w3-container content pageinside" style="width: 100%;">
+        <div style="margin-left: auto; margin-right: auto; width: 70%;">
 
-    <div class="w3-container content" style="margin-left: auto; margin-right: auto; width: 70%;">
-
-        <h1>Music with youtube links</h1>
+        <center><h1>Music with youtube links</h1></center>
         <input type="checkbox" id="wantDiscord"> Add -p for discord?
         <!-- Playlist -->
         <div>
@@ -212,7 +211,7 @@
                     <li><a class="w3-button" onclick="copyToClipboard('www.youtube.com/watch?v=gonXlvakXOY')">4" She stays: </a></li>
                 </ul>
             </div>
-        </div>
+        </div></div>
     </div>
 </body>
 
@@ -232,26 +231,6 @@ function copyToClipboard(inputVal) {
   selector.select()
   document.execCommand('copy')
   document.body.removeChild(textarea)
-}
-</script>
-
-<script>
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-// Get the navbar
-var navbar = document.getElementById("navbar");
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
 }
 </script>
 
