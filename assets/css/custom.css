@@ -105,6 +105,41 @@ html {
     text-decoration: none;
 }
 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 4px 22px 4px 22px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #999;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
 .content {
     padding: 20px;
 }
@@ -125,4 +160,8 @@ html {
 
 w3-button {
     background-color: rgba(150, 200, 200, 0.7);
+}
+
+#books section {
+    padding: 2% 10% 2% 10%;
 }
