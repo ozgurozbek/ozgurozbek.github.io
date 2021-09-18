@@ -35,6 +35,8 @@
     <div style="height: 2px; background-color: white"></div>
 
     <div id="sidenav" style="text-align: center" class="sidenav">
+        <a class="w3-button w3-white" onclick="closeNav()"><b>Close the list</b></a>
+        <br>
         <a href="#1">Fishermen Uprising</a>
         <a href="#2">Mujina Army and the Serpents</a>
         <a href="#3">What are these clovers?</a>
@@ -63,8 +65,8 @@
     </div>
 
     <div class="w3-container content pageinside">
-        <div style="margin-left: 25%; margin-right: 4%; width: auto;">
-
+        <div style="padding-left: 5%; padding-right: 5%; width: auto;">
+            <a class="w3-button w3-white" onclick="openNav()"><b>Open the list</b></a>
             <!-- Intro -->
             <div id="books">
                 <section id="1">
@@ -1012,10 +1014,12 @@
 
 <script>
     function openNav() {
-        document.getElementById("sidenav").style.width = "400px";
-    }
+        document.getElementById("sidenav").style.width = "100%";
+    };
 
-    openNav();
+    function closeNav() {
+        document.getElementById("sidenav").style.width = "0%";
+    }
 </script>
 
 </html>
