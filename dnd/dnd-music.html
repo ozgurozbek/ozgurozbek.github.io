@@ -27,7 +27,7 @@
         <div style="margin-left: auto; margin-right: auto; width: 70%;">
 
         <center><h1>Music with youtube links</h1></center>
-        <input type="checkbox" id="wantDiscord"> Add -p for discord?
+        <input type="checkbox" id="wantDiscord"> Add *p for discord?
         <!-- Playlist -->
         <div>
             <h2>Playlist</h2>
@@ -223,7 +223,7 @@ function copyToClipboard(inputVal) {
   document.body.appendChild(textarea)
   var discordBox = document.getElementById("wantDiscord");
   if(discordBox.checked == true) {
-    textarea.value = "-p "+inputVal;
+    textarea.value = "*p "+inputVal;
   } else {
     textarea.value = inputVal;
   }
