@@ -1,0 +1,502 @@
+/*
+  Copyright 2021 ozgurozbek <ozgurozbek1@yandex.com>
+  Permission to use, copy, modify, and/or distribute this software for any
+  purpose with or without fee is hereby granted.
+  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+  REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+  AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+  INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+  LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+  OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+  PERFORMANCE OF THIS SOFTWARE.
+*/
+
+.l-header__inner{
+    background-color: #444;
+}
+.p-header__inner {
+    background-color: #444;
+}
+.l-footer__inner{
+    background-color: #444;
+}
+.p-footer__inner {
+    background-color: #444;
+}
+#header_above {
+    background-color: #444;
+}
+
+.attention{
+    background: #222;
+    color: whitesmoke;
+}
+
+.ttl{
+    background: #444;
+    color: whitesmoke;
+}
+
+body {
+    background: #222;
+    color: whitesmoke;
+}
+
+.t-category_title {
+    color:whitesmoke;
+}
+
+figcaption {
+    background-color: white;
+    height:4.8em;
+}
+
+em{
+    color: white;
+}
+
+:root {
+    --text-color: whitesmoke;
+    --border-color: #99F;
+    --bg-color-light: #222;
+    --sub-bg-color-light: #222;
+    --logo-color-light: whitesmoke;
+    --logo-sub-color-light: whitesmoke;
+    --sub-text-color-light: #6F6;
+    --link-color-light: #F0F;
+    --primary-color-light: #F0F;
+    --border-color-light: #99F;
+    --box-color-light: #99F;
+    --alert-color-light: #D22;
+    --color-white: #99F;
+    --color-black: #99F;
+    --bg-color-dark: #1d1d1d;
+    --sub-bg-color-dark: #222;
+    --text-color-dark: #fff;
+    --sub-text-color-dark: #929293;
+    --link-color-dark: #fff;
+    --primary-color-dark: #999;
+    --mobile-column-count: 1;
+    --border-color-dark: #222;
+    --box-color-dark: #444;
+    --alert-color-dark: #D66;
+    --color-logo-primary: #888;
+    --color-logo-secondary: #666;
+    --calendar-bg-color-light: #444;
+    --calendar-bg-color-dark: #222;
+    --calendar-normal-text-color-light: whitesmoke;
+    --calendar-normal-text-color-dark: whitesmoke;
+    --calendar-disabled-text-color-light: #bbb;
+    --calendar-disabled-text-color-dark: #bbb;
+    --calendar-week-text-color-light: #888;
+    --calendar-week-text-color-dark: #888;
+    --calendar-saturday-text-color-light: #99F;
+    --calendar-saturday-text-color-dark: #99F;
+    --calendar-sunday-text-color-light: #D66;
+    --calendar-sunday-text-color-dark: #D66;
+    --calendar-active-text-color-light: whitesmoke;
+    --calendar-active-text-color-dark: whitesmoke;
+    --calendar-active-bg-color-light: #0077d0;
+    --calendar-active-bg-color-dark: #66b6f6;
+    --calendar-today-bg-color-light: #767677;
+    --calendar-today-bg-color-dark: black;
+}
+
+.container {
+    background-color: #222;
+    color: whitesmoke;
+}
+
+.container span {
+    color: whitesmoke;
+}
+
+body {
+    color: whitesmoke;
+}
+
+a, a:active, a:hover, a:link, a:visited {
+    color: white;
+}
+
+.container .sec-color_gray {
+    background: #1d1d1d
+}
+
+@media screen and (min-width:768px) {
+    .container a:hover {
+        color: white
+    }
+}
+
+.nol-header__bnr {
+    background: #222;
+    border-bottom: 1px solid #99F
+}
+
+.nol-header__bnr a {
+    background: #99F;
+    color: black;
+}
+
+@media screen and (min-width:768px) {
+    .nol-header__bnr a:before {
+        border-right: 3px solid #99F;
+        border-bottom: 3px solid #99F
+    }
+}
+
+@media screen and (min-width:768px) {
+    #infoBnr {
+        color: whitesmoke;
+    }
+    #infoBnr .inner {
+        background: #D66;
+    }
+    #infoBnr p {
+        color: whitesmoke;
+    }
+    #infoBnr p a {
+        color: whitesmoke;
+    }
+    #infoBnr .close {
+        background: #222;
+    }
+    #infoBnr .close:after, #infoBnr .close:before {
+        background-color: #1d1d1d;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #infoBnr {
+        color: whitesmoke;
+    }
+    #infoBnr .inner {
+        background: #D66;
+    }
+    #infoBnr p {
+        color: whitesmoke;
+        border-bottom: 1px solid #99F;
+    }
+    #infoBnr p a {
+        color: whitesmoke;
+    }
+    #infoBnr .close {
+        background: #222;
+    }
+    #infoBnr .close:after, #infoBnr .close:before {
+        background-color: #444;
+    }
+}
+
+#emergencyNews .inner {
+    border: 2px solid #D22;
+    background: black
+}
+
+#emergencyNews h2 {
+    background: black;
+    color: #D22
+}
+
+#emergencyNews .txtBox {
+    border-left: 2px solid #D22;
+}
+
+@media screen and (max-width:767px) {
+    #emergencyNews .txtBox {
+        background: black;
+    }
+}
+
+#emergencyNews .txtBox p {
+    color: #D22
+}
+
+#emergencyNews .txtBox a {
+    color: #D22
+}
+
+#editorialNews h2, #organizationNews h2 {
+    color: white;
+    background: #6F6;
+}
+
+@media screen and (max-width:767px) {
+    #editorialNews .txtBox, #organizationNews .txtBox {
+        background: #6F6
+    }
+}
+
+.news-special a {
+    color: #D22;
+}
+
+.news-special__inner {
+    border: 2px solid #D22
+}
+
+.news-special a:hover {
+    color: red
+}
+
+#janpi01 .sec-inner {
+    border-bottom: 4px solid #99F
+}
+
+@media screen and (min-width:768px) {
+    .nhk-nav__list li a:hover {
+        background: #1d1d1d
+    }
+}
+
+.nhk-nav .nhk-nav__other a:before {
+    border-right: 2px solid #99F;
+    border-bottom: 2px solid #99F;
+}
+
+.nhk-nav .nhk-nav__other ul a {
+    color: whitesmoke;
+}
+
+.nhk-nav .nhk-nav__other__read {
+    background: #111;
+}
+
+.nhk-nav .nhk-nav__other__read a {
+    background: #1f1f1f;
+    color: whitesmoke
+}
+
+.nhk-nav .nhk-nav__other__read a:before {
+    border-color: #99F
+}
+
+.pick-up .sec-inner {
+    border-top: 4px solid #99F;
+}
+
+.on-air select {
+    color: lightgray;
+    background-color: #444;
+}
+
+@media screen and (max-width:767px) {
+    .on-air__wave li {
+        border-top: 2px solid #99F;
+        border-left: 1px solid #99F;
+        border-right: 1px solid #99F
+    }
+}
+
+.on-air__arrow button {
+    background: #444;
+}
+
+@media screen and (max-width:767px) {
+    .on-air__arrow button {
+        background: rgba(0, 0, 0, .6)
+    }
+}
+
+.on-air__arrow button:before {
+    border-top: 3px solid #99F;
+    border-right: 3px solid #99F;
+}
+
+.on-air__list li figure {
+    border: 1px solid whitesmoke;
+    background: whitesmoke
+}
+
+.on-air__list li .on-air__list__minogashi {
+    background-image: url(/toppage/parts/img/2020/icon_minogashi.svg);
+    background-color: white;
+}
+
+@media screen and (max-width:767px) {
+    .on-air__list li .on-air__list__detail {
+        color: whitesmoke;
+        background: rgba(0, 0, 0, .4);
+    }
+    .on-air__list li .on-air__list__detail a {
+        color: whitesmoke
+    }
+}
+
+@media screen and (max-width:767px) {
+    .on-air__list li .on-air__list__detail__head--sp a {
+        color: whitesmoke;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .recommend__list li {
+        background: #444;
+    }
+}
+
+.nhk-news .sec-inner {
+    border-bottom: 4px solid #99F
+}
+
+.nhk-news .bt-gray a {
+    color: white;
+    background: #444;
+}
+
+.nhk-news .bt-gray a:before {
+    border-right: 2px solid #99F;
+    border-bottom: 2px solid #99F;
+}
+
+.nhk-news .prime-news__hd {
+    border-bottom: 4px solid #99F
+}
+
+.nhk-news .prime-news__list li {
+    border-bottom: 1px dotted #444
+}
+
+
+.nhk-news .prime-news__list li.list-new a:after {
+    background: #D22;
+    color: white;
+}
+
+.nhk-news .area-news__hd {
+    border-bottom: 4px solid #99F
+}
+
+.nhk-news .area-news__hd h3 a {
+    color: #888
+}
+
+.nhk-news .area-news__select select {
+    color: whitesmoke;
+    background-color: #222;
+}
+
+.nhk-news .area-news__list li {
+    border-bottom: 1px dotted #444
+}
+
+.nhk-news .broadcast-news__hd-inner {
+    color: #888
+}
+
+.nhk-news .broadcast-news__select {
+    background: #444;
+}
+
+.nhk-news .broadcast-news__select select {
+    color: whitesmoke;
+    background-color: #888;
+}
+
+.nhk-news .broadcast-news__arrow li {
+    background: rgba(0, 0, 0, .3);
+    color: #99F;
+}
+
+.nhk-news .broadcast-news__nav li {
+    background: #99F;
+}
+
+.nhk-news .broadcast-news__nav li.nav-active {
+    background: white;
+}
+
+.nhk-news .broadcast-news__list .list-date {
+    color: #888
+}
+
+.topic-words .sec-inner {
+    border-bottom: 4px solid #99F
+}
+
+.topic-words__list li:before {
+    background: whitesmoke;
+}
+
+#campaign-bnr_static .sec-inner {
+    border-bottom: 4px solid #99F
+}
+
+@media screen and (min-width:768px) {
+    .campaign-bnr .sec-inner {
+        border-bottom: 4px solid #99F
+    }
+}
+
+.campaign-bnr__text a {
+    border-bottom: 1px solid #99F
+}
+
+.nhk-info__other-list li a:before {
+    border-right: 2px solid #99F;
+    border-bottom: 2px solid #99F;
+}
+
+.nhk-info__other-list>li>a {
+    background-color: #444;
+    color: whitesmoke;
+}
+
+@media screen and (min-width:768px) {
+    .nhk-info__other-list>li>a:hover {
+        color: whitesmoke;
+    }
+}
+
+.nhk-info__other-list>li.list-sub a {
+    background: #222;
+    color: whitesmoke
+}
+
+.nhk-info__other-list>li.list-sub a:before {
+    border-color: #99F
+}
+
+@media screen and (min-width:768px) {
+    .nhk-info__other-list>li.list-sub a:hover {
+        color: whitesmoke;
+    }
+}
+
+.nhk-info__other-list>li.list-sp>a {
+    background: #99F
+}
+
+#nhk-foot-links {
+    background: #444;
+}
+
+#nhk-foot-links .foot-links__hd {
+    color: #fff;
+}
+
+@media screen and (max-width:767px) {
+    #nhk-foot-links .foot-links__hd:before {
+        border: 1px solid #99F
+    }
+    #nhk-foot-links .foot-links__hd__inner:after, #nhk-foot-links .foot-links__hd__inner:before {
+        background: #fff;
+    }
+}
+
+#nhk-foot-links section {
+    border-bottom: 1px solid #99F;
+}
+
+#nhk-foot-links section ul li:after {
+    border-right: 1px solid #99F;
+}
+
+#nhk-foot-links section ul li a {
+    color: #fff
+}
+
+#nhk-foot-links section ul li a:hover {
+    color: #909090
+}
