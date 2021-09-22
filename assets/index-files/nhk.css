@@ -1,3 +1,4 @@
+@-moz-document domain("www.nhk.or.jp"), domain("www3.nhk.or.jp"), domain("pid.nhk.or.jp"), domain("plus.nhk.jp"), domain("www.nhk.jp"), domain("cgi2.nhk.or.jp") {
 /*
   Copyright 2021 ozgurozbek <ozgurozbek1@yandex.com>
   Permission to use, copy, modify, and/or distribute this software for any
@@ -499,4 +500,5 @@ a, a:active, a:hover, a:link, a:visited {
 
 #nhk-foot-links section ul li a:hover {
     color: #909090
+}
 }
