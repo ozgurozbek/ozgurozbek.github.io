@@ -59,7 +59,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-    background-color: rgba(150, 200, 200, 0.7);
+    background-color: rgba(150, 200, 200, 0.3);
 }
 
 .hide {
@@ -87,7 +87,7 @@ tr:nth-child(even) {
 }
 
 :target {
-    background-color: rgba(150, 200, 200, 0.7);
+    background-color: rgba(150, 200, 200, 0.3);
     text-shadow: -1px -1px 0 #666, 1px -1px 0 #666, -1px 1px 0 #666, 1px 1px 0 #666;
     transition: background 2s, text-shadow 2s;
 }

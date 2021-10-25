@@ -25,7 +25,7 @@
 
     <div id="navbar" style="text-align: center" class="pageinside">
         <a class="w3-button w3-large" href="#MaterialVariants">Material Variants</a>
-        <a class="w3-button w3-large" href="#Okri">Okri's Deeds</a>
+        <a class="w3-button w3-large" href="#Okri" style="display: none;">Okri's Deeds</a>
         <a class="w3-button w3-large" href="#Calendar">Calendar</a>
         <a class="w3-button w3-large" href="#SexyTime">Sexy Time</a>
         <a class="w3-button w3-large" href="#HRules">Homebrews</a>
@@ -35,7 +35,7 @@
         ・
         <a class="w3-button w3-large" href="#ArmorEnch">Armor Enhancements</a>
         <a class="w3-button w3-large" href="#Runes">Runes</a>
-        <a class="w3-button w3-large" href="#Cooking">Cooking</a>
+        <a class="w3-button w3-large" href="#Cooking" style="display: none;">Cooking</a>
     </div>
 
     <div class="w3-container content pageinside">
@@ -87,104 +87,123 @@
                     </tr>
                     <tr>
                         <td>Cursed</td>
-                        <td>A deity possesses the item. Consult with your DM.</td>
+                        <td>The item belongs to a Warlock Patron. Consult with your DM.</td>
                     </tr>
                     <tr>
                         <td>Blessed</td>
-                        <td>A deith possesses the item. Has a purpose and will be active on it's path. Consult with your
-                            DM.
-                        </td>
+                        <td>The item is an artifact. Consult with your DM.</td>
                     </tr>
                 </table>
             </div>
             <br>
 
-            <div class="w3-padding" id="Okri">
+            <div hidden class="w3-padding" id="Okri">
                 <h2>Okri's Deeds</h2>
                 Commons only, other ones have effects <i>interestingly affecting your <strong>whole</strong>
                     party. If you are already level 20, you get a magic item rolled from level 16+ treasure table. You gain Okri's Tokens as you completely retrieve a deed.</i>
                 <table>
                     <tr>
+                        <th>#</th>
                         <th>Token Reward</th>
                         <th>Behaviour</th>
                     </tr>
                     <tr>
+                        <td>1</td>
                         <td>-1</td>
                         <td>Deed disappears instantly</td>
                     </tr>
                     <tr>
+                        <td>2</td>
                         <td>5</td>
                         <td>CR increases by 1</td>
                     </tr>
                     <tr>
+                        <td>3</td>
                         <td>5</td>
                         <td>Enemy numbers are increased</td>
                     </tr>
                     <tr>
+                        <td>4</td>
                         <td>5</td>
                         <td>Roll again for trait, you can't remove this deed.</td>
                     </tr>
                     <tr>
+                        <td>5</td>
                         <td>4</td>
                         <td>Roll again for trait, in 1d4 hours the deed disappears.</td>
                     </tr>
                     <tr>
+                        <td>6</td>
                         <td>4</td>
                         <td>Every roll you make is at a disadvantage.</td>
                     </tr>
                     <tr>
+                        <td>7</td>
                         <td>4</td>
                         <td>You can't move when in combat.</td>
                     </tr>
                     <tr>
+                        <td>8</td>
                         <td>3</td>
                         <td>Everyone targets you, even traps.</td>
                     </tr>
                     <tr>
+                        <td>9</td>
                         <td>3</td>
                         <td>Your AC is halved.</td>
                     </tr>
                     <tr>
+                        <td>10</td>
                         <td>3</td>
                         <td>You can't be healed.</td>
                     </tr>
                     <tr>
+                        <td>11</td>
                         <td>2</td>
                         <td>Your attacks are at a disadvantage.</td>
                     </tr>
                     <tr>
+                        <td>12</td>
                         <td>2</td>
                         <td>Every attack made against you has advantage.</td>
                     </tr>
                     <tr>
+                        <td>13</td>
                         <td>2</td>
                         <td>Your Max HP is halved.</td>
                     </tr>
                     <tr>
+                        <td>14</td>
                         <td>1</td>
                         <td>Your Max HP decreases by half the damage you take.</td>
                     </tr>
                     <tr>
+                        <td>15</td>
                         <td>1</td>
                         <td>You make attack rolls with advantage, and take a die of damage.</td>
                     </tr>
                     <tr>
+                        <td>16</td>
                         <td>1</td>
                         <td>You take extra damage by a die.</td>
                     </tr>
                     <tr>
+                        <td>17</td>
                         <td>-</td>
                         <td>Reroll, but you gain 1 less token and the deed can't be removed.</td>
                     </tr>
                     <tr>
+                        <td>18</td>
                         <td>-</td>
                         <td>Reroll</td>
                     </tr>
                     <tr>
+                        <td>19</td>
                         <td>-</td>
                         <td>Reroll</td>
                     </tr>
                     <tr>
+                        <td>20</td>
                         <td>1</td>
                         <td>Nothing</td>
                     </tr>
@@ -410,158 +429,104 @@
         <div class="w3-third">
             <div class="w3-padding" id="Alchemy">
                 <h2>Alchemy</h2>
-                Every adventurer has one slot available for potions ready to use. Rest will be in your backpack.
-                Remember that you can also make the magic infused liquid on your own. Consult with your DM before using Spell
-                Storing Potions. Concentrated variants of these potions double the effect with +½ price. Watered variants halve
-                the effect with -½ price.
+                Every adventurer has one slot available for potions ready to use. Rest will be in your backpack. Consult with your DM before using Spell
+                Storing Potions. The value of a consumable item, such as a potion or scroll, is typically half the value of a permanent item of the same rarity.
                 <table>
                     <tr>
-                        <th>Price</th>
+                        <th>Rarity</th>
                         <th>Name</th>
                         <th>Description</th>
                     </tr>
                     <tr>
-                        <td>50</td>
-                        <td>Magic Infused Liquid</td>
-                        <td>Required to make greater or better potions.</td>
-                    </tr>
-                    <tr>
-                        <td>50</td>
-                        <td>Minor Healing Potion</td>
-                        <td>2d4+2</td>
-                    </tr>
-                    <tr>
-                        <td>145</td>
-                        <td>Lesser Healing Potion</td>
-                        <td>4d4+4</td>
-                    </tr>
-                    <tr>
-                        <td>255</td>
-                        <td>Fine Healing Potion</td>
-                        <td>6d4+6</td>
-                    </tr>
-                    <tr>
-                        <td>380</td>
-                        <td>Greater Healing Potion</td>
-                        <td>8d4+8</td>
-                    </tr>
-                    <tr>
-                        <td>500</td>
-                        <td>Perfected Healing Potion</td>
-                        <td>8d6+12</td>
-                    </tr>
-                    <tr>
-                        <td>1000</td>
-                        <td>Swift Potion</td>
-                        <td>Movement doesn't consume turns for 3 minutes.</td>
-                    </tr>
-                    <tr>
-                        <td>200</td>
-                        <td>Elemental Resistance Potion</td>
-                        <td>Additional elemental damage is halved for 10 minutes.</td>
-                    </tr>
-                    <tr>
-                        <td>150</td>
+                        <td>Uncommon</td>
                         <td>Light Emitting Potion</td>
-                        <td>Emits light</td>
+                        <td>When you drink this potion, you magically emit light 30ft around you.</td>
                     </tr>
                     <tr>
-                        <td>30</td>
-                        <td>Minor Contact Poison</td>
-                        <td>1d4</td>
+                        <td>Very Rare</td>
+                        <td>Aboleth Blood Poison (Injury)</td>
+                        <td>A creature subjected to this poison must make a DC 19 Constitution saving throw, taking 56 (16d6) poison damage on a failed save, or half as much damage on a successful one.</td>
                     </tr>
                     <tr>
-                        <td>120</td>
-                        <td>Fine Contact Poison</td>
-                        <td>1d8</td>
+                        <td>Artifact</td>
+                        <td>Divine Radiance Poison (Inhaled)</td>
+                        <td>A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or take 4 (1d6) poison damage, and must repeat the saving throw for each second it is affected by the poison.</td>
                     </tr>
                     <tr>
-                        <td>275</td>
-                        <td>Greater Contact Poison</td>
-                        <td>1d12</td>
+                        <td>Uncommon</td>
+                        <td>Paralysis Poison (Ingested)</td>
+                        <td>A creature that ingests this poison must succeed on a DC 13 Constitution save or is paralysed for 10 minutes.</td>
                     </tr>
                     <tr>
-                        <td>300</td>
-                        <td>Paralysing Poison</td>
-                        <td>DC 17 CON save, Slows on fail.</td>
+                        <td>Uncommon</td>
+                        <td>Retinopathy Poison (Inhaled)</td>
+                        <td>A creature subjected to this poison must succeed on a DC 15 Constitution saving throw or be blinded for the duration it is influenced.</td>
                     </tr>
                     <tr>
-                        <td>300</td>
-                        <td>Blinding Poison</td>
-                        <td>DC 17 CON save, Blinds on fail.</td>
-                    </tr>
-                    <tr>
-                        <td>50</td>
+                        <td>Uncommon</td>
                         <td>Level 1 Spell Storing Potion</td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td>150</td>
+                        <td>Rare</td>
                         <td>Level 2 Spell Storing Potion</td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td>300</td>
+                        <td>Very Rare</td>
                         <td>Level 3 Spell Storing Potion</td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td>300</td>
-                        <td>Strong Alcohol</td>
+                        <td>Common</td>
+                        <td>Strong Alcohol (Ingested)</td>
                         <td>DC 20 CON save, flammable, drinking it whole might cause indefinite physical damage.</td>
                     </tr>
                     <tr>
-                        <td>600</td>
+                        <td>Rare</td>
                         <td>Fast Acting Acid</td>
                         <td>Can melt through solid stone. Deals 2d10 amounts of damage per every round start in combat.
                         </td>
                     </tr>
                     <tr>
-                        <td>50</td>
+                        <td>Common</td>
                         <td>Lubricating Oil</td>
                         <td>DC 16 DEX, or makes everyone in radius fall prone. Lubricant.</td>
                     </tr>
                     <tr>
                         <td>3000</td>
-                        <td>Lesser Enhancement Drug</td>
-                        <td>+2 to select stat for 3 minutes. High chance of addiction. You may never be able to use this
-                            drug with 50% chance. You roll this die as you swallow the drug.</td>
+                        <td>Enhancement Drug</td>
+                        <td>+2 to select stat for 3 minutes. High chance of addiction. You may never be able benefit from the use of this
+                            drug with 75% chance. You roll this die as you swallow the drug.</td>
                     </tr>
                     <tr>
-                        <td>5000</td>
-                        <td>Greater Enhancement Drug</td>
-                        <td>+3 to select stat for 3 minutes. High chance of addiction with a slight chance of poisoning.
-                            You may never be able to use this drug with 70% chance. You roll this die as you swallow the
-                            drug.</td>
-                    </tr>
-                    <tr>
-                        <td>50</td>
+                        <td>Common</td>
                         <td>Dust of Appearance</td>
                         <td>Reveals creatures within 10m radius.</td>
                     </tr>
                     <tr>
-                        <td>50</td>
+                        <td>Common</td>
                         <td>Dust of Heat</td>
                         <td>Makes 10m radius area flammable.</td>
                     </tr>
                     <tr>
-                        <td>250</td>
+                        <td>Rare</td>
                         <td>Dust of Dragon Breath</td>
                         <td>Deals 2d8 select element damage.</td>
                     </tr>
                     <tr>
-                        <td>200</td>
+                        <td>Uncommon</td>
                         <td>Teleportation Dust</td>
                         <td>Required for Waystones to operate. You can also make it with Powdered Silver, Powdered
                             Diamond, Charcoal & Magic Infused Liquid</td>
                     </tr>
                     <tr>
-                        <td>250</td>
+                        <td>Rare</td>
                         <td>Elemental Oil</td>
-                        <td>Lasts for a minute. Can be used twice. Additional 1d6 damage on chosen element.</td>
+                        <td>Lasts for a minute. Can be used twice. Additional 1d6 damage on chosen element (excludes radiant, necrotic etc.).</td>
                     </tr>
                     <tr>
-                        <td>400</td>
+                        <td>Very Rare</td>
                         <td>Silver Oil</td>
                         <td>Lasts for a minute. Can be used twice. Upon attacking against undead, demon, devil etc, grants 1d8 radiant damage and advantage.</td>
                     </tr>
@@ -581,64 +546,64 @@
                         <th>Price</th>
                         <th>Level</th>
                         <th>Material</th>
-                        <th>Success %</th>
-                        <th>Salvage %</th>
+                        <th>Success Percentile</th>
+                        <th>Salvage Percentile</th>
                     </tr>
                     <tr>
-                        <td>FREE</td>
+                        <td>Free</td>
                         <td>Willing</td>
                         <td>Body died in 3 hours & a willing available soul</td>
-                        <td>10% per 10 HP Vouch, caps at 20.</td>
-                        <td>DC15 if Chance > 80%, DC10 if else.</td>
+                        <td>Starting from 100, DC-10 per 10 HP Vouch, caps at 20.</td>
+                        <td>DC20 if 80HP vouched, else DC10.</td>
                     </tr>
                     <tr>
                         <td>1000</td>
                         <td>Common</td>
                         <td>A diamond</td>
-                        <td>50%</td>
-                        <td>0%</td>
+                        <td>50+</td>
+                        <td>None</td>
                     </tr>
                     <tr>
                         <td>1500</td>
                         <td>Experienced</td>
                         <td>A diamond</td>
-                        <td>50%</td>
-                        <td>50%</td>
+                        <td>50+</td>
+                        <td>50+</td>
                     </tr>
                     <tr>
                         <td>2000</td>
                         <td>Great</td>
                         <td>A diamond</td>
-                        <td>75%</td>
-                        <td>0%</td>
+                        <td>25+</td>
+                        <td>None</td>
                     </tr>
                     <tr>
                         <td>2250</td>
                         <td>Greater</td>
                         <td>A diamond</td>
-                        <td>75%</td>
-                        <td>25%</td>
+                        <td>25+</td>
+                        <td>75+</td>
                     </tr>
                     <tr>
                         <td>2500</td>
                         <td>Advanced</td>
                         <td>A diamond</td>
-                        <td>75%</td>
-                        <td>50%</td>
+                        <td>25+</td>
+                        <td>50+</td>
                     </tr>
                     <tr>
                         <td>2750</td>
                         <td>Master</td>
                         <td>A diamond</td>
-                        <td>75%</td>
-                        <td>75%</td>
+                        <td>25+</td>
+                        <td>25+</td>
                     </tr>
                     <tr>
                         <td>3000</td>
                         <td>Expert</td>
                         <td>A diamond</td>
-                        <td>100%</td>
-                        <td>0%</td>
+                        <td>Succeeds</td>
+                        <td>None</td>
                     </tr>
                 </table>
             </div>
@@ -648,7 +613,7 @@
         <div class="w3-third">
             <div class="w3-padding" id="ArmorEnch">
                 <h2>Armor Enhancements</h2>
-                You can have 3 enhancements (1 major (1000GP+)) on your armor.
+                You can have 750GP worth of enhancements on your armor.
                 <table>
                     <tr>
                         <th>Price</th>
@@ -658,7 +623,7 @@
                     <tr>
                         <td>100</td>
                         <td>Fitting</td>
-                        <td>Armor resizes to fit the user.</td>
+                        <td>Armor resizes to fit the user. Magical items automatically do this.</td>
                     </tr>
                     <tr>
                         <td>250</td>
@@ -687,14 +652,14 @@
                         <td>Inflicts STR mod amounts of damage on grapple.</td>
                     </tr>
                     <tr>
-                        <td>1000</td>
-                        <td>Silent</td>
-                        <td>Grants advantage on stealth checks.</td>
+                        <td>500</td>
+                        <td>Suppressed</td>
+                        <td>Does not grant disadvantage on stealth checks.</td>
                     </tr>
                     <tr>
-                        <td>1000</td>
+                        <td>500</td>
                         <td>Light</td>
-                        <td>Does not reduce movement speed.</td>
+                        <td>Does not reduce movement speed from STR requirement.</td>
                     </tr>
                 </table>
             </div>
@@ -734,12 +699,12 @@
                     </tr>
                     <tr>
                         <td>Dervish</td>
-                        <td>You start the battle not regarding your initiative.</td>
+                        <td>Your initiative counts as 20, if you want.</td>
                         <td>Good</td>
                     </tr>
                     <tr>
                         <td>Heroic</td>
-                        <td>As you draw this weapon, you and your allies gain Nd12 temporary HP for this battle. N is
+                        <td>As you draw this weapon, you and your allies gain Nd12 temporary HP for this battle, once a week. N is
                             decided by your level. One for 4,8,12,16,20 leves.</td>
                         <td>Neutral</td>
                     </tr>
@@ -783,7 +748,7 @@
             </div>
             <br>
 
-            <div class="w3-padding" id="Cooking">
+            <div hidden class="w3-padding" id="Cooking">
                 <h2>Cooking</h2>
                 A path for a chef. You select what effect you want your food to have, consult it with your DM, then a
                 percentile will be rolled. You spend the amount of gold stated beforehand, so it can be lost. If
