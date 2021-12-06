@@ -1,0 +1,849 @@
+<style>
+	body {
+		margin: 0;
+		padding: 0;
+		background: rgb(230, 230, 230);
+
+		color: rgb(50, 50, 50);
+		font-family: 'Open Sans', sans-serif;
+		font-size: 112.5%;
+		line-height: 1.6em;
+	}
+
+	/* ================ The Timeline ================ */
+
+	.timeline {
+		position: relative;
+		width: 660px;
+		margin: 0 auto;
+		margin-top: 20px;
+		padding: 1em 0;
+		list-style-type: none;
+	}
+
+	.timeline:before {
+		position: absolute;
+		left: 50%;
+		top: 0;
+		content: ' ';
+		display: block;
+		width: 6px;
+		height: 100%;
+		margin-left: -3px;
+		background: rgb(80, 80, 80);
+		background: -moz-linear-gradient(top, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(30, 87, 153, 1)), color-stop(100%, rgba(125, 185, 232, 1)));
+		background: -webkit-linear-gradient(top, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
+		background: -o-linear-gradient(top, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
+		background: -ms-linear-gradient(top, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
+		background: linear-gradient(to bottom, rgba(80, 80, 80, 0) 0%, rgb(80, 80, 80) 8%, rgb(80, 80, 80) 92%, rgba(80, 80, 80, 0) 100%);
+
+		z-index: 5;
+	}
+
+	.timeline li {
+		padding: 1em 0;
+	}
+
+	.timeline li:after {
+		content: "";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+
+	.direction-l {
+		position: relative;
+		width: 300px;
+		float: left;
+		text-align: right;
+	}
+
+	.direction-m {
+		position: relative;
+		width: 300px;
+		text-align: center;
+		margin: auto;
+		z-index: 10;
+		background: rgb(230, 230, 230);
+	}
+
+	.direction-m h3 {
+		border: solid;
+		font-size: 150%;
+		line-height: 1.6em;
+	}
+
+	.direction-r {
+		position: relative;
+		width: 300px;
+		float: right;
+	}
+
+	.flag-wrapper {
+		position: relative;
+		display: inline-block;
+
+		text-align: center;
+	}
+
+	.flag {
+		position: relative;
+		display: inline;
+		background: rgb(248, 248, 248);
+		padding: 6px 10px;
+		border-radius: 5px;
+
+		font-weight: 600;
+		text-align: left;
+	}
+
+	.direction-l .flag {
+		-webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+		-moz-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+		box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+	}
+
+	.direction-r .flag {
+		-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+		-moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+		box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+	}
+
+	.direction-l .flag:before,
+	.direction-r .flag:before {
+		position: absolute;
+		top: 50%;
+		right: -40px;
+		content: ' ';
+		display: block;
+		width: 12px;
+		height: 12px;
+		margin-top: -10px;
+		background: #fff;
+		border-radius: 10px;
+		border: 4px solid rgb(255, 80, 80);
+		z-index: 10;
+	}
+
+	.direction-r .flag:before {
+		left: -40px;
+	}
+
+	.direction-l .flag:after {
+		content: "";
+		position: absolute;
+		left: 100%;
+		top: 50%;
+		height: 0;
+		width: 0;
+		margin-top: -8px;
+		border: solid transparent;
+		border-left-color: rgb(248, 248, 248);
+		border-width: 8px;
+		pointer-events: none;
+	}
+
+	.direction-r .flag:after {
+		content: "";
+		position: absolute;
+		right: 100%;
+		top: 50%;
+		height: 0;
+		width: 0;
+		margin-top: -8px;
+		border: solid transparent;
+		border-right-color: rgb(248, 248, 248);
+		border-width: 8px;
+		pointer-events: none;
+	}
+
+	.time-wrapper {
+		display: inline;
+
+		line-height: 1em;
+		font-size: 0.66666em;
+		color: rgb(250, 80, 80);
+		vertical-align: middle;
+	}
+
+	.direction-l .time-wrapper {
+		float: left;
+	}
+
+	.direction-r .time-wrapper {
+		float: right;
+	}
+
+	.time {
+		display: inline-block;
+		padding: 4px 6px;
+		background: rgb(248, 248, 248);
+	}
+
+	.desc {
+		margin: 1em 0.75em 0 0;
+
+		font-size: 0.77777em;
+		font-style: italic;
+		line-height: 1.5em;
+	}
+
+	.direction-r .desc {
+		margin: 1em 0 0 0.75em;
+	}
+
+	/* ================ Timeline Media Queries ================ */
+
+	@media screen and (max-width: 660px) {
+
+		.timeline {
+			width: 100%;
+			padding: 4em 0 1em 0;
+		}
+
+		.timeline li {
+			padding: 2em 0;
+		}
+
+		.direction-l,
+		.direction-r {
+			float: none;
+			width: 100%;
+
+			text-align: center;
+		}
+
+		.flag-wrapper {
+			text-align: center;
+		}
+
+		.flag {
+			background: rgb(255, 255, 255);
+			z-index: 15;
+		}
+
+		.direction-l .flag:before,
+		.direction-r .flag:before {
+			position: absolute;
+			top: -30px;
+			left: 50%;
+			content: ' ';
+			display: block;
+			width: 12px;
+			height: 12px;
+			margin-left: -9px;
+			background: #fff;
+			border-radius: 10px;
+			border: 4px solid rgb(255, 80, 80);
+			z-index: 10;
+		}
+
+		.direction-l .flag:after,
+		.direction-r .flag:after {
+			content: "";
+			position: absolute;
+			left: 50%;
+			top: -8px;
+			height: 0;
+			width: 0;
+			margin-left: -8px;
+			border: solid transparent;
+			border-bottom-color: rgb(255, 255, 255);
+			border-width: 8px;
+			pointer-events: none;
+		}
+
+		.time-wrapper {
+			display: block;
+			position: relative;
+			margin: 4px 0 0 0;
+			z-index: 14;
+		}
+
+		.direction-l .time-wrapper {
+			float: none;
+		}
+
+		.direction-r .time-wrapper {
+			float: none;
+		}
+
+		.desc {
+			position: relative;
+			margin: 1em 0 0 0;
+			padding: 1em;
+			background: rgb(245, 245, 245);
+			-webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.20);
+			-moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.20);
+			box-shadow: 0 0 1px rgba(0, 0, 0, 0.20);
+
+			z-index: 15;
+		}
+
+		.direction-l .desc,
+		.direction-r .desc {
+			position: relative;
+			margin: 1em 1em 0 1em;
+			padding: 1em;
+
+			z-index: 15;
+		}
+
+	}
+
+	@media screen and (min-width: 400px ?? max-width: 660px) {
+
+		.direction-l .desc,
+		.direction-r .desc {
+			margin: 1em 4em 0 4em;
+		}
+
+	}
+</style>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+	rel='stylesheet' type='text/css'>
+
+<!-- The Timeline -->
+
+<ul class="timeline">
+	<!-- #region Dark Era -->
+	<li>
+		<div class="direction-m">
+			<h3>Dark Era</h3>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Forming the Astral Sea</span>
+			</div>
+			<div class="desc">Mceeju became, and the Astral Sea was formed. After this Uke, Veri and Xeculus were made
+				from Mceeju.</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Xeculus' Shattering</span>
+			</div>
+			<div class="desc">Xeculus was seperated into 3, forming Lcaoc, Nmei and Tharizdun.</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Vihi's Arrival</span>
+			</div>
+			<div class="desc">Vihi arrived, and with it, Uke and Veri were united to be never seperated again.</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Forging of Life</span>
+			</div>
+			<div class="desc">With the requests of Lcaoc, Veri bore Cyaxo and Ehx. With the sight of Nmei, Veri bore
+				Pwazo, Buib and Cfofb. After Tharizdun's echoes, Vesvjdegz born.</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Addiction of Giving</span>
+			</div>
+			<div class="desc">After Veri loved what it experienced, and loved, it bore Gud and Wodroh. Naahv also formed
+				after Lcaoc's request from Uke. After not stopping, gods started to dispose of their power in forms of
+				other divine beings, and the divine was formed fully.</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">The 5th Generation</span>
+			</div>
+			<div class="desc">Lwaqy was formed from Naahv,<br>Lwaro and Radu was formed from Gud,<br>Modgo was formed
+				from Wodroh.</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">The 6th Generation</span>
+			</div>
+			<div class="desc">6th generation included deities like Raxcoh, that represent an act instead of a fact. They
+				were introduced as the first steps towards deities split to their respective domains.</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Pedi's Creation</span>
+			</div>
+			<div class="desc">Out of Lwaqy's blood, pouring from his burned eyes, Pedi would born. Lwaqy being impressed
+				by these creatures sent them to his home plane.</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Introduction of Domains</span>
+			</div>
+			<div class="desc">Nature, Tempest, Trickery, Death, Knowledge, War, Life and, Light domains were formed.
+				With this, deities split and this split would eventualy call for the downfall of cosmos.</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Next Generation</span>
+			</div>
+			<div class="desc">Domain deities, grouped up to create more and more holy beings. </div>
+		</div>
+	</li>
+	<!-- #endregion -->
+
+	<!-- #region Divine Era -->
+	<li>
+		<div class="direction-m">
+			<h3>Divine Era</h3>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Forming of Outer Planes</span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Forming of the Worlds</span>
+			</div>
+			<div class="desc">over, under, elemental</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Appearance of Overseers</span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">The 8th Generation</span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">The 9th Generation</span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Forming of the Inner Planes</span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+	<!-- #endregion -->
+
+	<!-- #region Johke Era -->
+	<li>
+		<div class="direction-m">
+			<h3>Johke Era</h3>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">The 10th Generation</span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Black Rain</span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+	<!-- #endregion -->
+
+	<!-- #region Ancient Era -->
+	<li>
+		<div class="direction-m">
+			<h3>Ancient Era</h3>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Ancient Peace</span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Ancient Knowledge</span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Ethereal Darkness</span>
+			</div>
+			<div class="desc">cast high level spell, kill all ancients, die, magic god dead, replace magic god as a
+				dragon</div>
+		</div>
+	</li>
+	<!-- #endregion -->
+
+	<!-- #region Age of Wizardry -->
+	<li>
+		<div class="direction-m">
+			<h3>Age of Wizardry</h3>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">asd</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">asd</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">asd</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">asd</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">asd</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">asd</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Mage's Crisis</span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+	<!-- #endregion -->
+
+	<!-- #region After Mage's Crisis -->
+	<li>
+		<div class="direction-m">
+			<h3>After Mage's Crisis</h3>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">asd</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">asd</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">asd</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">asd</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">asd</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">asd</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">asd</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Forging of Divine Energy</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">Gods, over centuries, tamed the divine and created lesser beings to satisfy their ego.
+				Afterwards, they began fighting to see who was superior.</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Populating Astral Sea</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">Due to lesser beings praying for gods to stop fighting, they did. Divine energy began
+				flowing again but gods stopped communicating and retreated to their respective dimensions. There, they
+				formed simpletons by themselves. Mceeju realising this, stopped the gods and the simpletons were
+				scattered around the Astral Sea.</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Forging of Divine Energy</span>
+				<span class="time-wrapper"><span class="time">Divine Era</span></span>
+			</div>
+			<div class="desc">Gods, over centuries, tamed the divine and created lesser beings to satisfy their ego.
+				Afterwards, they began fighting to see who was superior.</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Apple Inc.</span>
+				<span class="time-wrapper"><span class="time">2011 - 2013</span></span>
+			</div>
+			<div class="desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae ab, recusandae aliquid
+				modi iste culpa reprehenderit voluptatibus pariatur, voluptatum eum rerum! Omnis hic aspernatur ad
+				impedit a esse! Repudiandae, exercitationem.lorem Lorem ipsum dolor sit amet consectetur adipisicing
+				elit. Aliquam culpa saepe deleniti nisi est officia ea dolorem voluptatibus nam adipisci! Ad architecto
+				ullam eaque. Quis id voluptatibus repudiandae quas ea!.</div>
+		</div>
+	</li>
+
+	<!-- Item -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Harvard University</span>
+				<span class="time-wrapper"><span class="time">2008 - 2011</span></span>
+			</div>
+			<div class="desc">A description of all the lectures and courses I have taken and my final degree?</div>
+		</div>
+	</li>
+	<!-- #endregion -->
+
+</ul>
+
+Cfofb 7+, Gond, Umberlee, Kurtulmak, Mielikki, Tezr, Nizi, Lunm, Cyani, Nepi, Ayrugcumoak, Afez, Wusor, Wugu, Gaajyx,
+Gezi, Pior, Czeeg, Waqorafe,
+Megm, Wadqwofm, Gaxaca, Spina, Xua, Fexyiaf*, Moradin*, Corellon*, Gruumsh*, Nhaft?, Lwaro
+
+Astral sea formation after gods collab.
+animals didnt worship, banished to forests
+gods formed man after strength feud, first of mud but dissolved.
+after elements without soul, and forgot their makers (primordial elementals)
+After more and more individual tries mceeju stops gods, wipes shit clean. (black rain)
+after all gods collab again, mankind born.
+
+Ecqig: Great sage of Johke
+Msauh: Sage of Johke
+Lawog: Bigger brother of 4
+
+The Lcohwuj were four brothers, the sons of Wu and Yu. A creator god placed these skybearers at the four corners of the
+universe. Because each stands at one of the four cardinal directions, each is associated with a colour and a direction.
+Uufh (later replaced by Msauh) - Lcohwuj of the east.
+Lawog - Lcohwuj of the north, is assigned the colour white.
+Raar - Lcohwuj of the west, is assigned the colour black.
+Hozanek - Lcohwuj of the south, is assigned the colour blue.
+References to the Lcohwuj are found in the writings. At some point, the brothers became associated with the figure of
+Ecqig, an Johke sage whom took care of the Lcohwuj.
+
+Ancients
+An old civilization that has evolved and found great meaning in both magic and immortality. They made immortality
+possible and destroyed every meaning they've found within it. With their last magic, they left a warning for future,
+unfortunately too difficult to grasp, lacking their understanding of magic, life and time. They managed to process
+light, and believed to achieve a hive-mind society. Nobody knows how they disappeared.
+Their offsprings from humans tend to get a disoriented body with partial ancient bodyparts. They live for about a
+millenia years without aging beyond their thirties, body-wise. They are sterile.
+
+Johke Era
+A small time that captures the struggles of all gods before Mceeju interrupted and casted the Black Rain. Johke people
+were all more like Genasi despite their common depiction as Humans. Since their world got divided and was formed into
+Inner Planes, their fragments of history can be seen anywhere, albeit weak and unintelligeble.
+One thing that is understandable is their "Rixm Liox", their holy book. It speaks about their focal points, life,
+mythology and other information that they depict, such as their looks and achievements.
+Since they were the first ones, they have noted the first Johken.
+
+The First Generation
+Pedgj: Male, meaning first. He married Giyec.
+Cxiyo: Male, meaning smile. The gods created Czequvev specifically for him to marry.
+Nefhehsex: Male, meaning disturbed. He never had the chance to marry but actually raped Czequvev, out of jealousy.
+Wiob: Male, meaning moon. He died of old age and later became the moon lord, hero of the moon. The woman Gugig was
+created just for him.
+Giyec: Female, meaning woman. She was created specifically to be the wife of Pedgj.
+Czequvev: Female, meaning specific she was a woman created specifically to be the wife of Cxiyo. Happily taking care of
+her first child Qceey (Son of Cxiyo) but committed suicide after her second child Ugiy (Daughter of Nefhehsex) was born.
+Gugig: Female, meaning water, she was a woman created by the gods specifically to marry Wiob.
+Susaih and Wiob
+After the creation, Msauh's notes tells of the struggles of the legendary hero twins, Susaih and Wiob, in defeating the
+Pedi Lords, the underworld lords. The twins descend into the underworld, perish, and are eventually miraculously reborn.
+This myth provides a metaphor for the agricultural cycle and the annual rebirth of the crops. These two stories are
+focal points of early Johke Mythology and often found depicted in art, such as "Rixm Liox", the holy book of the Johke.
+"Rixm Liox" can be found in any part of the Inner Worlds.
+Susaih or Su was originally a son of one of Lcohwuj. His twin was Wiob. The two were the Johke Hero Twins.
+Susaih and his brother Wiob were quite inseperable in their lives, together outwitting arrogant gods and the lords of
+the underworld, Nee. Although it is not explicitly stated in the history, Wiob seems to have been the dominant one among
+the brothers, often the one to do the talking and the planning, although Susaih was not merely a hapless sidekick. In
+fact Susaih is credited with saving his older brother's life at least once.
+Susaih ascended to the Iz after his death and became associated with the sun. Susaih was sometimes referred to as the
+Lord of The Sun.
