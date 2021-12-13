@@ -38,7 +38,7 @@ body::before {
     top: 140px;
     bottom: 100%;
     z-index: 2;
-    background: rgba(140, 140, 140, 0.8);
+    background: rgba(40, 40, 40, 0.8);
     padding-bottom: 38px;
 }
 
