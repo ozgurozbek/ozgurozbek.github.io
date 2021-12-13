@@ -303,7 +303,7 @@
             </div>
           </div><!-- End testimonial item -->
 
-          <div class="swiper-slide">
+          <div class="swiper-slide gladosEgg">
             <div class="testimonial-item" onclick="playGlados();">
               <p>
                 <audio id="soundGlados" src="assets/sound/glados.wav" preload="auto"></audio><a onclick="document.getElementById('soundGlados').play();">
@@ -661,6 +661,15 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    window.setInterval(function() {
+    var current = new Date();
+    var interval1 = new Date(); interval1.setFullYear(current.getFullYear(), 9, 10); //Month counts from 0, December is 11. -> October 10, this year. Portal
+    var interval2 = new Date(); interval2.setFullYear(current.getFullYear(), 3, 19); //Month counts from 0, December is 11. -> April 19, this year. Portal2
+    if (current.getDate() == interval1.getDate() || current.getDate() == interval2.getDate()) { $('.gladosEgg').show(); } else { $('.gladosEgg').hide(); }
+    }, 0);
+  </script>
 
 </body>
 
