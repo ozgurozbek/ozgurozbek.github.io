@@ -414,7 +414,7 @@
           </div><!-- End testimonial item -->
 
         </div>
-        <!--<div class="swiper-pagination"></div>-->
+        <div class="swiper-pagination"></div>
       </div>
 
       <div class="owl-carousel testimonials-carousel">
@@ -714,26 +714,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script>
-    window.setInterval(function() {
-    var current = new Date();
-    var portalInterval = new Date(); portalInterval.setFullYear(current.getFullYear(), 9, 10); //Month counts from 0, December is 11. -> October 10, this year. Portal
-    var portal2Interval = new Date(); portal2Interval.setFullYear(current.getFullYear(), 3, 19); //Month counts from 0, December is 11. -> April 19, this year. Portal2
-    if (current.getDate() == portalInterval.getDate() || current.getDate() == portal2Interval.getDate()) { $('.gladosEgg').show(); } else { $('.gladosEgg').hide(); }
-
-    var ddungeon = new Date(); ddungeon.setFullYear(current.getFullYear(), 0, 19); //1, 19
-    if (current.getDate() == ddungeon.getDate()) { $('.ddungeonEgg').show(); } else { $('.ddungeonEgg').hide(); }
-    
-    var hl = new Date(); hl.setFullYear(current.getFullYear(), 10, 19); // 11, 19
-    if (current.getDate() == hl.getDate()) { $('.hlEgg').show(); } else { $('.hlEgg').hide(); }
-    
-    var postal = new Date(); postal.setFullYear(current.getFullYear(), 8, 24); //9, 24
-    if (current.getDate() == postal.getDate()) { $('.postalEgg').show(); } else { $('.postalEgg').hide(); }
-    
-    var skyrim = new Date(); skyrim.setFullYear(current.getFullYear(), 10, 11); //11, 11
-    if (current.getDate() == skyrim.getDate()) { $('.skyrimEgg').show(); } else { $('.skyrimEgg').hide(); }
-    }, 0);
-  </script>
+  <script>window.setInterval(function(){var current=new Date();var portalInterval=new Date();portalInterval.setFullYear(current.getFullYear(),9,10);var portal2Interval=new Date();portal2Interval.setFullYear(current.getFullYear(),3,19);if(current.getDate()==portalInterval.getDate()||current.getDate()==portal2Interval.getDate()){$('.gladosEgg').show();}else{$('.gladosEgg').remove();}var ddungeon = new Date(); ddungeon.setFullYear(current.getFullYear(), 0, 19);if(current.getDate()==ddungeon.getDate()){$('.ddungeonEgg').show();}else{$('.ddungeonEgg').remove();}var hl=new Date();hl.setFullYear(current.getFullYear(), 10, 19);if(current.getDate()==hl.getDate()){$('.hlEgg').show();}else{$('.hlEgg').remove();}var postal=new Date();postal.setFullYear(current.getFullYear(),8,24);if(current.getDate()==postal.getDate()){$('.postalEgg').show();}else{$('.postalEgg').remove();}var skyrim=new Date();skyrim.setFullYear(current.getFullYear(),10,11);if(current.getDate()==skyrim.getDate()){$('.skyrimEgg').show();}else{$('.skyrimEgg').remove();}},0);</script>
 
 </body>
 
