@@ -50,7 +50,7 @@
         font-family: 'Pacifico', cursive;
         color: #e3ba7a;
     }
-    h2,
+    h4,
     h5 {
         font-family: 'Pacifico', cursive;
         color: rebeccapurple;
@@ -76,6 +76,7 @@
     @media only screen and (max-device-width : 320px) {
         .burgerrow { bottom: -40vh; }
     }
+    .btn-mor { background-color: rebeccapurple}
 
     @import url("//fonts.googleapis.com/css?family=Roboto:700&text=css");
 </style>
@@ -448,7 +449,7 @@ viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="
             </div>
         </div>
 
-        <div id="kazandinele" style="display:none; text-align: center;">
+        <div id="kazandinele" class="buttonrow container m-0 p-0" style="display:none; text-align: center;">
             <h1>Hamburger Hazır!</h1>
         </div>
 
@@ -461,28 +462,28 @@ viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <h2>BURGER SHOT</h2>
+                        <h5>BURGER SHOT</h5>
                         <p>Hamburgerini ilk önce tamamlayan oyuncu oyunu kazanır! Soruları cevapla, hamburgerine malzeme ekle ve hamburgerini tamamlayan ilk kişi olmaya çalış!</p>
                         <p>3-6 kişi ile oynanır.</p>
-                        <h2>HER TURUN BAŞINDA</h2>
+                        <h5>HER TURUN BAŞINDA</h5>
                         <p>Bütün oyuncular ellerini arkasına saklar. Herkes eliyle bir sayı yapar ve bütün oyuncular hazır olduğunda “Bur-ger-shot!” diye sayılıp herkes elini gösterir. Aynı sayıyı yapan oyuncular o tur için elenir. Kalan oyuncular arasından en büyük sayıyı yapan oyuncu o turu oynamaya hak kazanır ve bir shot atarak bir kart çeker.</p>
                         <p>Eğer “Bur-ger-shot!” sayımından sonra oyuncuların hepsi elenirse Burger Shot bardağına içki dökülür. BS bardağı dolarsa herkes kaybeder ve oyun biter.</p>
-                        <h2>TUR SIRASINDA</h2>
+                        <h5>TUR SIRASINDA</h5>
                         <p>Turu oynamaya hak kazanan oyuncu önce 1 adet shot atar. Ardından kartını çektikten sonra kartta yazanı yaparsa veya cevaplarsa, hamburgerine bir adet malzeme ekler ve tur biter.</p> 
                         <p>Eğer kartta yazanı yapamazsa veya cevaplamayazsa, hamburgerine malzeme ekleyemez ve tur sırası biter.</p>
                         <p>Oyuncunun sırası geçtikten sonra eğer hamburgerine malzeme eklemek isteyen oyuncular varsa 2 shot atarak kart çekebilirler.</p>
                         <p>Örn: Elenen oyunculardan sonra kalan sayılar 3, 2 ve 1 ise; o turu oynamaya hak kazanan asıl oyuncu 3 sayısını yapandır. Bu oyuncu, 1 adet shot atıp kart çeker ve sırasını bitirir. Hamburgerine malzeme eklemek isteyen diğer oyunculardan önce 2 sayısını yapan oyuncu 2 adet shot atar ve bir kart çeker. Bu oyuncunun da turu bittikten sonra diğer oyuncu da hamburgerine malzeme eklemek isterse 2 adet shot atar ve bir kart çeker.
                         <p>Not: Tekrar kart çekmenizi gerektiren durumlar olabilir.</p>
-                        <h2>OYUN SONU</h2>
+                        <h5>OYUN SONU</h5>
                         <p>Oyun sonu hamburgerinde en az malzeme olan oyuncu, BS bardağını shot atar.</p>
                         <p>BS bardağı oyun ortasında tamamen dolarsa herkes kaybeder ve oyun biter.</p>
-                        <h2>KARTLAR</h2>
+                        <h5>KARTLAR</h5>
                         <p>3 adet kart tipi vardır:</p>
                         <p>Doğruluk Kartları: Turuncu renktedir. Soruyu cevaplarsanız hamburgerinize bir malzeme eklersiniz.</p>
                         <p>Cesaret Kartları: Mor renktedir. Yazılanı yaparsanız hamburgerinize bir malzeme eklersiniz.</p>
                         <p>Ceza Kartları: Kırmızı renktedir. Eğer ceza kartı çekerseniz cezayı gerçekleştirirsiniz fakat hamburgerinize malzeme ekleyemezsiniz.</p>
                         <p>Malzemeye göre kart sırası D-D-C-D-C-C olarak ayarlanmıştır.</p>
-                        <h2>EK KURALLAR</h2>
+                        <h5>EK KURALLAR</h5>
                         <ul>
                             <li>Yamulma Modu: Eğer daha fazla içmek istiyorsanız en başta aynı sayıyı yapıp elenenler de birer shot atabilir.</li>
                             <li>Kolay Mod: PS Bardağı küçük bir bardak olabilir.</li>
@@ -492,7 +493,7 @@ viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Geri</button>
                         <p title="Özgür Ö & Yaren K">🎃 & 🐘</p>
-                        <button type="button" onclick="hidehowto();" class="btn btn-primary">Bu butonu gizle</button>
+                        <button type="button" onclick="hidehowto();" class="btn btn-dark btn-mor">Bu butonu gizle</button>
                     </div>
                 </div>
             </div>
@@ -512,7 +513,7 @@ viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="
                 </div>
                 <div class="modal-footer">
                     <button type="button" onclick="draw();" class="btn btn-secondary float-start">Yeni Kart</button>
-                    <button type="button" onclick="unlock();" class="btn btn-primary" data-bs-dismiss="modal">Hamburger!</button>
+                    <button type="button" onclick="unlock();" class="btn btn-dark btn-mor" data-bs-dismiss="modal">Hamburger!</button>
                 </div>
             </div>
         </div>
