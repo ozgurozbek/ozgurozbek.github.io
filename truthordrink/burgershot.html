@@ -62,6 +62,20 @@
     #modal-text-contain {
         min-height: 20rem;
     }
+    .buttonrow {
+        position: fixed;
+        bottom: 5vh;
+    }
+    .burgerrow {
+        position: relative;
+        bottom: -20vh;
+    }
+    @media only screen and (max-device-width : 580px) {
+        .burgerrow { bottom: -30vh; }
+    }
+    @media only screen and (max-device-width : 320px) {
+        .burgerrow { bottom: -40vh; }
+    }
 
     @import url("//fonts.googleapis.com/css?family=Roboto:700&text=css");
 </style>
@@ -69,9 +83,9 @@
 <body
     style="background-color:#111; height: 100vh; font-family: 'Montserrat', sans-serif; background-image: url('../assets/img/burgershotbg.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; backdrop-filter: grayscale(0.9) ; overflow-y: hidden;">
     <section style="max-width: 1200px; margin: auto;">
-        <div style="padding-top: 20vh; max-width: 600px; margin: auto;">
+        <div class="burgerrow" style="max-width: 600px; margin: auto;">
             <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
 <style type="text/css">
 .st0{fill:#E7C07F;}
@@ -416,10 +430,10 @@ viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="
 <ellipse class="st31" cx="439.5" cy="511.5" rx="45.5" ry="27.5"/>
 <ellipse class="st31" cx="717.5" cy="512.5" rx="45.5" ry="27.5"/>
 </g>
-</svg>
-
+            </svg>
         </div>
-        <div class="container m-0 p-0 row row-no-gutter mt-4">
+        
+        <div class="buttonrow container m-0 p-0 row row-no-gutter mt-4">
             <div id="removehowtocol" class="col-10">
                 <div>
                     <button id="drawbutton" class="button" onclick="draw();" data-bs-toggle="modal"
