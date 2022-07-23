@@ -17,8 +17,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
-<style>
+<style>   
     .button {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 150%;
         padding: 10px 0px 10px 0px;
         cursor: pointer;
         text-align: center;
@@ -26,19 +28,19 @@
         outline: none;
         color: whitesmoke;
         background-color: black;
-        border: 1px solid whitesmoke;
+        border: 2px solid whitesmoke;
         border-radius: 15px;
-        box-shadow: 0 9px #666;
+        box-shadow: 0 5px #333;
         width: 100%;
     }
 
     .button:hover {
-        background-color: #999
+        background-color: #333
     }
 
     .button:active {
         background-color: #999;
-        box-shadow: 0 5px #333;
+        box-shadow: 0 5px #111;
         transform: translateY(4px);
     }
 
@@ -64,7 +66,7 @@
     }
     .buttonrow {
         position: fixed;
-        bottom: 5vh;
+        bottom: 10vh;
     }
     .burgerrow {
         position: relative;
@@ -76,9 +78,6 @@
     @media only screen and (max-device-width : 320px) {
         .burgerrow { bottom: -40vh; }
     }
-    .btn-mor { background-color: rebeccapurple}
-
-    @import url("//fonts.googleapis.com/css?family=Roboto:700&text=css");
 </style>
 
 <body
@@ -493,7 +492,7 @@ viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Geri</button>
                         <p title="Özgür Ö & Yaren K">🎃 & 🐘</p>
-                        <button type="button" onclick="hidehowto();" class="btn btn-dark btn-mor">Bu butonu gizle</button>
+                        <button type="button" onclick="hidehowto();" class="btn btn-dark buttonq">Bu butonu gizle</button>
                     </div>
                 </div>
             </div>
@@ -513,7 +512,7 @@ viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="
                 </div>
                 <div class="modal-footer">
                     <button type="button" onclick="draw();" class="btn btn-secondary float-start">Yeni Kart</button>
-                    <button type="button" onclick="unlock();" class="btn btn-dark btn-mor" data-bs-dismiss="modal">Hamburger!</button>
+                    <button type="button" onclick="unlock();" class="btn btn-dark buttonq" data-bs-dismiss="modal">Hamburger!</button>
                 </div>
             </div>
         </div>
@@ -794,12 +793,12 @@ Birisi Burger Shot atana kadar iç çamaşırını kıyafetinin üstüne giy.`
                 document.getElementById('modal-text-contain').innerText = getTruth();
             } else {
                 document.getElementById('modalcontentarea').style.backgroundColor = '#B1A2CA';
-                document.getElementById('exampleModalLabel').innerText = 'Yazanı Yap';
+                document.getElementById('exampleModalLabel').innerText = 'Cesur Ol';
                 document.getElementById('modal-text-contain').innerText = getCesaret();
             }
         } else {
             document.getElementById('modalcontentarea').style.backgroundColor = '#FF6D6A';
-            document.getElementById('exampleModalLabel').innerText = ":')";
+            document.getElementById('exampleModalLabel').innerText = "Ağlama";
             document.getElementById('modal-text-contain').innerText = getCeza();
         }
     }
