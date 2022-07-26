@@ -61,8 +61,8 @@
         justify-content: space-between;
         background-color: #33333333;
     }
-    #modal-text-contain {
-        min-height: 20rem;
+    .modal-body {
+        height: 20rem;
     }
     .buttonrow {
         position: fixed;
@@ -79,7 +79,6 @@
         .burgerrow { bottom: -40vh; }
     }
 </style>
-
 <body
     style="background-color:#111; height: 100vh; font-family: 'Montserrat', sans-serif; background-image: url('../assets/img/burgershotbg.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; backdrop-filter: grayscale(0.9) ; overflow-y: hidden;">
     <section class="container p-0 justify-content-center">
@@ -451,9 +450,10 @@ viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="
         <div id="kazandinele" class="buttonrow container m-0 p-0" style="display:none; text-align: center;">
             <h1>Hamburger Hazır!</h1>
         </div>
+    </section>
 
-        <!-- Modal -->
-        <div class="modal fade" id="howtoModal" tabindex="-1" aria-labelledby="howtoModalLabel" aria-hidden="true">
+    <!-- Modal -->
+    <div class="modal fade" id="howtoModal" tabindex="-1" aria-labelledby="howtoModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -496,8 +496,7 @@ viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+    </div>
 
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
