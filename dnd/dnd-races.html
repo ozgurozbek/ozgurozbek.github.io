@@ -12,14 +12,14 @@
   <title>D&D Races</title>
   <style>
     .w3-card-4 {
-      width: 35%;
-      background-image: url("../dnd/min_images/race_images/_bg.png");
+      width: 300px;
+      background-image: url("../dnd/min_images/race_images/race_bg.png");
       background-size: cover;
     }
 
     @media (max-width:1024px) {
       .w3-card-4 {
-        width: 50%
+        width: 500px
       }
     }
 
@@ -30,7 +30,27 @@
     }
 
     .w3-card-4>img {
-      transform: scaleX(-1)
+      transform: scaleX(-1);
+      width: 100%;
+      border-bottom: 2px solid black;
+    }
+
+    .w3-panel {
+      padding: 0;
+    }
+
+    .w3-tag {
+      position: relative;
+      margin: 0;
+      top: 10px;
+      right: 10px;
+      float: right;
+      border-radius: 5px;
+      width: 5rem;
+      display: inline;
+      background-color: #343544;
+      font-weight: 700;
+      box-shadow: 0px 0px 5px white;
     }
   </style>
   <!-- Google Fonts -->
@@ -61,30 +81,21 @@
         <h2 id="Races">Races</h2>
         <hr>
         <!-- Human -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
-            <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">PHB</span>
+            <div class="w3-card-4 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/human.png" alt="human">
               <div class="w3-container w3-center">
-                <p>Humans are the most adaptable and ambitious people among the common races. Whatever drives them,
-                  humans are the innovators, the achievers, and the pioneers of the worlds.</p>
+                <p>Humans are the most adaptable and ambitious people among the common races. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.</p>
               </div>
             </div>
             <h3>Human</h3>
-            <p>Humans were widespread, could be found in most regions and, in general, were fierce and disagreeable,
-              which could sometimes lead certain other races to view them with contempt. They were renowned for their
-              diversity and ambition, and although they lacked specialization, they could excel in many areas.</p>
-            <p>While there were no natural human subraces, planetouched subspecies of humans were found in the Realms.
-              These included the aasimars, genasi, and tieflings. There was also great ethnic diversity between humans
-              in different regions.</p>
-            <p>Humans bred outside their race many times, resulting in the various half-human races like half-elves and
-              half-orcs.</p>
-          </div>
+            <p>Humans were widespread, could be found in most regions and, in general, were fierce and disagreeable, which could sometimes lead certain other races to view them with contempt. They were renowned for their diversity and ambition, and although they lacked specialization, they could excel in many areas.</p>
+            <p>While there were no natural human subraces, planetouched subspecies of humans were found in the Realms. These included the aasimars, genasi, and tieflings. There was also great ethnic diversity between humans in different regions.</p>
+            <p>Humans bred outside their race many times, resulting in the various half-human races like half-elves and half-orcs.</p>
         </div>
 
         <!-- Elf -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">PHB</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/elf.png" alt="elf">
               <div class="w3-container w3-center">
@@ -97,13 +108,10 @@
             <p>Most elves dwell in small forest villages hidden among the trees. Elves hunt game, gather food, and grow vegetables, and their skill and magic allow them to support themselves without the need for clearing and plowing land. They are talented artisans, crafting finely worked clothes and art objects. Their contact with outsiders is usually limited.</p>
             <p>Elves take up adventuring out of wanderlust. Since they are so long-lived, they can enjoy centuries of exploration and discovery. They dislike the pace of human society, which is regimented from day to day but constantly changing over decades, so they find careers that let them travel freely and set their own pace.
             </p>
-          </div>
         </div>
 
-
         <!-- Half Elf -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">PHB</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/half-elf.png" alt="half elf">
               <div class="w3-container w3-center">
@@ -113,13 +121,10 @@
             <h3>Half-Elf</h3>
             <p>Half-elves inherit a blend of of physical traits from their human and elven ancestors, and they are typically good-looking. Elves consider half-elves to resemble humans and sometimes call them "half-humans", while humans consider them to resemble elves. Male half-elves are distinguished from their elven ancestors by the ability to grow facial hair. Half-elves can inherit facial features and hair, eye and skin color of either parent, though it is common for them to inherit their eyes from the elven parent.</p>
             <p>Half-elves are uncommon in most worlds, where humans and elves tend to live apart. Half-elves prefer the company of half-elves, but typically integrate into human societies and have no distinct kingdoms of their own. Many half-elves take up life as a wanderer, feeling that they do not truly fit into either human or elven culture, and often outliving human companions.</p>
-          </div>
         </div>
 
-
         <!-- Half Orc -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">PHB</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/half-orc.png" alt="half orc">
               <div class="w3-container w3-center">
@@ -130,14 +135,10 @@
             <p>Whether united under the leadership of a mighty warlock or having fought to a standstill after years of conflict, orc and human tribes sometimes form alliances, joining forces into a larger horde to the terror of civilized lands nearby. When these alliances are sealed by marriages, half-orcs are born. Half-orcs' grayish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and towering builds make their orcish heritage plain for all to see.</p>
             <p>The dark-red goddess Fexyiaf created the orcs, and even those orcs who turn away from her worship can't fully escape her influence. The same is true of half-orcs, though their human blood moderates the impact of their orcish heritage. Some half-orcs hear the whispers of Fexyiaf in their dreams, calling them to unleash the rage that simmers within them.</p>
             <p>Half-orcs most often live among orcs. Of the other races, humans are most likely to accept half-orcs, and half-orcs almost always live in human lands when not living among orc tribes.</p>
-          </div>
         </div>
 
-
-
         <!-- Halfling -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">PHB</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/halfling.png" alt="halfling">
               <div class="w3-container w3-center">
@@ -155,12 +156,10 @@
             <p>Most halflings, didn't live in communities of their own but instead regions dominated by other races. This was particularly true in human societies, which attracted halflings because of the comparative rapidity with which they changed. It should be noted that halflings usually found insults directed at them to be amusing rather than insulting.</p>
             <p>The halfling race had many traditional homelands, though as a whole the race was typically nomadic. Over time, Halflings became more displaced than before, though as a result they also came together in unity even more tightly than they were before. Though formerly met with prejudice, halflings earned acceptance through their skill as merchants and business partners even though they were around as the same time as dwarves, elves, and giants.</p>
             <p>The hin generally avoided realms where slavery was prevalent or those where exploitation of their kind was socially acceptable.</p>
-          </div>
         </div>
 
         <!-- Tiefling -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">PHB</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/tiefling.png" alt="tiefling">
               <div class="w3-container w3-center">
@@ -177,13 +176,11 @@
             <p>Like other races that were the result of the breeding of two or more others, tieflings had no true culture they could call their own. Regardless of their motivations, tieflings often distrusted one another, sometimes even casting the same preconceptions on one another that others did on them. In spite of this, many secretly desired to have another tiefling nearby, if only to experience some small kind of kinship. Animosity that tieflings had for others was taken to its extreme in the case of aasimar, whom tieflings instinctively feared or loathed.</p>
             <p>Those tieflings who were religious were a varied lot, since no god held more sway over tieflings than any other, though Pwazo, as the lord over the fiendish race of devils, may come close.</p>
             <p>Tieflings were not strictly carnivores. They consumed blood, blubber, bone, gristle and meat. They even roasted insects and considered raw bone marrow a delicacy.</p>
-          </div>
         </div>
 
 
         <!-- Gnome -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">PHB</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/gnome.png" alt="gnome">
               <div class="w3-container w3-center">
@@ -197,13 +194,11 @@
             <p>Curious and impulsive, gnomes might take up adventuring as a way to see the world or for the love of exploring. As lovers of gems and other fine items, some gnomes take to adventuring as a quick, if dangerous, path to wealth. It's rare for a gnome to be hostile or malicious unless he or she has suffered a grievous injury. Gnomes know that most races don't share their sense of humor, but they enjoy anyone's company just as they enjoy everything else they set out to do.</p>
             <p>Gnomes love names, and most have half a dozen or so. A gnome's mother, father, clan elder, aunts, and uncles each give the gnome a name, and various nicknames from just about everyone else might or might not stick over time. Gnome names are typically variants on the names of ancestors or distant relatives, though some are purely new inventions.</p>
             <p>They mate with their race, and usually believe in Wugw, Gaayjx, Megm, Veri, Uke and Lcaoc depending on their personality and society.</p>
-          </div>
         </div>
 
 
         <!-- Dwarf -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">PHB</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/dwarf.png" alt="dwarf">
               <div class="w3-container w3-center">
@@ -218,12 +213,10 @@
             <p>Individual dwarves are determined and loyal, true to their word and decisive in action, sometimes to the point of stubbornness. Many dwarves have a strong sense of justice, and they are slow to forget wrongs they have suffered. A wrong done to one dwarf is a wrong done to the dwarf's entire clan, so what begins as one dwarf's hunt for vengeance can become a full-blown clan feud.</p>
             <p>Dwarven kingdoms stretch deep beneath the mountains where the dwarves mine gems and precious metals and forge items of wonder. They love the beauty and artistry of precious metals and fine jewelry, and in some dwarves this love festers into avarice. Whatever wealth they can't find in their mountains, they gain through trade. They dislike boats, so enterprising humans and halflings frequently handle trade in dwarven goods along water routes. Trustworthy members of other races are welcome in dwarf settlements, though some areas are off limits even to them.</p>
             <p>Dwarves get along passably well with most other races. “The difference between an acquaintance and a friend is about a hundred years,” is a dwarf saying that might be hyperbole, but certainly points to how difficult it can be for a member of a short-lived race like humans to earn a dwarf's trust.</p>
-          </div>
         </div>
 
         <!-- Dragonborn -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">PHB</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/dragonborn.png" alt="dragonborn">
               <div class="w3-container w3-center">
@@ -237,12 +230,10 @@
             <p>Like dragons, dragonborn were often mistaken for reptiles, but were in fact warm-blooded draconic creatures. A rare, few individuals were born with tails, but this was seen as a deformity by the dragonborn.</p>
             <p>Unknown in heritage, they were either created by Ehx to serve other dragons or created from Ehx's spilled blood when it fell in the battle between gods. Many dragonborns believe in Ehx.</p>
             <p>They hatch from eggs and breed with other Dragonborns.</p>
-          </div>
         </div>
 
         <!-- Aarakocra -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/aarakocra.png" alt="aarakocra">
               <div class="w3-container w3-center">
@@ -256,13 +247,11 @@
             <p>Aarakocra enjoy peace and solitude. Most of them have little interest in dealing with other peoples and less interest in spending time on the ground. For this reason, it takes an exceptional circumstance for an aarakocra to leave his or her tribe and undertake the adventurer's life.</p>
             <p>They come from the Elemental Plane of Air and breed on a mating season with their race. An egg take about eight months to hatch and are incubated by females. This is the only exception that motivates them to land.</p>
             <p>Aarakocra names have two to four syllables, punctuated with whistles, trills, and clicks that are difficult for non-aarakocra to pronounce. When dealing with non-aarakocra, they sometimes shorten their names, or use nicknames others give them.</p>
-          </div>
         </div>
 
 
         <!-- Genasi -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">EEPC</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/air-genasi.png" alt="genasi">
               <div class="w3-container w3-center">
@@ -277,12 +266,10 @@
             <p>Unlike many planetouched races, genasi generally took pride in their unusual features. Furthermore, because of their elemental power, most genasi felt a sense of superiority over other races and even over other genasi.</p>
             <p>Genasi are created with a Magical Forge operated by Gods. Since Gods have left the forge alone, only Fire Genasis are seldomly able to survive the high heat. The child of an elemental creature with a human was a half-elemental. The child of a half-elemental and a human was a genasi. The child of a genasi and a human might show planetouched traits or purely human ones. Thus, overtime, the elemental bloodline was diluted until it was no longer obvious in most individuals. However, every few generations, a child might display his or her elemental heritage as a genasi. Para-genasi came about when a half-elemental of one type mated with an elemental creature of another type.</p>
             <p>Genasi artisans often saw their craft as a means of obtaining prestige. These individuals desired nothing more than to be in high demand and so worked hard to please their customer base. For this reason, many genasi often substituted actual excellence for customization and individuality and while the average genasi swordsmith might not compare with his dwarven counterpart in terms of quality, the genasi would work much harder to tailor the blade to his or her customer's specific needs and wants. This could go so far as to make genasi-crafted items seem uncomfortable or unwieldy in the hands of those for whom they were not intended.</p>
-          </div>
         </div>
 
         <!-- Goliath -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/goliath.png" alt="goliath">
               <div class="w3-container w3-center">
@@ -304,30 +291,23 @@
             <p>Goliaths were friendly to anyone who didn't threaten their tribe, but wouldn't wait around for travelers who couldn't keep up with them. Goliaths were particularly fond of dwarves and had great respect for dwarven blacksmiths. Some goliaths would even venture into mountain tunnels to seek out dwarves. Human rangers or druids were known to sometimes work together with goliath tribes in hunts. Both the humans and goliaths could mutually benefit from these temporary alliances. Goliaths often referred to earth genasi as their "cousins". The two races maintained a friendly rivalry. Elves were somewhat intimidating to goliaths, owing to their long lifespans. Goliaths often struggled with the idea that creatures existed that were old enough to have known their great-grandparents and ancestors. Although they had no particular hatred of goblins, orcs, or half-orcs, goliaths were wary of them. This was mostly due to the stories that they heard from passing travelers about the trouble they caused. Attitudes towards giants varied.</p>
             <p>Goliaths who ventured out of their tribes would often find issue with the class divisions found in other societies. Goliaths struggled with the idea that an incompetent king could rule over hard-working peasants. These opinions were often shared and goliaths would openly mock incapable leaders or rich nobleman who relied on social structures to maintain their power.</p>
             <p>It's unclear how old the goliath race was or where they originally came from, but it was commonly believed that they were somehow related to stone giants or earth genasi.</p>
-          </div>
         </div>
 
         <!-- Aasimar -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/aasimar.png" alt="aasimar">
               <div class="w3-container w3-center">
-                <p>Aasimar are placed in the world to serve as guardians of law and good. Their patrons expect them
-                  to
-                  strike
-                  at evil, lead by example, and further the cause of justice.</p>
+                <p>Aasimar are placed in the world to serve as guardians of law and good. Their patrons expect them to strike at evil, lead by example, and further the cause of justice.</p>
               </div>
             </div>
             <h3>Aasimar</h3>
             <p>Aasimars are descendants of celestial beings. They appear as glorious humans with lustrous hair, flawless skin and piercing eyes. They often attempt to pass as humans. Aasimars are celestial to humans as the opposite of tieflings as fiends to humans.</p>
             <p>Early aasimars, now long gone, have become either demigods or lost to time. Now, Aasimars only produce with humans and spawn aasimars.</p>
-          </div>
         </div>
 
         <!-- Shifter -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/shifter.png" alt="shifter">
               <div class="w3-container w3-center">
@@ -339,17 +319,14 @@
             <p>Shifters lived to about as long humans did on average. Shifters were commonly self-reliant and free-spirited. However, they were restrained in their actions by a fear that they might become lost in the savagery that dwelled in their blood. However, this feral predatory nature could be to the shifter's advantage, and they made excellent rangers or druids.</p>
             <p>Shifters were often feared wherever they went, much like their lycanthrope ancestors. This was due to a common misconception that all lycanthropes were invariably and irreversibly evil, including shifters. Instead, shifters preferred either a nomadic lifestyle or living close to the edges of society, supporting it as fishers, trackers, hunters, guides, or scouts.</p>
             <p>Shifters favored gods of nature, the moon, and primal strength. Just like lycanthropes, shifters could be found scattered throughout, but only a few gathered in larger communities.</p>
-          </div>
         </div>
 
         <!-- Warforged -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">ERftLW</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/warforged.png" alt="warforged">
               <div class="w3-container w3-center">
-                <p>Warforged are made from wood and metal, but they can feel pain and emotion. Built as weapons, they
-                  must now find a purpose beyond war.</p>
+                <p>Warforged are made from wood and metal, but they can feel pain and emotion. Built as weapons, they must now find a purpose beyond war.</p>
               </div>
             </div>
             <h3>Warforged</h3>
@@ -358,17 +335,14 @@
             <p>Warforged's artificial nature also meant they did not need to eat, drink, or breathe. Likewise, warforged did not need to sleep but did nonetheless require rest in a fully-aware state for a period of at least four hours.</p>
             <p>Warforged took their name from their original purpose, as soldiers, and many had a dutiful attitude towards life, taking pleasure from fulfilling commands. Warforged as a whole had a strong work ethic and shared an aversion to failure. Warforged were capable of fear, often of death or pain, as much as other races and could come to hate the sources of these fears just as easily. Warforged were also capable of loyalty and joy, particularly in relations to friends and allies and could be driven to anger when their loves or goals were threatened. However, warforged as a whole exhibited a simple-minded and reserved approach to life with straightforward goals and reactionary passions.</p>
             <p>Since warforged were created in a state of physical maturity, many exhibited a childlike perspective that was often mistaken as naïve or emotionally crippled; this was not necessarily true. Some warforged, in fact, developed a particularly sophisticated view of the world, ever curious about its mysteries in part due to the odd nature of their creation. Many wondered where they might go in death and if they even have souls. Some created deeply ordered philosophies to govern themselves or maintained a perpetual list of tasks to occupy themselves with. Others fell in with the religions and mindsets of other races. Some warforged even lived long enough to develop a deep and weathered personality as tempered by time as that of other races.</p>
-          </div>
         </div>
 
         <!-- Changeling -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/changeling.png" alt="changeling">
               <div class="w3-container w3-center">
-                <p>A changeling can shift its face and form with a thought as a form of artistic and emotional
-                  expression.</p>
+                <p>A changeling can shift its face and form with a thought as a form of artistic and emotional expression.</p>
               </div>
             </div>
             <h3>Changeling</h3>
@@ -376,33 +350,24 @@
             <p>Even though some are raised in stable communities, never knowing one like themselves, or some being raised in changeling clans, almost every changeling follow the unpredictable path of the traveller. Some Changelings conceal their true nature and never think twice while some embrace their nature. Having no culture of their own, changelings slip into other's societies and blend in.</p>
             <p>While changelings can look like anyone at any given time, they do have a true form. Their natural look can be scary to some due to their lack of detail and distinctive features. Their skin tone is always pale, either white or light gray, and they tend to have slender bodies with limbs slightly longer in proportion to other humanoids.</p>
             <p>Changelings have long been persecuted by other races, seen at best as tricksters and con-artists, at worst as thieves and assassins. Many people find it hard to trust changelings, and while their talents make them natural spies and criminals, in reality, a changeling is just as likely as any creature to turn to good or evil.</p>
-          </div>
         </div>
 
         <!-- Centaur -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/centaur.png" alt="centaur">
               <div class="w3-container w3-center">
-                <p>The upper bodies of centaurs are comparable to human torsos in size, and their lower equine bodies
-                  average
-                  about 4 feet tall at the withers. They fill similar roles as cavalry warriors, messengers,
-                  outriders,
-                  and scouts.</p>
+                <p>The upper bodies of centaurs are comparable to human torsos in size, and their lower equine bodies average about 4 feet tall at the withers. They fill similar roles as cavalry warriors, messengers, outriders, and scouts.</p>
               </div>
             </div>
             <h3>Centaur</h3>
             <p>Roamers at heart, they love open spaces and the freedom of travel. Their upper body is like of a human's, ears slightly pointed, face wider and squarer. Lower body resembles a horse with coats toward brown shades like chestnut or bay.</p>
             <p>They generally live in tribal hunter-gatherer societies. They have good relations with elves, as they are both creatures of the forest. Their relations with elves are mutual, mostly trading gold and treasure from the tribe's horde for items in large supply in elven communities. Elves are welcome in centaur territory, and typically share land. Centaurs generally despise humans and dwarves.</p>
-            <p>They come from a blessing upon some humans on the ancient era given by Cyaxo. They mostly believe in Cyaxo.
-            </p>
-          </div>
+            <p>They come from a blessing upon some humans on the ancient era given by Cyaxo. They mostly believe in Cyaxo.</p>
         </div>
 
         <!-- Loxodon -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">GGtR</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/loxodon.png" alt="loxodon">
               <div class="w3-container w3-center">
@@ -416,17 +381,14 @@
             <p>Despite their unwavering reliability, loxodons have elaborate measures of punishment for those who break the rules. First a ranking soldier or cleric dispenses a physical assault, overwhelming the violator with bodily pain; then a cleric or confessor hears the penitent's admission of guilt. This process works well among loxodons, ensuring a strict form of justice and guaranteeing consent on the Modest Truth, but other races often consider it barbaric or cruel.</p>
             <p>Loxodons resolve most problems with physical might, but when the need for spellcraft arises, their magic is direct, unambiguous, and crushingly forceful. Their wizards and clerics dispense justice unapologetically and with overwhelming power, scouring the plane of any who are deemed evil, summoning enormous avatars of law and retribution, resurrecting entire armies from the dead. What loxodons lack in trickery, they make up for in raw strength.</p>
             <p>The elephantine loxodons are tough as tanks, tireless as machines, and headstrong as boulders. They are irrepressibly confident, seeing almost every event in their lives either as positive or as a challenging opportunity to prove their mettle. The loxodons believe punishment comes in two steps: pain and atonement. They carry a weapon for each. Elder mystics take their vow of silence so seriously that they impose it on any who enter their presence.</p>
-          </div>
         </div>
 
         <!-- Minotaur -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/minotaur.png" alt="minotaur">
               <div class="w3-container w3-center">
-                <p>The minotaurs of Ravnica are strong in body, dedication, and courage. They are at home on the
-                  battlefield, willing to fight for their various causes..</p>
+                <p>The minotaurs of Ravnica are strong in body, dedication, and courage. They are at home on the battlefield, willing to fight for their various causes..</p>
               </div>
             </div>
             <h3>Minotaur</h3>
@@ -436,12 +398,10 @@
             <p>Minotaurs were not highly intelligent, but possessed instinctive cunning and were adept at ambush attacks. Attacks in the dark were preferred so they could take advantage of their infravision. Minotaurs could track by scent alone, and would always investigate an unfamiliar scent. Minotaurs were fearless combatants, and would only retreat if their defeat was obvious.</p>
             <p>Many minotaurs worshiped the Underworld Lord and his servants and were not allowed in many cities because of this known factor. Most moved toward the chaotic evil alignment, and did not work well in groups, packs, or even parties due to their solo hunter-like nature.</p>
             <p>Although rare and considered a barbaric people by the more civilized races, it is thought that at one time perhaps they may have been less so. A reasonably sized population can be found in the Underworld Plane of Nee.</p>
-          </div>
         </div>
 
         <!-- Simic Hybrid -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">GGtR</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/simic-hybrid.png" alt="Simic Hybrid">
               <div class="w3-container w3-center">
@@ -450,12 +410,10 @@
             </div>
             <h3>Simic Hybrid</h3>
             <p>The Simic Combine uses magic to fuse different life forms together. In recent years, the Simic Combine has extended this research to humanoid subjects, magically transferring the traits of various animals into humans, elves, and vedalken. The goal of the Guardian Project is to build a Simic army of soldiers perfectly adapted to a variety of combat situations. These hyper-evolved specimens are called Simic hybrids, though they sometimes refer to themselves as guardians.</p>
-          </div>
         </div>
 
         <!-- Vedalken -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">GGtR</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/vedalken.png" alt="vedalken">
               <div class="w3-container w3-center">
@@ -465,12 +423,10 @@
             <h3>Vedalken</h3>
             <p>Nothing is perfect. Vedalken not only believe this fact, they rejoice in it. Every imperfection is a chance for improvement, and progress is an endless march toward a state of perfection that can never be reached. This viewpoint leads vedalken to pursue their work with delighted enthusiasm, never deterred by setbacks and excited by every opportunity for improvement.</p>
             <p>Vedalken are tall and slender, standing almost a head taller than humans on average but weighing about the same. Their hairless skin comes in a range of shades of blue. Their eyes are darker shades of blue or violet. They lack external ears, their noses are broad and fiat, and they are partially amphibious.</p>
-          </div>
         </div>
 
         <!-- Kalashtar -->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">ERftLW</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/kalashtar.png" alt="kalashtar">
               <div class="w3-container w3-center">
@@ -478,12 +434,10 @@
               </div>
             </div>
             <h3>Kalashtar</h3>
-          </div>
         </div>
 
         <!--Wispling-->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">UA</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/wispling.png" alt="Wispling">
               <div class="w3-container w3-center">
@@ -492,11 +446,9 @@
               </div>
             </div>
             <h3>Wispling</h3>
-          </div>
         </div>
         <!--Leonin-->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MOoT</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/leonin.png" alt="Leonin">
               <div class="w3-container w3-center">
@@ -504,11 +456,9 @@
               </div>
             </div>
             <h3>Leonin</h3>
-          </div>
         </div>
         <!--Bugbear-->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/bugbear.png" alt="Bugbear">
               <div class="w3-container w3-center">
@@ -516,11 +466,9 @@
               </div>
             </div>
             <h3>Bugbear</h3>
-          </div>
         </div>
         <!--Firbolg-->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/firbolg.png" alt="Firbolg">
               <div class="w3-container w3-center">
@@ -528,11 +476,9 @@
               </div>
             </div>
             <h3>Firbolg</h3>
-          </div>
         </div>
         <!--Goblin-->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/goblin.png" alt="Goblin">
               <div class="w3-container w3-center">
@@ -540,11 +486,9 @@
               </div>
             </div>
             <h3>Goblin</h3>
-          </div>
         </div>
         <!--Triton-->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/triton.png" alt="Triton">
               <div class="w3-container w3-center">
@@ -552,11 +496,9 @@
               </div>
             </div>
             <h3>Triton</h3>
-          </div>
         </div>
         <!--Tabaxi-->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/tabaxi.png" alt="Tabaxi">
               <div class="w3-container w3-center">
@@ -564,11 +506,9 @@
               </div>
             </div>
             <h3>Tabaxi</h3>
-          </div>
         </div>
         <!--Orc-->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/orc.png" alt="Orc">
               <div class="w3-container w3-center">
@@ -576,11 +516,9 @@
               </div>
             </div>
             <h3>Orc</h3>
-          </div>
         </div>
         <!--Lizardfolk-->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/lizardfolk.png" alt="Lizardfolk">
               <div class="w3-container w3-center">
@@ -588,11 +526,9 @@
               </div>
             </div>
             <h3>Lizardfolk</h3>
-          </div>
         </div>
         <!--Kobold-->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/kobold.png" alt="Kobold">
               <div class="w3-container w3-center">
@@ -600,11 +536,9 @@
               </div>
             </div>
             <h3>Kobold</h3>
-          </div>
         </div>
         <!--Kenku-->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/kenku.png" alt="Kenku">
               <div class="w3-container w3-center">
@@ -612,11 +546,9 @@
               </div>
             </div>
             <h3>Kenku</h3>
-          </div>
         </div>
         <!--Hobgoblin-->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/hobgoblin.png" alt="Hobgoblin">
               <div class="w3-container w3-center">
@@ -624,11 +556,9 @@
               </div>
             </div>
             <h3>Hobgoblin</h3>
-          </div>
         </div>
         <!--Yuan-ti Pureblood-->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/yuan-ti.png" alt="Yuan-ti Pureblood">
               <div class="w3-container w3-center">
@@ -636,11 +566,9 @@
               </div>
             </div>
             <h3>Yuan-ti Pureblood</h3>
-          </div>
         </div>
         <!--Tortle-->
-        <div class="w3-container">
-          <div class="w3-margin-bottom">
+        <div class="w3-panel w3-margin-bottom"><span class="w3-tag">MotM</span>
             <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
               <img class="w3-image" src="../dnd/min_images/race_images/tortle.png" alt="Tortle">
               <div class="w3-container w3-center">
@@ -648,7 +576,6 @@
               </div>
             </div>
             <h3>Tortle</h3>
-          </div>
         </div>
         <!-- Unavailable -->
         <div>
