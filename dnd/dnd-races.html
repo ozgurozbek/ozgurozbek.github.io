@@ -10,7 +10,18 @@
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <script src="https://kit.fontawesome.com/611bc4e639.js"></script>
     <title>D&D Races</title>
-
+    <style>
+        
+        .w3-card-4 {width:35%; background-image: url("../dnd/min_images/race_images/_bg.png");  background-size: cover;}
+        @media (max-width:1024px) {
+            .w3-card-4 {width:50%;}
+}
+        @media (max-width:425px) {
+            .w3-card-4 {width:100%;}
+}
+        
+         .w3-card-4>img {transform: scaleX(-1);}
+    </style>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 </head>
@@ -34,37 +45,52 @@
             <h2 id="Races">Races</h2>
             <hr>
             <!-- Human -->
-            <div>
+           <div class="w3-container">
+            <div class="w3-margin-bottom">
+                <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                    <img class="w3-image" src="../dnd/min_images/race_images/human.png" alt="human">
+                    <div class="w3-container w3-center">
+                      <p>Humans are the most adaptable and ambitious people among the common races. Whatever drives them,
+                        humans are the innovators, the achievers, and the pioneers of the worlds.</p>
+                    </div>
+                </div>
                 <h3>Human</h3>
-                <p><b>Humans are the most adaptable and ambitious people among the common races. Whatever drives them,
-                        humans are the innovators, the achievers, and the pioneers of the worlds.</b></p>
-                <p>Humans were widespread, could be found in most regions and, in general, were fierce and disagreeable,
-                    which could sometimes lead certain other races to view them with contempt. They were renowned for
-                    their
-                    diversity and ambition, and although they lacked specialization, they could excel in many areas.</p>
-                <p>While there were no natural human subraces, planetouched subspecies of humans were found in the
-                    Realms.
-                    These included the aasimars, genasi, and tieflings. There was also great ethnic diversity between
-                    humans
-                    in
-                    different regions.</p>
-                <p>Humans bred outside their race many times, resulting in the various half-human races like half-elves
-                    and
-                    half-orcs.</p>
+            <p>Humans were widespread, could be found in most regions and, in general, were fierce and disagreeable,
+                which could sometimes lead certain other races to view them with contempt. They were renowned for
+                their
+                diversity and ambition, and although they lacked specialization, they could excel in many areas.</p>
+            <p>While there were no natural human subraces, planetouched subspecies of humans were found in the
+                Realms.
+                These included the aasimars, genasi, and tieflings. There was also great ethnic diversity between
+                humans
+                in
+                different regions.</p>
+            <p>Humans bred outside their race many times, resulting in the various half-human races like half-elves
+                and
+                half-orcs.</p>
             </div>
+           </div> 
+           
+
 
             <!-- Elf -->
-            <div>
-                <h3>Elf</h3>
-                <p><b>Elves are a magical people of otherworldly grace, living in places of ethereal beauty, in the
-                        midst of
-                        ancient forests or in silvery spires glittering with faerie light, where soft music drifts
-                        through
-                        the
-                        air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry,
-                        music
-                        and
-                        poetry.</b></p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/elf.png" alt="elf">
+                        <div class="w3-container w3-center">
+                          <p>Elves are a magical people of otherworldly grace, living in places of ethereal beauty, in the
+                            midst of
+                            ancient forests or in silvery spires glittering with faerie light, where soft music drifts
+                            through
+                            the
+                            air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry,
+                            music
+                            and
+                            poetry.</p>
+                        </div>
+                    </div>
+                    <h3>Elf</h3>
                 <p>With their unearthly grace and fine features, elves appear hauntingly beautiful to humans and members
                     of
                     many
@@ -98,14 +124,22 @@
                     constantly changing over decades, so they find careers that let them travel freely and set their own
                     pace.
                 </p>
-            </div>
+                </div>
+               </div> 
+
 
             <!-- Half Elf -->
-            <div>
-                <h3>Half-Elf</h3>
-                <p><b>Half-elves combine what some say are the best qualities of their elf and human parents. They are
-                        the
-                        offspring of humans and elves.</b></p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/half-elf.png" alt="half elf">
+                        <div class="w3-container w3-center">
+                          <p>Half-elves combine what some say are the best qualities of their elf and human parents. They are
+                            the
+                            offspring of humans and elves.</p>
+                        </div>
+                    </div>
+                    <h3>Half-Elf</h3>
                 <p>Half-elves inherit a blend of of physical traits from their human and elven ancestors, and they are
                     typically
                     good-looking. Elves consider half-elves to resemble humans and sometimes call them "half-humans",
@@ -123,14 +157,22 @@
                     own. Many half-elves take up life as a wanderer, feeling that they do not truly fit into either
                     human or
                     elven culture, and often outliving human companions.</p>
-            </div>
+                </div>
+               </div>
+            
 
             <!-- Half Orc -->
-            <div>
-                <h3>Half-Orc</h3>
-                <p><b>Half-orcs’ grayish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and towering
-                        builds
-                        make their orcish heritage plain for all to see.</b></p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/half-orc.png" alt="half orc">
+                        <div class="w3-container w3-center">
+                          <p>Half-orcs’ grayish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and towering
+                            builds
+                            make their orcish heritage plain for all to see.</p>
+                        </div>
+                    </div>
+                    <h3>Half-Orc</h3>
                 <p>Whether united under the leadership of a mighty warlock or having fought to a standstill after years
                     of conflict, orc and human tribes sometimes form alliances, joining forces into a larger horde to
                     the terror of civilized lands nearby. When these alliances are sealed by marriages, half-orcs are
@@ -142,53 +184,85 @@
                     calling them to unleash the rage that simmers within them.</p>
                 <p>Half-orcs most often live among orcs. Of the other races, humans are most likely to accept half-orcs,
                     and half-orcs almost always live in human lands when not living among orc tribes.</p>
-            </div>
+                </div>
+               </div>
+            
+
 
             <!-- Halfling -->
-            <div>
-                <h3>Halfling</h3>
-                <p><b>The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense.</b></p>
-                <p>Known as Hin amongst themselves or the "good folk", the "quick folk" and the "sly folk" amongst other races were humanoid creatures similar in shape to humans –whom halflings called the "Big Folk", or "Manyhanded" – but around half their size. Halflings got along well with most of the other races and were known for their curiosity and tendency to collect things.</p>
-                <p>Standing somewhere around 81‒100 cm tall and weighing on average between 15kg, halflings are small compared to most other races. Most halflings had dark hair and eyes and nearly all male halflings were incapable of growing true beards, though many had long sideburns.</p>
-                <p>Halflings were by nature joyful and friendly in their dealings with others. Halflings appeared deceptively harmless, meaning they were often beyond the notice of enemies that might otherwise pose a threat to them. The halfling mind was practical and halflings concerned themselves with their immediate surroundings. They took pleasure in simple things, with few aspiring to greatness in the same manner as humans.</p>
-                <p>While many halflings did not have the ambition for adventure that some races did, most preferred trouble to boredom. Unfortunately, the small size of halflings have an effect on their abilities. Halflings were, for instance, incapable of wielding larger weapons like greatswords or halberds.</p>
-                <p>Halfling communities were tightly knit groups found around the world, usually near the settlements of other races. Most halflings didn't recognize the claims of kings or nobles as sovereign rulers but instead looked primarily to their family elders to guide them. Halflings also valued a sense of community; halflings naming each other "halfling" was a salute of brotherhood.</p>
-                <p>Halfling culture had a fondness for stories and legends and was rich in the oral tradition. So much care was put into the retelling of traditional stories and their preservation that halflings often unwittingly had access to lore about ancient and long-gone cultures or empires that others had long since forgotten about.</p>
-                <p>Most halflings, didn't live in communities of their own but instead regions dominated by other races. This was particularly true in human societies, which attracted halflings because of the comparative rapidity with which they changed. It should be noted that halflings usually found insults directed at them to be amusing rather than insulting.</p>
-                <p>The halfling race had many traditional homelands, though as a whole the race was typically nomadic. Over time, Halflings became more displaced than before, though as a result they also came together in unity even more tightly than they were before. Though formerly met with prejudice, halflings earned acceptance through their skill as merchants and business partners even though they were around as the same time as dwarves, elves, and giants.</p>
-                <p>The hin generally avoided realms where slavery was prevalent or those where exploitation of their kind was socially acceptable.</p>
-            </div>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/halfling.png" alt="halfling">
+                        <div class="w3-container w3-center">
+                          <p>The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense.</p>
+                        </div>
+                    </div>
+                    <h3>Halfling</h3>
+                    <p>Known as Hin amongst themselves or the "good folk", the "quick folk" and the "sly folk" amongst other races were humanoid creatures similar in shape to humans –whom halflings called the "Big Folk", or "Manyhanded" – but around half their size. Halflings got along well with most of the other races and were known for their curiosity and tendency to collect things.</p>
+                    <p>Standing somewhere around 81‒100 cm tall and weighing on average between 15kg, halflings are small compared to most other races. Most halflings had dark hair and eyes and nearly all male halflings were incapable of growing true beards, though many had long sideburns.</p>
+                    <p>Halflings were by nature joyful and friendly in their dealings with others. Halflings appeared deceptively harmless, meaning they were often beyond the notice of enemies that might otherwise pose a threat to them. The halfling mind was practical and halflings concerned themselves with their immediate surroundings. They took pleasure in simple things, with few aspiring to greatness in the same manner as humans.</p>
+                    <p>While many halflings did not have the ambition for adventure that some races did, most preferred trouble to boredom. Unfortunately, the small size of halflings have an effect on their abilities. Halflings were, for instance, incapable of wielding larger weapons like greatswords or halberds.</p>
+                    <p>Halfling communities were tightly knit groups found around the world, usually near the settlements of other races. Most halflings didn't recognize the claims of kings or nobles as sovereign rulers but instead looked primarily to their family elders to guide them. Halflings also valued a sense of community; halflings naming each other "halfling" was a salute of brotherhood.</p>
+                    <p>Halfling culture had a fondness for stories and legends and was rich in the oral tradition. So much care was put into the retelling of traditional stories and their preservation that halflings often unwittingly had access to lore about ancient and long-gone cultures or empires that others had long since forgotten about.</p>
+                    <p>Most halflings, didn't live in communities of their own but instead regions dominated by other races. This was particularly true in human societies, which attracted halflings because of the comparative rapidity with which they changed. It should be noted that halflings usually found insults directed at them to be amusing rather than insulting.</p>
+                    <p>The halfling race had many traditional homelands, though as a whole the race was typically nomadic. Over time, Halflings became more displaced than before, though as a result they also came together in unity even more tightly than they were before. Though formerly met with prejudice, halflings earned acceptance through their skill as merchants and business partners even though they were around as the same time as dwarves, elves, and giants.</p>
+                    <p>The hin generally avoided realms where slavery was prevalent or those where exploitation of their kind was socially acceptable.</p>
+                </div>
+               </div>
 
             <!-- Tiefling -->
-            <div>
-                <h3>Tiefling</h3>
-                <p><b>To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling.</b></p>
-                <p>Tieflings were human-based planetouched, native outsiders that were infused with the touch of the fiendish planes, most often through descent from fiends, demons, Yugoloths, devils, evil deities, and others who had bred with humans. Although their evil ancestors could be many generations removed, the taint lingered. The celestial counterparts of tieflings were called aasimar.</p>
-                <p>Tieflings tended to have an unsettling air about them, and most people were uncomfortable around them, whether they were aware of the tiefling's unsavory ancestry or not. While some looked like normal humans, most retained physical characteristics derived from their ancestor, with the most common such features being horns, prehensile tails, and pointed teeth. Some tieflings also had eyes that were solid orbs of black, red, white, silver, or gold, while others had eyes more similar to those of humans. Tieflings who had strikingly inhuman features were often killed at birth by their horrified parents or others.</p>
-                <p>Some tieflings were not descended from mere fiends at all, but from powerful gods. These tieflings often had their own physical characteristics that set them apart. Many centuries ago, Tieflings sired by Uke, for instance, often had antlers instead of horns and pale, white hair.</p>
-                <p>Most tieflings were aware from an early age that they were different from others around them, and were given to strange urges and desires because of their unusual ancestry. Few tieflings were raised with the love a normal human child might expect to receive and this shaped most of the race into bitter individuals who expected eventual rejection from all whom they meet. While some would follow this path towards evil, others rejected it wholeheartedly and sought to make a good impact on the world around them, sometimes becoming the most heroic characters of all. Few could maintain this discipline however, and most tieflings fell somewhere between both extremes. Because tieflings were generally distrusted throughout the world, owing to their fiendish heritage, many were themselves distrusting and self-reliant.</p>
-                <p>Tieflings were talented warriors. In melee combat they were agile and quick on their feet. They preferred to use weapons that combined sharpness with speed. Those tieflings who sought power through arcane magic were most often warlocks. Tiefling arcane spellcasters of all kinds, however, felt a draw towards the fiendish energies of the planes and tiefling wizards commonly specialized as diviners for the purposes of seeking knowledge of the Lower Planes or as conjurers so that they might summon the dark spirits whom they called kin.</p>
-                <p>Like other races that were the result of the breeding of two or more others, tieflings had no true culture they could call their own. Regardless of their motivations, tieflings often distrusted one another, sometimes even casting the same preconceptions on one another that others did on them. In spite of this, many secretly desired to have another tiefling nearby, if only to experience some small kind of kinship. Animosity that tieflings had for others was taken to its extreme in the case of aasimar, whom tieflings instinctively feared or loathed.</p>
-                <p>Those tieflings who were religious were a varied lot, since no god held more sway over tieflings than any other, though Pwazo, as the lord over the fiendish race of devils, may come close.</p>
-                <p>Tieflings were not strictly carnivores. They consumed blood, blubber, bone, gristle and meat. They even roasted insects and considered raw bone marrow a delicacy.</p>
-            </div>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/tiefling.png" alt="tiefling">
+                        <div class="w3-container w3-center">
+                          <p>To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling.</p>
+                        </div>
+                    </div>
+                    <h3>Tiefling</h3>
+                    <p>Tieflings were human-based planetouched, native outsiders that were infused with the touch of the fiendish planes, most often through descent from fiends, demons, Yugoloths, devils, evil deities, and others who had bred with humans. Although their evil ancestors could be many generations removed, the taint lingered. The celestial counterparts of tieflings were called aasimar.</p>
+                    <p>Tieflings tended to have an unsettling air about them, and most people were uncomfortable around them, whether they were aware of the tiefling's unsavory ancestry or not. While some looked like normal humans, most retained physical characteristics derived from their ancestor, with the most common such features being horns, prehensile tails, and pointed teeth. Some tieflings also had eyes that were solid orbs of black, red, white, silver, or gold, while others had eyes more similar to those of humans. Tieflings who had strikingly inhuman features were often killed at birth by their horrified parents or others.</p>
+                    <p>Some tieflings were not descended from mere fiends at all, but from powerful gods. These tieflings often had their own physical characteristics that set them apart. Many centuries ago, Tieflings sired by Uke, for instance, often had antlers instead of horns and pale, white hair.</p>
+                    <p>Most tieflings were aware from an early age that they were different from others around them, and were given to strange urges and desires because of their unusual ancestry. Few tieflings were raised with the love a normal human child might expect to receive and this shaped most of the race into bitter individuals who expected eventual rejection from all whom they meet. While some would follow this path towards evil, others rejected it wholeheartedly and sought to make a good impact on the world around them, sometimes becoming the most heroic characters of all. Few could maintain this discipline however, and most tieflings fell somewhere between both extremes. Because tieflings were generally distrusted throughout the world, owing to their fiendish heritage, many were themselves distrusting and self-reliant.</p>
+                    <p>Tieflings were talented warriors. In melee combat they were agile and quick on their feet. They preferred to use weapons that combined sharpness with speed. Those tieflings who sought power through arcane magic were most often warlocks. Tiefling arcane spellcasters of all kinds, however, felt a draw towards the fiendish energies of the planes and tiefling wizards commonly specialized as diviners for the purposes of seeking knowledge of the Lower Planes or as conjurers so that they might summon the dark spirits whom they called kin.</p>
+                    <p>Like other races that were the result of the breeding of two or more others, tieflings had no true culture they could call their own. Regardless of their motivations, tieflings often distrusted one another, sometimes even casting the same preconceptions on one another that others did on them. In spite of this, many secretly desired to have another tiefling nearby, if only to experience some small kind of kinship. Animosity that tieflings had for others was taken to its extreme in the case of aasimar, whom tieflings instinctively feared or loathed.</p>
+                    <p>Those tieflings who were religious were a varied lot, since no god held more sway over tieflings than any other, though Pwazo, as the lord over the fiendish race of devils, may come close.</p>
+                    <p>Tieflings were not strictly carnivores. They consumed blood, blubber, bone, gristle and meat. They even roasted insects and considered raw bone marrow a delicacy.</p>
+                </div>
+               </div>
+
 
             <!-- Gnome -->
-            <div>
-                <h3>Gnome</h3>
-                <p><b>A gnome’s energy and enthusiasm for living shines through every inch of his or her tiny body.</b></p>
-                <p>Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play. A gnome’s energy and enthusiasm for living shines through every inch of his or her tiny body. Gnomes average slightly over 120cm tall and weigh 20kgs. Their tan or brown faces are usually adorned with broad smiles, beneath their prodigious noses, and their bright eyes shine with excitement. Their fair hair has a tendency to stick out in every direction, as if expressing the gnome’s insatiable interest in everything around. As far as gnomes are concerned, being alive is a wonderful thing, and they squeeze every ounce of enjoyment out of their three to five centuries of life.</p>
-                <p>Though gnomes love jokes of all kinds, particularly puns and pranks, they’re just as dedicated to the more serious tasks they undertake. Many gnomes are skilled engineers, alchemists, tinkers, and inventors. They’re willing to make mistakes and laugh at themselves in the process of perfecting what they do. Gnomes speak as if they can’t get the thoughts out of their heads fast enough. Even as they offer ideas and opinions on a range of subjects, they still manage to listen carefully to others, adding the appropriate exclamations of surprise and appreciation along the way.</p>
-                <p>Gnomes make their homes in hilly, wooded lands. They live underground but get more fresh air than dwarves do, enjoying the natural, living world on the surface whenever they can. Their homes are well hidden by both clever construction and simple illusions. Gnomes who settle in human lands are commonly gemcutters, engineers, sages, or tinkers. Some human families retain gnome tutors, ensuring that their pupils enjoy a mix of serious learning and delighted enjoyment. A gnome might tutor several generations of a single human family over the course of his or her long life.</p>
-                <p>Curious and impulsive, gnomes might take up adventuring as a way to see the world or for the love of exploring. As lovers of gems and other fine items, some gnomes take to adventuring as a quick, if dangerous, path to wealth. It’s rare for a gnome to be hostile or malicious unless he or she has suffered a grievous injury. Gnomes know that most races don’t share their sense of humor, but they enjoy anyone’s company just as they enjoy everything else they set out to do.</p>
-                <p>Gnomes love names, and most have half a dozen or so. A gnome’s mother, father, clan elder, aunts, and uncles each give the gnome a name, and various nicknames from just about everyone else might or might not stick over time. Gnome names are typically variants on the names of ancestors or distant relatives, though some are purely new inventions.</p>
-                <p>They mate with their race, and usually believe in Wugw, Gaayjx, Megm, Veri, Uke and Lcaoc depending on their personality and society.</p>
-            </div>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/gnome.png" alt="gnome">
+                        <div class="w3-container w3-center">
+                          <p>A gnome’s energy and enthusiasm for living shines through every inch of his or her tiny body.</p>
+                        </div>
+                    </div>
+                    <h3>Gnome</h3>
+                    <p>Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play. A gnome’s energy and enthusiasm for living shines through every inch of his or her tiny body. Gnomes average slightly over 120cm tall and weigh 20kgs. Their tan or brown faces are usually adorned with broad smiles, beneath their prodigious noses, and their bright eyes shine with excitement. Their fair hair has a tendency to stick out in every direction, as if expressing the gnome’s insatiable interest in everything around. As far as gnomes are concerned, being alive is a wonderful thing, and they squeeze every ounce of enjoyment out of their three to five centuries of life.</p>
+                    <p>Though gnomes love jokes of all kinds, particularly puns and pranks, they’re just as dedicated to the more serious tasks they undertake. Many gnomes are skilled engineers, alchemists, tinkers, and inventors. They’re willing to make mistakes and laugh at themselves in the process of perfecting what they do. Gnomes speak as if they can’t get the thoughts out of their heads fast enough. Even as they offer ideas and opinions on a range of subjects, they still manage to listen carefully to others, adding the appropriate exclamations of surprise and appreciation along the way.</p>
+                    <p>Gnomes make their homes in hilly, wooded lands. They live underground but get more fresh air than dwarves do, enjoying the natural, living world on the surface whenever they can. Their homes are well hidden by both clever construction and simple illusions. Gnomes who settle in human lands are commonly gemcutters, engineers, sages, or tinkers. Some human families retain gnome tutors, ensuring that their pupils enjoy a mix of serious learning and delighted enjoyment. A gnome might tutor several generations of a single human family over the course of his or her long life.</p>
+                    <p>Curious and impulsive, gnomes might take up adventuring as a way to see the world or for the love of exploring. As lovers of gems and other fine items, some gnomes take to adventuring as a quick, if dangerous, path to wealth. It’s rare for a gnome to be hostile or malicious unless he or she has suffered a grievous injury. Gnomes know that most races don’t share their sense of humor, but they enjoy anyone’s company just as they enjoy everything else they set out to do.</p>
+                    <p>Gnomes love names, and most have half a dozen or so. A gnome’s mother, father, clan elder, aunts, and uncles each give the gnome a name, and various nicknames from just about everyone else might or might not stick over time. Gnome names are typically variants on the names of ancestors or distant relatives, though some are purely new inventions.</p>
+                    <p>They mate with their race, and usually believe in Wugw, Gaayjx, Megm, Veri, Uke and Lcaoc depending on their personality and society.</p>
+                </div>
+               </div>
+
 
             <!-- Dwarf -->
-            <div>
-                <h3>Dwarf</h3>
-                <p><b>Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal.</b></p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/dwarf.png" alt="dwarf">
+                        <div class="w3-container w3-center">
+                          <p>Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal.</p>
+                        </div>
+                    </div>
+                    <h3>Dwarf</h3>
                 <p>Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs... These common threads unite all dwarves.</p>
                 <p>Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Even though they are short, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller. Their courage and endurance are also easily a match for any of the larger folk.</p>
                 <p>Dwarves can live to be more than 400 years old, so the oldest living dwarves often remember a very different world. This longevity grants them a perspective on the world that shorter-lived races such as humans and halflings lack.</p>
@@ -197,147 +271,172 @@
                 <p>Dwarven kingdoms stretch deep beneath the mountains where the dwarves mine gems and precious metals and forge items of wonder. They love the beauty and artistry of precious metals and fine jewelry, and in some dwarves this love festers into avarice. Whatever wealth they can’t find in their mountains, they gain through trade. They dislike boats, so enterprising humans and halflings frequently handle trade in dwarven goods along water routes. Trustworthy members of other races are welcome in dwarf settlements, though some areas are off limits even to them.</p>
                 <p>Dwarves get along passably well with most other races. “The difference between an acquaintance and a friend is about a hundred years,” is a dwarf saying that might be hyperbole, but certainly points to how difficult it can be for a member of a short-lived race like humans to earn a dwarf’s trust.</p>
             </div>
+            </div>
 
             <!-- Dragonborn -->
-            <div>
-                <h3>Dragonborn</h3>
-                <p><b>Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or
-                        a
-                        tail.</b></p>
-                <p>They were one of the races native to an Elemental Plane, which then moved to Inner Planes. </p>
-                <p>Dragonborn exhibited many draconic features, including a scaly hide, a large muscular body, the
-                    capacity to use a breath weapon, and resistance to the same elemental energy they can breathe, thanks to their
-                    draconic heritage. Because of thousands of years of interbreeding, the scales a dragonborn wore were scarlet,
-                    gold, rust, ochre, bronze, or brown in hue, though a few dragonborn with an stronger draconic heritage had
-                    scales resembling those of true dragons. They live to be around 80.</p>
-                <p>Like dragons, dragonborn were often mistaken for reptiles, but were in fact warm-blooded draconic
-                    creatures.
-                    A rare, few individuals were born with tails, but this was seen as a deformity by the dragonborn.
-                </p>
-                <p>Unknown in heritage, they were either created by Ehx to serve other dragons or created from Ehx's
-                    spilled
-                    blood when it fell in the battle between gods. Many dragonborns believe in Ehx.</p>
-                <p>They hatch from eggs and breed with other Dragonborns.</p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/dragonborn.png" alt="dragonborn">
+                        <div class="w3-container w3-center">
+                          <p>Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail.</p>
+                        </div>
+                    </div>
+                    <h3>Dragonborn</h3>
+                    <p>They were one of the races native to an Elemental Plane, which then moved to Inner Planes. </p>
+                    <p>Dragonborn exhibited many draconic features, including a scaly hide, a large muscular body, the
+                        capacity to use a breath weapon, and resistance to the same elemental energy they can breathe, thanks to their
+                        draconic heritage. Because of thousands of years of interbreeding, the scales a dragonborn wore were scarlet,
+                        gold, rust, ochre, bronze, or brown in hue, though a few dragonborn with an stronger draconic heritage had
+                        scales resembling those of true dragons. They live to be around 80.</p>
+                    <p>Like dragons, dragonborn were often mistaken for reptiles, but were in fact warm-blooded draconic
+                        creatures.
+                        A rare, few individuals were born with tails, but this was seen as a deformity by the dragonborn.
+                    </p>
+                    <p>Unknown in heritage, they were either created by Ehx to serve other dragons or created from Ehx's
+                        spilled
+                        blood when it fell in the battle between gods. Many dragonborns believe in Ehx.</p>
+                    <p>They hatch from eggs and breed with other Dragonborns.</p></div>
             </div>
 
             <!-- Aarakocra -->
-            <div>
-                <h3>Aarakocra</h3>
-                <p><b>Sequestered in high mountains atop tall trees, the aarakocra, sometimes called birdfolk, evoke
-                        fear
-                        and wonder.</b></p>
-                <p>From below, aarakocra look much like large birds. Only when they descend to roost on a branch or walk
-                    across
-                    the ground does their humanoid appearance reveal itself. Feathers cover their bodies. Their plumage
-                    typically denotes membership in a tribe. Males are brightly colored, with feathers of red, orange,
-                    or
-                    yellow. Females have more subdued colors, usually brown or gray. Their heads complete the avian
-                    appearance,
-                    being something like a parrot or eagle with distinct tribal variations.</p>
-                <p>Nowhere are the aarakocra more comfortable than in the sky. They can spend hours in the air, and some
-                    go
-                    as
-                    long as days, locking their wings in place and letting the thermals hold them aloft. In battle, they
-                    prove
-                    dynamic and acrobatic fliers, moving with remarkable speed and grace, diving to lash opponents with
-                    weapons
-                    or talons before turning and flying away.</p>
-                <p>Once airborne, an aarakocra leaves the sky with reluctance. On their native plane, they can fly for
-                    days
-                    or
-                    months, landing only to lay their eggs and feed their young before launching themselves back into
-                    the
-                    air.
-                    Those that make it to a world in the Material Plane find it a strange place. They sometimes forget
-                    or
-                    ignore
-                    vertical distances, and they have nothing but pity for those earthbound people forced to live and
-                    toil
-                    on
-                    the ground.</p>
-                <p>Aarakocra enjoy peace and solitude. Most of them have little interest in dealing with other peoples
-                    and
-                    less
-                    interest in spending time on the ground. For this reason, it takes an exceptional circumstance for
-                    an
-                    aarakocra to leave his or her tribe and undertake the adventurer’s life.</p>
-                <p>They come from the Elemental Plane of Air and breed on a mating season with their race. An egg take
-                    about
-                    eight months to hatch and are incubated by females. This is the only exception that motivates them
-                    to
-                    land.
-                </p>
-                <p>Aarakocra names have two to four syllables, punctuated with whistles, trills, and clicks that are
-                    difficult
-                    for non-aarakocra to pronounce. When dealing with non-aarakocra, they sometimes shorten their names,
-                    or
-                    use
-                    nicknames others give them.</p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/aarakocra.png" alt="aarakocra">
+                        <div class="w3-container w3-center">
+                          <p>Sequestered in high mountains atop tall trees, the aarakocra, sometimes called birdfolk, evoke
+                            fear
+                            and wonder.</p>
+                        </div>
+                    </div>
+                    <h3>Aarakocra</h3>
+                    <p>From below, aarakocra look much like large birds. Only when they descend to roost on a branch or walk
+                        across
+                        the ground does their humanoid appearance reveal itself. Feathers cover their bodies. Their plumage
+                        typically denotes membership in a tribe. Males are brightly colored, with feathers of red, orange,
+                        or
+                        yellow. Females have more subdued colors, usually brown or gray. Their heads complete the avian
+                        appearance,
+                        being something like a parrot or eagle with distinct tribal variations.</p>
+                    <p>Nowhere are the aarakocra more comfortable than in the sky. They can spend hours in the air, and some
+                        go
+                        as
+                        long as days, locking their wings in place and letting the thermals hold them aloft. In battle, they
+                        prove
+                        dynamic and acrobatic fliers, moving with remarkable speed and grace, diving to lash opponents with
+                        weapons
+                        or talons before turning and flying away.</p>
+                    <p>Once airborne, an aarakocra leaves the sky with reluctance. On their native plane, they can fly for
+                        days
+                        or
+                        months, landing only to lay their eggs and feed their young before launching themselves back into
+                        the
+                        air.
+                        Those that make it to a world in the Material Plane find it a strange place. They sometimes forget
+                        or
+                        ignore
+                        vertical distances, and they have nothing but pity for those earthbound people forced to live and
+                        toil
+                        on
+                        the ground.</p>
+                    <p>Aarakocra enjoy peace and solitude. Most of them have little interest in dealing with other peoples
+                        and
+                        less
+                        interest in spending time on the ground. For this reason, it takes an exceptional circumstance for
+                        an
+                        aarakocra to leave his or her tribe and undertake the adventurer’s life.</p>
+                    <p>They come from the Elemental Plane of Air and breed on a mating season with their race. An egg take
+                        about
+                        eight months to hatch and are incubated by females. This is the only exception that motivates them
+                        to
+                        land.
+                    </p>
+                    <p>Aarakocra names have two to four syllables, punctuated with whistles, trills, and clicks that are
+                        difficult
+                        for non-aarakocra to pronounce. When dealing with non-aarakocra, they sometimes shorten their names,
+                        or
+                        use
+                        nicknames others give them.</p>
             </div>
+        </div>
+            
 
             <!-- Genasi -->
-            <div>
-                <h3>Genasi</h3>
-                <p><b>Genasi carry the power of the elemental planes of air, earth, fire, and water in their blood.</b>
-                </p>
-                <p>They are planetouched humans and technically speaking are not a race but a general classification of
-                    humans
-                    with a link to an elemental plane, usually by a Genie.</p>
-                <p>Each of the four fundamental elements had associated genasi, so the most common genasi were air
-                    genasi,
-                    earth
-                    genasi, fire genasi, and water genasi. Para-genasi were genasi who expressed a bloodline of two
-                    elements.
-                    These included the dust para-genasi, ice para-genasi, magma para-genasi, ooze para-genasi, smoke
-                    para-genasi, steam para-genasi, among other possibilities. Para-genasi were even rarer than the four
-                    standard genasi.</p>
-                <p>No two genasi were alike in appearance. Some could pass as normal humans, bearing the marks of their
-                    human
-                    ethnicity. For others, their elemental nature was impossible to hide. Their heritage was nearly
-                    always
-                    evident in one or two physical traits, such as skin or hair color or an elemental aura.</p>
-                <p>A rare few genasi could control two elemental manifestations simultaneously. These powerful entities
-                    were
-                    known as elemental tempests.</p>
-                <p>Unlike many planetouched races, genasi generally took pride in their unusual features. Furthermore,
-                    because
-                    of their elemental power, most genasi felt a sense of superiority over other races and even over
-                    other
-                    genasi.</p>
-                <p>Genasi are created with a Magical Forge operated by Gods. Since Gods have left the forge alone, only
-                    Fire
-                    Genasis are seldomly able to survive the high heat. The child of an elemental creature with a human
-                    was
-                    a
-                    half-elemental. The child of a half-elemental and a human was a genasi. The child of a genasi and a
-                    human
-                    might show planetouched traits or purely human ones. Thus, overtime, the elemental bloodline was
-                    diluted
-                    until it was no longer obvious in most individuals. However, every few generations, a child might
-                    display
-                    his or her elemental heritage as a genasi. Para-genasi came about when a half-elemental of one type
-                    mated
-                    with an elemental creature of another type.</p>
-                <p>Genasi artisans often saw their craft as a means of obtaining prestige. These individuals desired
-                    nothing
-                    more than to be in high demand and so worked hard to please their customer base. For this reason,
-                    many
-                    genasi often substituted actual excellence for customization and individuality and while the average
-                    genasi
-                    swordsmith might not compare with his dwarven counterpart in terms of quality, the genasi would work
-                    much
-                    harder to tailor the blade to his or her customer's specific needs and wants. This could go so far
-                    as to
-                    make genasi-crafted items seem uncomfortable or unwieldy in the hands of those for whom they were
-                    not
-                    intended.</p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/air-genasi.png" alt="genasi">
+                        <div class="w3-container w3-center">
+                          <p>Genasi carry the power of the elemental planes of air, earth, fire, and water in their blood.</p>
+                        </div>
+                    </div>
+                    <h3>Genasi</h3>
+                    <p>They are planetouched humans and technically speaking are not a race but a general classification of
+                        humans
+                        with a link to an elemental plane, usually by a Genie.</p>
+                    <p>Each of the four fundamental elements had associated genasi, so the most common genasi were air
+                        genasi,
+                        earth
+                        genasi, fire genasi, and water genasi. Para-genasi were genasi who expressed a bloodline of two
+                        elements.
+                        These included the dust para-genasi, ice para-genasi, magma para-genasi, ooze para-genasi, smoke
+                        para-genasi, steam para-genasi, among other possibilities. Para-genasi were even rarer than the four
+                        standard genasi.</p>
+                    <p>No two genasi were alike in appearance. Some could pass as normal humans, bearing the marks of their
+                        human
+                        ethnicity. For others, their elemental nature was impossible to hide. Their heritage was nearly
+                        always
+                        evident in one or two physical traits, such as skin or hair color or an elemental aura.</p>
+                    <p>A rare few genasi could control two elemental manifestations simultaneously. These powerful entities
+                        were
+                        known as elemental tempests.</p>
+                    <p>Unlike many planetouched races, genasi generally took pride in their unusual features. Furthermore,
+                        because
+                        of their elemental power, most genasi felt a sense of superiority over other races and even over
+                        other
+                        genasi.</p>
+                    <p>Genasi are created with a Magical Forge operated by Gods. Since Gods have left the forge alone, only
+                        Fire
+                        Genasis are seldomly able to survive the high heat. The child of an elemental creature with a human
+                        was
+                        a
+                        half-elemental. The child of a half-elemental and a human was a genasi. The child of a genasi and a
+                        human
+                        might show planetouched traits or purely human ones. Thus, overtime, the elemental bloodline was
+                        diluted
+                        until it was no longer obvious in most individuals. However, every few generations, a child might
+                        display
+                        his or her elemental heritage as a genasi. Para-genasi came about when a half-elemental of one type
+                        mated
+                        with an elemental creature of another type.</p>
+                    <p>Genasi artisans often saw their craft as a means of obtaining prestige. These individuals desired
+                        nothing
+                        more than to be in high demand and so worked hard to please their customer base. For this reason,
+                        many
+                        genasi often substituted actual excellence for customization and individuality and while the average
+                        genasi
+                        swordsmith might not compare with his dwarven counterpart in terms of quality, the genasi would work
+                        much
+                        harder to tailor the blade to his or her customer's specific needs and wants. This could go so far
+                        as to
+                        make genasi-crafted items seem uncomfortable or unwieldy in the hands of those for whom they were
+                        not
+                        intended.</p>
             </div>
+        </div>
 
             <!-- Goliath -->
-            <div>
-                <h3>Goliath</h3>
-                <p><b>Strong and reclusive, every day brings a new challenge to a goliath.</b></p>
-                <p>Goliaths were massive. They averaged between 2 to 2.5 meters, making them even taller than dragonborn and half-orcs. Goliath eyes were often a bright blue or green and sometimes glowed a little with an unusual supraorbital ridges. Their skin is often gray or brown and though, resembling stone, with black and vertically symmetrical patches covering their whole body. They believe that these markings somehow explain their fate or destiny. For this reason Goliaths never tattoo themselves.</p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/goliath.png" alt="goliath">
+                        <div class="w3-container w3-center">
+                          <p>Strong and reclusive, every day brings a new challenge to a goliath.</p>
+                        </div>
+                    </div>
+                    <h3>Goliath</h3>
+                    <p>Goliaths were massive. They averaged between 2 to 2.5 meters, making them even taller than dragonborn and half-orcs. Goliath eyes were often a bright blue or green and sometimes glowed a little with an unusual supraorbital ridges. Their skin is often gray or brown and though, resembling stone, with black and vertically symmetrical patches covering their whole body. They believe that these markings somehow explain their fate or destiny. For this reason Goliaths never tattoo themselves.</p>
                 <p>Goliaths' most notable characteristic was their competitiveness. They kept track of their accomplishments and saw everything as a challenge. Those not familiar with goliath psychology would often get annoyed when goliaths constantly reminded them how many times a certain thing had happened, thinking them arrogant or self-centered. To them, score keeping is a natural part of life. Beating their own records was the most satisfying victory for a goliath. They were also competitive with their companions and other goliaths, but were never arrogant or cocky. Goliaths had little time for cheaters, gloaters, and sore losers.</p>
                 <p>It was rare for goliath adventurers to retire or live to an old age, as they often died trying to surpass their previous achievements. Permanently injured or aging goliaths often sought death in battle rather than succumb to an existence where they could not excel. This tradition of honor and trust meant that goliaths tended to be good overall. This combined with their competitive nature often led goliaths to valorous heroics. Goliaths were also notably daring and fearless. Feats of physical strength and agility, like jumping chasms or climbing cliffs, held no fear for goliaths.</p>
                 <p>Complacency was a trait that goliaths loathed and as a result they never took anything for granted. Even goliaths with magical advantages would continue to train their physical prowess in case they ever lost their power. Goliath tribes only went to war as a final option, preferring to move away from unsafe lands. They did not do this out of fear or cowardice, instead they were aware that loss of life in their tribe was undesirable and had long-term consequences.</p>
@@ -352,234 +451,430 @@
                 <p>Goliaths who ventured out of their tribes would often find issue with the class divisions found in other societies. Goliaths struggled with the idea that an incompetent king could rule over hard-working peasants. These opinions were often shared and goliaths would openly mock incapable leaders or rich nobleman who relied on social structures to maintain their power.</p>
                 <p>It's unclear how old the goliath race was or where they originally came from, but it was commonly believed that they were somehow related to stone giants or earth genasi.</p>
             </div>
+        </div>
 
             <!-- Aasimar -->
-            <div>
-                <h3>Aasimar</h3>
-                <p><b>Aasimar are placed in the world to serve as guardians of law and good. Their patrons expect them
-                        to
-                        strike
-                        at evil, lead by example, and further the cause of justice.</b></p>
-                <p>Aasimars are descendants of celestial beings. They appear as glorious humans with lustrous hair,
-                    flawless
-                    skin and piercing eyes. They often attempt to pass as humans. Aasimars are celestial to humans as
-                    the
-                    opposite of tieflings as fiends to humans.</p>
-                <p>Early aasimars, now long gone, have become either demigods or lost to time. Now, Aasimars only
-                    produce
-                    with
-                    humans and spawn aasimars.</p>
-            </div>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/aasimar.png" alt="aasimar">
+                        <div class="w3-container w3-center">
+                          <p>Aasimar are placed in the world to serve as guardians of law and good. Their patrons expect them
+                            to
+                            strike
+                            at evil, lead by example, and further the cause of justice.</p>
+                        </div>
+                    </div>
+                    <h3>Aasimar</h3>
+                    <p>Aasimars are descendants of celestial beings. They appear as glorious humans with lustrous hair,
+                        flawless
+                        skin and piercing eyes. They often attempt to pass as humans. Aasimars are celestial to humans as
+                        the
+                        opposite of tieflings as fiends to humans.</p>
+                    <p>Early aasimars, now long gone, have become either demigods or lost to time. Now, Aasimars only
+                        produce
+                        with
+                        humans and spawn aasimars.</p>
+                    </div>
+                </div>
+
 
             <!-- Shifter -->
-            <div>
-                <h3>Shifter</h3> <span class="w3-tag">UA</span>
-                <p><b>Shifters, sometimes called the weretouched, are humanoids with a bestial aspect.</b></p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/shifter.png" alt="shifter">
+                        <div class="w3-container w3-center">
+                          <p>Shifters, sometimes called the weretouched, are humanoids with a bestial aspect.</p>
+                        </div>
+                    </div>
+                    <h3>Shifter</h3> 
                 <p>Shifters resembled humans, their close brethren, but with distinctively bestial features such as sharp teeth, claws, pointed ears, or fur. However, to a human's eye, the resemblance was less obvious than the differences. Unlike humans, shifters had flat, animal-like noses, larger than usual eyes that allowed them to see better in low light, heavy eyebrows, pointed ears, skin that was often of a brownish shade, and much more hair, also commonly brown, than was typical for the common human.</p>
                 <p>Shifters lived to about as long humans did on average. Shifters were commonly self-reliant and free-spirited. However, they were restrained in their actions by a fear that they might become lost in the savagery that dwelled in their blood. However, this feral predatory nature could be to the shifter's advantage, and they made excellent rangers or druids.</p>
                 <p>Shifters were often feared wherever they went, much like their lycanthrope ancestors. This was due to a common misconception that all lycanthropes were invariably and irreversibly evil, including shifters. Instead, shifters preferred either a nomadic lifestyle or living close to the edges of society, supporting it as fishers, trackers, hunters, guides, or scouts.</p>
                 <p>Shifters favored gods of nature, the moon, and primal strength. Just like lycanthropes, shifters could be found scattered throughout, but only a few gathered in larger communities.</p>
+                </div>
             </div>
 
             <!-- Warforged -->
-            <div>
-                <h3>Warforged</h3> <span class="w3-tag">UA</span> 
-                <p><b>Warforged are made from wood and metal, but they can feel pain and emotion. Built as weapons, they must now find a purpose beyond war.</b></p>
-                <p>Warforged were a rare race of humanoid constructs created through powerful rituals. They average 1.8 meters and weight about 140kg. Extremely powerful and durable, warforged were able fighters. Unlike most constructs, warforged were fully self-aware and maintained mental faculties on par with elves, humans, or similar races. The most important marking for any warforged was their "truth", a rune distinctive to each warforged which was placed upon their forehead.</p>
-                <p>They are sexless and incapable of reproduction. The warforged's artificial nature also gave the race a unique relationship to pain, which seemed limited to actual injury. This allowed warforged to modify themselves with some ease, giving them a varied appearance in spite of their lack of inherent biological diversity.</p>
-                <p>Warforged's artificial nature also meant they did not need to eat, drink, or breathe. Likewise, warforged did not need to sleep but did nonetheless require rest in a fully-aware state for a period of at least four hours.</p>
-                <p>Warforged took their name from their original purpose, as soldiers, and many had a dutiful attitude towards life, taking pleasure from fulfilling commands. Warforged as a whole had a strong work ethic and shared an aversion to failure. Warforged were capable of fear, often of death or pain, as much as other races and could come to hate the sources of these fears just as easily. Warforged were also capable of loyalty and joy, particularly in relations to friends and allies and could be driven to anger when their loves or goals were threatened. However, warforged as a whole exhibited a simple-minded and reserved approach to life with straightforward goals and reactionary passions.</p>
-                <p>Since warforged were created in a state of physical maturity, many exhibited a childlike perspective that was often mistaken as naïve or emotionally crippled; this was not necessarily true. Some warforged, in fact, developed a particularly sophisticated view of the world, ever curious about its mysteries in part due to the odd nature of their creation. Many wondered where they might go in death and if they even have souls. Some created deeply ordered philosophies to govern themselves or maintained a perpetual list of tasks to occupy themselves with. Others fell in with the religions and mindsets of other races. Some warforged even lived long enough to develop a deep and weathered personality as tempered by time as that of other races.</p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/warforged.png" alt="warforged">
+                        <div class="w3-container w3-center">
+                          <p>Warforged are made from wood and metal, but they can feel pain and emotion. Built as weapons, they must now find a purpose beyond war.</p>
+                        </div>
+                    </div>
+                    <h3>Warforged</h3>
+                    <p>Warforged were a rare race of humanoid constructs created through powerful rituals. They average 1.8 meters and weight about 140kg. Extremely powerful and durable, warforged were able fighters. Unlike most constructs, warforged were fully self-aware and maintained mental faculties on par with elves, humans, or similar races. The most important marking for any warforged was their "truth", a rune distinctive to each warforged which was placed upon their forehead.</p>
+                    <p>They are sexless and incapable of reproduction. The warforged's artificial nature also gave the race a unique relationship to pain, which seemed limited to actual injury. This allowed warforged to modify themselves with some ease, giving them a varied appearance in spite of their lack of inherent biological diversity.</p>
+                    <p>Warforged's artificial nature also meant they did not need to eat, drink, or breathe. Likewise, warforged did not need to sleep but did nonetheless require rest in a fully-aware state for a period of at least four hours.</p>
+                    <p>Warforged took their name from their original purpose, as soldiers, and many had a dutiful attitude towards life, taking pleasure from fulfilling commands. Warforged as a whole had a strong work ethic and shared an aversion to failure. Warforged were capable of fear, often of death or pain, as much as other races and could come to hate the sources of these fears just as easily. Warforged were also capable of loyalty and joy, particularly in relations to friends and allies and could be driven to anger when their loves or goals were threatened. However, warforged as a whole exhibited a simple-minded and reserved approach to life with straightforward goals and reactionary passions.</p>
+                    <p>Since warforged were created in a state of physical maturity, many exhibited a childlike perspective that was often mistaken as naïve or emotionally crippled; this was not necessarily true. Some warforged, in fact, developed a particularly sophisticated view of the world, ever curious about its mysteries in part due to the odd nature of their creation. Many wondered where they might go in death and if they even have souls. Some created deeply ordered philosophies to govern themselves or maintained a perpetual list of tasks to occupy themselves with. Others fell in with the religions and mindsets of other races. Some warforged even lived long enough to develop a deep and weathered personality as tempered by time as that of other races.</p>
+                </div>
             </div>
 
             <!-- Changeling -->
-            <div>
-                <h3>Changeling</h3> <span class="w3-tag">UA</span>
-                <p><b>A changeling can shift its face and form with a thought as a form of artistic and emotional
-                        expression.</b></p>
-                <p>Conjured by a magic item, the gift of the Traveler, Changelings were once human that have lost their
-                    faces.
-                    They are distantly descended from doppelgangers and share their shapeshifting qualities. They now
-                    walk
-                    with
-                    multiple faces that they can control the expression with.</p>
-                <p>Even though some are raised in stable communities, never knowing one like themselves, or some being
-                    raised in
-                    changeling clans, almost every changeling follow the unpredictable path of the traveller. Some
-                    Changelings
-                    conceal their true nature and never think twice while some embrace their nature. Having no culture
-                    of
-                    their
-                    own, changelings slip into other's societies and blend in.</p>
-                <p>While changelings can look like anyone at any given time, they do have a true form. Their natural
-                    look
-                    can be
-                    scary to some due to their lack of detail and distinctive features. Their skin tone is always pale,
-                    either
-                    white or light gray, and they tend to have slender bodies with limbs slightly longer in proportion
-                    to
-                    other
-                    humanoids.</p>
-                <p>Changelings have long been persecuted by other races, seen at best as tricksters and con-artists, at
-                    worst as
-                    thieves and assassins. Many people find it hard to trust changelings, and while their talents make
-                    them
-                    natural spies and criminals, in reality, a changeling is just as likely as any creature to turn to
-                    good
-                    or
-                    evil.</p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/changeling.png" alt="changeling">
+                        <div class="w3-container w3-center">
+                          <p>A changeling can shift its face and form with a thought as a form of artistic and emotional
+                            expression.</p>
+                        </div>
+                    </div>
+                    <h3>Changeling</h3> 
+                    <p>Conjured by a magic item, the gift of the Traveler, Changelings were once human that have lost their
+                        faces.
+                        They are distantly descended from doppelgangers and share their shapeshifting qualities. They now
+                        walk
+                        with
+                        multiple faces that they can control the expression with.</p>
+                    <p>Even though some are raised in stable communities, never knowing one like themselves, or some being
+                        raised in
+                        changeling clans, almost every changeling follow the unpredictable path of the traveller. Some
+                        Changelings
+                        conceal their true nature and never think twice while some embrace their nature. Having no culture
+                        of
+                        their
+                        own, changelings slip into other's societies and blend in.</p>
+                    <p>While changelings can look like anyone at any given time, they do have a true form. Their natural
+                        look
+                        can be
+                        scary to some due to their lack of detail and distinctive features. Their skin tone is always pale,
+                        either
+                        white or light gray, and they tend to have slender bodies with limbs slightly longer in proportion
+                        to
+                        other
+                        humanoids.</p>
+                    <p>Changelings have long been persecuted by other races, seen at best as tricksters and con-artists, at
+                        worst as
+                        thieves and assassins. Many people find it hard to trust changelings, and while their talents make
+                        them
+                        natural spies and criminals, in reality, a changeling is just as likely as any creature to turn to
+                        good
+                        or
+                        evil.</p></div>
             </div>
 
             <!-- Centaur -->
-            <div>
-                <h3>Centaur</h3> <span class="w3-tag">UA</span> 
-                <p><b>The upper bodies of centaurs are comparable to human torsos in size, and their lower equine bodies
-                        average
-                        about 4 feet tall at the withers. They fill similar roles as cavalry warriors, messengers,
-                        outriders,
-                        and scouts.</b></p>
-                <p>Roamers at heart, they love open spaces and the freedom of travel. Their upper body is like of a
-                    human's,
-                    ears slightly pointed, face wider and squarer. Lower body resembles a horse with coats toward brown
-                    shades
-                    like chestnut or bay.</p>
-                <p>They generally live in tribal hunter-gatherer societies. They have good relations with elves, as they
-                    are
-                    both creatures of the forest. Their relations with elves are mutual, mostly trading gold and
-                    treasure
-                    from
-                    the tribe's horde for items in large supply in elven communities. Elves are welcome in centaur
-                    territory,
-                    and typically share land. Centaurs generally despise humans and dwarves.</p>
-                <p>They come from a blessing upon some humans on the ancient era given by Cyaxo. They mostly believe in
-                    Cyaxo.
-                </p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/centaur.png" alt="centaur">
+                        <div class="w3-container w3-center">
+                          <p>The upper bodies of centaurs are comparable to human torsos in size, and their lower equine bodies
+                            average
+                            about 4 feet tall at the withers. They fill similar roles as cavalry warriors, messengers,
+                            outriders,
+                            and scouts.</p>
+                        </div>
+                    </div>
+                    <h3>Centaur</h3> 
+                    <p>Roamers at heart, they love open spaces and the freedom of travel. Their upper body is like of a
+                        human's,
+                        ears slightly pointed, face wider and squarer. Lower body resembles a horse with coats toward brown
+                        shades
+                        like chestnut or bay.</p>
+                    <p>They generally live in tribal hunter-gatherer societies. They have good relations with elves, as they
+                        are
+                        both creatures of the forest. Their relations with elves are mutual, mostly trading gold and
+                        treasure
+                        from
+                        the tribe's horde for items in large supply in elven communities. Elves are welcome in centaur
+                        territory,
+                        and typically share land. Centaurs generally despise humans and dwarves.</p>
+                    <p>They come from a blessing upon some humans on the ancient era given by Cyaxo. They mostly believe in
+                        Cyaxo.
+                    </p>
+                </div>
             </div>
 
             <!-- Loxodon -->
-            <div>
-                <h3>Loxodon</h3> <span class="w3-tag">UA</span> 
-                <p><b>Humanoid elephants, loxodons are strong, calm, and wise.</b></p>
-                <p>Loxodons are a race of elephant humanoids. They are known as formidable warriors - they're tough as tanks, surprisingly quick on their feet, and tireless in battle. Loxodons' beliefs are straightforward, earnest and, above all, unswerving.</p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/loxodon.png" alt="loxodon">
+                        <div class="w3-container w3-center">
+                          <p>Humanoid elephants, loxodons are strong, calm, and wise.</p>
+                        </div>
+                    </div>
+                    <h3>Loxodon</h3>
+                    <p>Loxodons are a race of elephant humanoids. They are known as formidable warriors - they're tough as tanks, surprisingly quick on their feet, and tireless in battle. Loxodons' beliefs are straightforward, earnest and, above all, unswerving.</p>
                 <p>The world is a simple place to a loxodon. They speak in casual absolutes - right and wrong, virtue and depravity - leading some to wonder whether the loxodon mind can even perceive subtle shades of grey. Debate with a loxodon therefore borders on uselessness: their minds are made up quickly, and no amount of discussion will alter their path; and they will bring their full bulk and prowess in combat to uphold even a newly formed opinion. Matters of loxodon rules and religion, known collectively as the Modest Truth, are passed from generation to generation, and accepted with seemingly little deliberation.</p>
                 <p>Loxodons are naturally confident, almost naively so; they regard any challenge as an opportunity to test themselves, prevail, and prove their personal skill. Their inbuilt armament and natural ability with weapons gives them good odds against any threat, and leads to an almost unbreakable resolve toward challenges in general. Their plans and strategies toward these challenges can be simplistic at times; as they can't (or choose not to) see the intricacies and details of a problem that some other races perceive, loxodons tend to favor a head-on, even brute-force approach to succeed in any situation. Many loxodons go out of their way to seek out difficulty and strife, believing that any chance to test their will and virtue is a gift.</p>
                 <p>Despite their unwavering reliability, loxodons have elaborate measures of punishment for those who break the rules. First a ranking soldier or cleric dispenses a physical assault, overwhelming the violator with bodily pain; then a cleric or confessor hears the penitent's admission of guilt. This process works well among loxodons, ensuring a strict form of justice and guaranteeing consent on the Modest Truth, but other races often consider it barbaric or cruel.</p>
                 <p>Loxodons resolve most problems with physical might, but when the need for spellcraft arises, their magic is direct, unambiguous, and crushingly forceful. Their wizards and clerics dispense justice unapologetically and with overwhelming power, scouring the plane of any who are deemed evil, summoning enormous avatars of law and retribution, resurrecting entire armies from the dead. What loxodons lack in trickery, they make up for in raw strength.</p>
                 <p>The elephantine loxodons are tough as tanks, tireless as machines, and headstrong as boulders. They are irrepressibly confident, seeing almost every event in their lives either as positive or as a challenging opportunity to prove their mettle. The loxodons believe punishment comes in two steps: pain and atonement. They carry a weapon for each. Elder mystics take their vow of silence so seriously that they impose it on any who enter their presence.</p>
+                </div>
             </div>
 
             <!-- Minotaur -->
-            <div>
-                <h3>Minotaur</h3> <span class="w3-tag">UA</span> <span class="w3-tag">TOO MONSTER-LIKE</span> 
-                <p><b>The minotaurs of Ravnica are strong in body, dedication, and courage. They are at home on the battlefield, willing to fight for their various causes.</b></p>
-                <p>Minotaurs were evil giant muscular humanoids with fur-covered bodies and bull-like heads. It was once believed that all minotaurs were male; actually cursed humans that had been altered by the gods or a demon lord to become a minotaur. That legend proved false as female minotaurs became more prevalent over the years.</p>
-                <p>Minotaurs were carnivores, but preferred the taste of human flesh. They loved to dwell within maze-like caverns or ruins, where their innate sense of direction prevented them from getting lost. They lured travelers into their maze-like homes, where the minotaurs had the advantage over their unfortunate prey.</p>
-                <p>Many minotaurs couldn't be trusted with non-minotaur races at times, since most humanoids were their meal, and they would do anything for a quick bite out of a sleeping party member, slave owner, or wandering villager. They were not welcomed in any cities, and received an immediate death sentence, or a stoning if caught. Or worse, they were hunted by multiple hunters seeking the thrill of giving the beasts a taste of their own medicine.</p>
-                <p>Minotaurs were not highly intelligent, but possessed instinctive cunning and were adept at ambush attacks. Attacks in the dark were preferred so they could take advantage of their infravision. Minotaurs could track by scent alone, and would always investigate an unfamiliar scent. Minotaurs were fearless combatants, and would only retreat if their defeat was obvious.</p>
-                <p>Many minotaurs worshiped the Underworld Lord and his servants and were not allowed in many cities because of this known factor. Most moved toward the chaotic evil alignment, and did not work well in groups, packs, or even parties due to their solo hunter-like nature.</p>
-                <p>Although rare and considered a barbaric people by the more civilized races, it is thought that at one time perhaps they may have been less so. A reasonably sized population can be found in the Underworld Plane of Nee.</p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/minotaur.png" alt="minotaur">
+                        <div class="w3-container w3-center">
+                          <p>The minotaurs of Ravnica are strong in body, dedication, and courage. They are at home on the battlefield, willing to fight for their various causes..</p>
+                        </div>
+                    </div>
+                    <h3>Minotaur</h3>
+                    <p>Minotaurs were evil giant muscular humanoids with fur-covered bodies and bull-like heads. It was once believed that all minotaurs were male; actually cursed humans that had been altered by the gods or a demon lord to become a minotaur. That legend proved false as female minotaurs became more prevalent over the years.</p>
+                    <p>Minotaurs were carnivores, but preferred the taste of human flesh. They loved to dwell within maze-like caverns or ruins, where their innate sense of direction prevented them from getting lost. They lured travelers into their maze-like homes, where the minotaurs had the advantage over their unfortunate prey.</p>
+                    <p>Many minotaurs couldn't be trusted with non-minotaur races at times, since most humanoids were their meal, and they would do anything for a quick bite out of a sleeping party member, slave owner, or wandering villager. They were not welcomed in any cities, and received an immediate death sentence, or a stoning if caught. Or worse, they were hunted by multiple hunters seeking the thrill of giving the beasts a taste of their own medicine.</p>
+                    <p>Minotaurs were not highly intelligent, but possessed instinctive cunning and were adept at ambush attacks. Attacks in the dark were preferred so they could take advantage of their infravision. Minotaurs could track by scent alone, and would always investigate an unfamiliar scent. Minotaurs were fearless combatants, and would only retreat if their defeat was obvious.</p>
+                    <p>Many minotaurs worshiped the Underworld Lord and his servants and were not allowed in many cities because of this known factor. Most moved toward the chaotic evil alignment, and did not work well in groups, packs, or even parties due to their solo hunter-like nature.</p>
+                    <p>Although rare and considered a barbaric people by the more civilized races, it is thought that at one time perhaps they may have been less so. A reasonably sized population can be found in the Underworld Plane of Nee.</p>
+                </div>
             </div>
 
             <!-- Simic Hybrid -->
-            <div>
-                <h3>Simic Hybrid</h3> <span class="w3-tag">UA</span> <span class="w3-tag">TOO BASIC</span> 
-                <p><b>The Simic Combine uses magic to transfer the traits of animals into humans, elves, and vedalken.</b></p>
-                <p>The Simic Combine uses magic to fuse different life forms together. In recent years, the Simic Combine has extended this research to humanoid subjects, magically transferring the traits of various animals into humans, elves, and vedalken. The goal of the Guardian Project is to build a Simic army of soldiers perfectly adapted to a variety of combat situations. These hyper-evolved specimens are called Simic hybrids, though they sometimes refer to themselves as guardians.</p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/simic-hybrid.png" alt="Simic Hybrid">
+                        <div class="w3-container w3-center">
+                          <p>The Simic Combine uses magic to transfer the traits of animals into humans, elves, and vedalken.</p>
+                        </div>
+                    </div>
+                    <h3>Simic Hybrid</h3>
+                    <p>The Simic Combine uses magic to fuse different life forms together. In recent years, the Simic Combine has extended this research to humanoid subjects, magically transferring the traits of various animals into humans, elves, and vedalken. The goal of the Guardian Project is to build a Simic army of soldiers perfectly adapted to a variety of combat situations. These hyper-evolved specimens are called Simic hybrids, though they sometimes refer to themselves as guardians.</p>
+                </div>
             </div>
 
             <!-- Vedalken -->
-            <div>
-                <h3>Vedalken</h3> <span class="w3-tag">UA</span> <span class="w3-tag">TOO BASIC</span> 
-                <p><b>The blue-skinned vedalken strive for perfection above all else.</b></p>
-                <p>Nothing is perfect. Vedalken not only believe this fact, they rejoice in it. Every imperfection is a chance for improvement, and progress is an endless march toward a state of perfection that can never be reached. This viewpoint leads vedalken to pursue their work with delighted enthusiasm, never deterred by setbacks and excited by every opportunity for improvement.</p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/vedalken.png" alt="vedalken">
+                        <div class="w3-container w3-center">
+                          <p>The blue-skinned vedalken strive for perfection above all else.</p>
+                        </div>
+                    </div>
+                    <h3>Vedalken</h3>
+                    <p>Nothing is perfect. Vedalken not only believe this fact, they rejoice in it. Every imperfection is a chance for improvement, and progress is an endless march toward a state of perfection that can never be reached. This viewpoint leads vedalken to pursue their work with delighted enthusiasm, never deterred by setbacks and excited by every opportunity for improvement.</p>
                 <p>Vedalken are tall and slender, standing almost a head taller than humans on average but weighing about the same. Their hairless skin comes in a range of shades of blue. Their eyes are darker shades of blue or violet. They lack external ears, their noses are broad and fiat, and they are partially amphibious.</p>
+            </div>
             </div>
 
             <!-- Kalashtar -->
-            <div>
-                <h3>Kalashtar</h3> <span class="w3-tag">UA</span> <span class="w3-tag">TOO SPECIFIC TO INTEGRATE</span> 
-                <p><b>The kalashtar are a compound people created from the union of humanity and renegade spirits from the plane of dreams.</b></p>
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/kalashtar.png" alt="kalashtar">
+                        <div class="w3-container w3-center">
+                          <p>The kalashtar are a compound people created from the union of humanity and renegade spirits from the plane of dreams.</p>
+                        </div>
+                    </div>
+                    <h3>Kalashtar</h3>
+                   </div>
             </div>
-<hr>
+
+            <!--Wispling-->
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/wispling.png" alt="Wispling">
+                        <div class="w3-container w3-center">
+                          <p>Wisplings were planetouched, native outsiders descended from the breeding of halflings and demons.</p>
+                        </div>
+                    </div>
+                    <h3>Wispling</h3>
+                   </div>
+            </div>
+            <!--Leonin-->
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/leonin.png" alt="Leonin">
+                        <div class="w3-container w3-center">
+                          <p>Nomadic, lion-like humanoids who rarely interact with other peoples, having all they need in their
+                            shimmering homeland.</p>
+                        </div>
+                    </div>
+                    <h3>Leonin</h3>
+                   </div>
+            </div>
+            <!--Bugbear-->
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/bugbear.png" alt="Bugbear">
+                        <div class="w3-container w3-center">
+                          <p>Bugbears feature in the nightmare tales of many races — great, hairy beasts that creep through the
+                            shadows
+                            as quiet as cats.</p>
+                        </div>
+                    </div>
+                    <h3>Bugbear</h3>
+                   </div>
+            </div>
+            <!--Firbolg-->
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/firbolg.png" alt="Firbolg">
+                        <div class="w3-container w3-center">
+                          <p>Firbolg tribes cloister in remote forest strongholds, preferring to spend their days in quiet
+                            harmony
+                            with
+                            the woods.</p>
+                        </div>
+                    </div>
+                    <h3>Firbolg</h3>
+                   </div>
+            </div>
+            <!--Goblin-->
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/goblin.png" alt="Goblin">
+                        <div class="w3-container w3-center">
+                          <p>Goblins occupy an uneasy place in a dangerous world, and they react by lashing out at any
+                            creatures
+                            they
+                            believe they can bully.</p>
+                        </div>
+                    </div>
+                    <h3>Goblin</h3>
+                   </div>
+            </div>
+            <!--Triton-->
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/triton.png" alt="Triton">
+                        <div class="w3-container w3-center">
+                          <p>Long-established guardians of the deep ocean floor, in recent years the noble tritons have become
+                            increasingly active in the world above.</p>
+                        </div>
+                    </div>
+                    <h3>Triton</h3>
+                   </div>
+            </div>
+            <!--Tabaxi-->
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/tabaxi.png" alt="Tabaxi">
+                        <div class="w3-container w3-center">
+                          <p>Hailing from a strange and distant land, wandering tabaxi are catlike humanoids driven by
+                            curiosity to
+                            collect interesting artifacts, gather tales and stories, and lay eyes on all the world's
+                            wonders.</p>
+                        </div>
+                    </div>
+                    <h3>Tabaxi</h3>
+                   </div>
+            </div>
+            <!--Orc-->
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/orc.png" alt="Orc">
+                        <div class="w3-container w3-center">
+                          <p>Orcs live a life that has no place for weakness, and every warrior must be strong enough to take
+                            what
+                            is
+                            needed by force.</p>
+                        </div>
+                    </div>
+                    <h3>Orc</h3>
+                   </div>
+            </div>
+            <!--Lizardfolk-->
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/lizardfolk.png" alt="Lizardfolk">
+                        <div class="w3-container w3-center">
+                          <p>Lizardfolk possess an alien and inscrutable mindset, their desires and thoughts driven by a
+                            different
+                            set
+                            of basic principles than those of warm-blooded creatures.</p>
+                        </div>
+                    </div>
+                    <h3>Lizardfolk</h3>
+                   </div>
+            </div>
+            <!--Kobold-->
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/kobold.png" alt="Kobold">
+                        <div class="w3-container w3-center">
+                          <p>Kobolds are typically timid and shy away from conflict, but they are dangerous and vicious if
+                            cornered.</p>
+                        </div>
+                    </div>
+                    <h3>Kobold</h3>
+                   </div>
+            </div>
+            <!--Kenku-->
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/kenku.png" alt="Kenku">
+                        <div class="w3-container w3-center">
+                          <p>Haunted by an ancient crime that robbed them of their wings, the kenku wander the world as
+                            vagabonds
+                            and
+                            burglars who live at the edge of human society.</p>
+                        </div>
+                    </div>
+                    <h3>Kenku</h3>
+                   </div>
+            </div>
+            <!--Hobgoblin-->
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/hobgoblin.png" alt="Hobgoblin">
+                        <div class="w3-container w3-center">
+                          <p>War is the lifeblood of hobgoblins. Its glories are the dreams that inspire them. Its horrors
+                            don't
+                            feature in their nightmares.</p>
+                        </div>
+                    </div>
+                    <h3>Hobgoblin</h3>
+                   </div>
+            </div>
+            <!--Yuan-ti Pureblood-->
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/yuan-ti.png" alt="Yuan-ti Pureblood">
+                        <div class="w3-container w3-center">
+                          <p>The serpent creatures known as yuan-ti are all that remains of an ancient, decadent human
+                            empire.</p>
+                        </div>
+                    </div>
+                    <h3>Yuan-ti Pureblood</h3>
+                   </div>
+            </div>
+            <!--Tortle-->
+            <div class="w3-container">
+                <div class="w3-margin-bottom">
+                    <div class="w3-card-4 w3-25 w3-margin-right w3-margin-bottom" style="float:left">
+                        <img class="w3-image" src="../dnd/min_images/race_images/tortle.png" alt="Tortle">
+                        <div class="w3-container w3-center">
+                          <p>What many tortles consider a simple life, others might call a life of adventure. They are nomad
+                            survivalists eager to explore the wilderness.</p>
+                        </div>
+                    </div>
+                    <h3>Tortle</h3>
+                   </div>
+            </div>
             <!-- Unavailable -->
             <div>
-                
-                <h3><i>Wispling</i></h3>
-                <p><b>Wisplings were planetouched, native outsiders descended from the breeding of halflings and demons.</b></p>
-                
-                <h3><i>Leonin</i></h3>
-                <p><b>Nomadic, lion-like humanoids who rarely interact with other peoples, having all they need in their
-                        shimmering homeland.</b></p>
 
-                <h3><i>Bugbear</i></h3>
-                <p><b>Bugbears feature in the nightmare tales of many races — great, hairy beasts that creep through the
-                        shadows
-                        as quiet as cats.</b></p>
-
-                <h3><i>Firbolg</i></h3>
-                <p><b>Firbolg tribes cloister in remote forest strongholds, preferring to spend their days in quiet
-                        harmony
-                        with
-                        the woods.</b></p>
-
-                <h3><i>Goblin</i></h3>
-                <p><b>Goblins occupy an uneasy place in a dangerous world, and they react by lashing out at any
-                        creatures
-                        they
-                        believe they can bully.</b></p>
-
-                <h3><i>Triton</i></h3>
-                <p><b>Long-established guardians of the deep ocean floor, in recent years the noble tritons have become
-                        increasingly active in the world above.</b></p>
-
-                <h3><i>Tabaxi</i></h3>
-                <p><b>Hailing from a strange and distant land, wandering tabaxi are catlike humanoids driven by
-                        curiosity to
-                        collect interesting artifacts, gather tales and stories, and lay eyes on all the world’s
-                        wonders.</b>
-                </p>
-
-                <h3><i>Orc</i></h3>
-                <p><b>Orcs live a life that has no place for weakness, and every warrior must be strong enough to take
-                        what
-                        is
-                        needed by force.</b></p>
-
-                <h3><i>Lizardfolk</i></h3>
-                <p><b>Lizardfolk possess an alien and inscrutable mindset, their desires and thoughts driven by a
-                        different
-                        set
-                        of basic principles than those of warm-blooded creatures.</b></p>
-
-                <h3><i>Kobold</i></h3>
-                <p><b>Kobolds are typically timid and shy away from conflict, but they are dangerous and vicious if
-                        cornered.</b></p>
-
-                <h3><i>Kenku</i></h3>
-                <p><b>Haunted by an ancient crime that robbed them of their wings, the kenku wander the world as
-                        vagabonds
-                        and
-                        burglars who live at the edge of human society.</b></p>
-
-                <h3><i>Hobgoblin</i></h3>
-                <p><b>War is the lifeblood of hobgoblins. Its glories are the dreams that inspire them. Its horrors
-                        don’t
-                        feature in their nightmares.</b></p>
-
-                <h3><i>Yuan-ti Pureblood</i></h3>
-                <p><b>The serpent creatures known as yuan-ti are all that remains of an ancient, decadent human
-                        empire.</b>
-                </p>
-
-                <h3><i>Tortle</i></h3>
-                <p><b>What many tortles consider a simple life, others might call a life of adventure. They are nomad
-                        survivalists eager to explore the wilderness.</b></p>
-                        
                 <h3><i>Almost infinite more...</i></h3>
                 <p><b>There are over 100 races officially and we have the option to homebrew. If you want to play something that does not exist, HMU!</b></p>
             </div></div>
         </div>
     </div>
+    <span class="w3-tag">UA</span>
 </body>
 
 <script>
