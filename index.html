@@ -331,7 +331,7 @@
             <div class="testimonial-item">
               <p>
                 <audio id="soundGlados" src="assets/sound/glados.wav" preload="auto"></audio><a onclick="document.getElementById('soundGlados').play();">
-                  <img src="./assets/img/glados.png" style="width: 100%; height: auto;" title="Artwork, concept and sound design by Valve. Sound model by scruffygamer, tacotron2."/></a>
+                  <img src="./assets/img/glados.png" style="width: auto; height: 200px; display: block; margin-left: auto; margin-right: auto;" title="Artwork, concept and sound design by Valve. Sound model by scruffygamer, tacotron2."/></a>
               </p>
               <h3>A Potato</h3>
               <h4>Genetic Lifeform and Disk Operating System</h4>
@@ -342,7 +342,7 @@
             <div class="testimonial-item">
               <p>
                 <audio id="soundDDungeon" src="assets/sound/ancestor.wav" preload="auto"></audio><a onclick="document.getElementById('soundDDungeon').play();">
-                  <img src="./assets/img/ancestor.png" style="width: 100%; height: auto;" title="Artwork, concept and sound design by Red Hook Studios. Sound model by anonymous, tacotron2."/></a>
+                  <img src="./assets/img/ancestor.png" style="width: auto; height: 200px; display: block; margin-left: auto; margin-right: auto;" title="Artwork, concept and sound design by Red Hook Studios. Sound model by anonymous, tacotron2."/></a>
               </p>
               <h3>A Man of Dedication</h3>
               <h4>The Ancestor</h4>
@@ -353,21 +353,10 @@
             <div class="testimonial-item">
               <p>
                 <audio id="soundHL" src="assets/sound/halflifescientist.wav" preload="auto"></audio><a onclick="document.getElementById('soundHL').play();">
-                  <img src="./assets/img/halflifescientist.png" style="width: 100%; height: auto;" title="Artwork, concept and sound design by Valve. Sound model by BibbyBob, tacotron2."/></a>
+                  <img src="./assets/img/halflifescientist.png" style="width: auto; height: 200px; display: block; margin-left: auto; margin-right: auto;" title="Artwork, concept and sound design by Valve. Sound model by BibbyBob, tacotron2."/></a>
               </p>
               <h3>Walter</h3>
               <h4>Scientist</h4>
-            </div>
-          </div><!-- End testimonial item -->
-
-          <div class="swiper-slide postalEgg">
-            <div class="testimonial-item">
-              <p>
-                <audio id="soundPostal" src="assets/sound/postaldude.wav" preload="auto"></audio><a onclick="document.getElementById('soundPostal').play();">
-                  <img src="./assets/img/postaldude.png" style="width: 100%; height: auto;" title="Artwork, concept and sound design by RWS. Sound model by BibbyBob, tacotron2."/></a>
-              </p>
-              <h3>Postal Dude</h3>
-              <h4>Just a Dude</h4>
             </div>
           </div><!-- End testimonial item -->
 
@@ -375,10 +364,21 @@
             <div class="testimonial-item">
               <p>
                 <audio id="soundSkyrim" src="assets/sound/whiterunguard.wav" preload="auto"></audio><a onclick="document.getElementById('soundSkyrim').play();">
-                  <img src="./assets/img/whiterunguard.png" style="width: 100%; height: auto;" title="Artwork, concept and sound design by Bethesda. Sound model by zegerV, tacotron2."/></a>
+                  <img src="./assets/img/whiterunguard.png" style="width: auto; height: 200px; display: block; margin-left: auto; margin-right: auto;" title="Artwork, concept and sound design by Bethesda. Sound model by zegerV, tacotron2."/></a>
               </p>
               <h3>Whiterun Guard</h3>
               <h4>Gatekeeper</h4>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide cyberpunkEgg">
+            <div class="testimonial-item">
+              <p>
+                <audio id="soundCyberpunk" src="assets/sound/johnny.wav" preload="auto"></audio><a onclick="document.getElementById('soundCyberpunk').play();">
+                  <img src="./assets/img/johnny_silverhand_body.webp" style="width: auto; height: 200px; display: block; margin-left: auto; margin-right: auto;" title="Artwork, concept and sound design by CDPR. Sound model by anonymous, tacotron2."/></a>
+              </p>
+              <h3>Johnny Silverhand</h3>
+              <h4>Robert John Linder</h4>
             </div>
           </div><!-- End testimonial item -->
 
@@ -755,7 +755,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script>window.setInterval(function(){var current=new Date();var portalInterval=new Date();portalInterval.setFullYear(current.getFullYear(),9,10);var portal2Interval=new Date();portal2Interval.setFullYear(current.getFullYear(),3,19);if(current.getDate()==portalInterval.getDate()||current.getDate()==portal2Interval.getDate()){$('.gladosEgg').show();}else{$('.gladosEgg').remove();}var ddungeon = new Date(); ddungeon.setFullYear(current.getFullYear(), 0, 19);if(current.getDate()==ddungeon.getDate()){$('.ddungeonEgg').show();}else{$('.ddungeonEgg').remove();}var hl=new Date();hl.setFullYear(current.getFullYear(), 10, 19);if(current.getDate()==hl.getDate()){$('.hlEgg').show();}else{$('.hlEgg').remove();}var postal=new Date();postal.setFullYear(current.getFullYear(),8,24);if(current.getDate()==postal.getDate()){$('.postalEgg').show();}else{$('.postalEgg').remove();}var skyrim=new Date();skyrim.setFullYear(current.getFullYear(),10,11);if(current.getDate()==skyrim.getDate()){$('.skyrimEgg').show();}else{$('.skyrimEgg').remove();}},0);</script>
+  <script>window.setInterval(function(){var current=new Date();var portalInterval=new Date();portalInterval.setFullYear(current.getFullYear(),9,10);var portal2Interval=new Date();portal2Interval.setFullYear(current.getFullYear(),3,19);if(current.getDate()==portalInterval.getDate()||current.getDate()==portal2Interval.getDate()){$('.gladosEgg').show();}else{$('.gladosEgg').remove();}var ddungeon = new Date(); ddungeon.setFullYear(current.getFullYear(), 0, 19);if(current.getDate()==ddungeon.getDate()){$('.ddungeonEgg').show();}else{$('.ddungeonEgg').remove();}var cyberpunk = new Date();cyberpunk.setFullYear(current.getFullYear(), 11, 10)if(current.getDate()==cyberpunk.getDate()){$('.cyberpunkEgg').show();}else{$('.cyberpunkEgg').remove();}var hl=new Date();hl.setFullYear(current.getFullYear(), 10, 19);if(current.getDate()==hl.getDate()){$('.hlEgg').show();}else{$('.hlEgg').remove();}var skyrim=new Date();skyrim.setFullYear(current.getFullYear(),10,11);if(current.getDate()==skyrim.getDate()){$('.skyrimEgg').show();}else{$('.skyrimEgg').remove();}},0);</script>
 
 </body>
 
