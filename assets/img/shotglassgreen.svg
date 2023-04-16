@@ -1,0 +1,44 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <defs>
+        <style>
+            .floating { 
+                animation-name: floating;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in-out;
+            }
+            .floating-alt { 
+                animation-name: floating;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in-out;
+            }
+            @keyframes floating {
+                0% { transform: translate(0,  0px); }
+                25% { transform: translate(1px,  3px) scale(0.95); }
+                50%  { transform: translate(0, 5px); }
+                75% { transform: translate(-2px,  -4px) scale(1.05); }
+                100%   { transform: translate(0, 0px); }   
+            }
+            #GLOW{filter: blur(8px)}#GLASS{filter:opacity(0.9)}.cls-1,.cls-2{fill:none;}.cls-1{stroke:#01few9a;}.cls-1,.cls-2,.cls-3{stroke-miterlimit:10;stroke-width:4px;}.cls-2,.cls-3{stroke:#ffffff;}.cls-3{fill:#38df38;}.cls-4{fill:#f2f2f2;}</style>
+    </defs>
+    <title>shotglass</title>
+    <g id="GLOW">
+        <path class="cls-1" d="M59,62l22,86s29,20,61-16l13-70H47" />
+        <path class="cls-1" d="M142,132c-41,50-80.67,0-80.67,0" />
+        <path class="cls-1" d="M43.58,40.94A2.37,2.37,0,0,1,46,38H157a2.4,2.4,0,0,1,2.44,3l-25.88,137.1A3.78,3.78,0,0,1,130,181H74a3.81,3.81,0,0,1-3.58-2.94Z" />
+    </g>
+    <g id="GLASS">
+        <path class="cls-2" d="M43.58,40.94A2.37,2.37,0,0,1,46,38H157a2.4,2.4,0,0,1,2.44,3l-25.88,137.1A3.78,3.78,0,0,1,130,181H74a3.81,3.81,0,0,1-3.58-2.94Z" />
+        <path class="cls-2" d="M142,132c-41,50-80.67,0-80.67,0" />
+        <path class="cls-3" d="M59,62l22,86s29,20,61-16l13-70H47" />
+    </g>
+    <g id="BUBBLE">
+        <circle class="cls-4 floating" cx="126" cy="118" r="3" />
+        <circle class="cls-4 floating-alt" cx="106" cy="133" r="2" />
+        <circle class="cls-4 floating-alt" cx="93" cy="103" r="4" />
+        <circle class="cls-4 floating" cx="84" cy="76" r="3" />
+        <circle class="cls-4 floating" cx="136.5" cy="74.5" r="3.5" />
+        <circle class="cls-4 floating-alt" cx="115" cy="87" r="3" />
+    </g>
+</svg>
