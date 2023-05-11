@@ -166,3 +166,13 @@ w3-button {
 #books section {
     padding: 2% 10% 2% 10%;
 }
+
+.page-content-responsive {
+    margin-left: auto; margin-right: auto; width: 70%;
+}
+
+@media (max-width: 1024px) {
+    .page-content-responsive {
+        width: 100%;
+    }
+}
