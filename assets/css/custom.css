@@ -76,8 +76,9 @@ tr:nth-child(even) {
 
 .hoverimage {
     color: gold;
-    border-bottom: 1px dashed white;
-    padding-left: 30px;
+    border-bottom: 1px ridge white;
+    margin: 0;
+    padding: 8px 0;
 }
 
 .hoverimage i {
