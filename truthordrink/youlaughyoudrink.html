@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="You Laugh You Drink is a Party Game.">
-    <meta name="mobile-web-app-capable" content="yes">
     <title>You Laugh You Drink</title>
     <link rel="icon" type="image/x-icon" href="../assets/img/shotglassgreen.svg">
-    <link rel="manifest" href="./youlaughyoudrink.json">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -31,7 +29,6 @@
     <div style="text-align: center; color: whitesmoke">
         <button class="button" onclick="run();">New Question!</button>
     </div>
-    <button id="install-button" style="display: none;">Add to Home Screen</button>
 </body>
 <script src="../assets/js/youlaughyoudrink.js"></script>
 <script>
@@ -39,22 +36,6 @@
         run();
         document.body.requestFullscreen();
     };
-    window.addEventListener('beforeinstallprompt', (event) => {
-      event.preventDefault(); // Prevents the default prompt from showing
-      const installButton = document.getElementById('install-button');
-      installButton.style.display = 'block'; // Show the install button
-      installButton.addEventListener('click', () => {
-        event.prompt(); // Shows the installation prompt
-        event.userChoice.then((choiceResult) => {
-          if (choiceResult.outcome === 'accepted') {
-            console.log('User accepted the install prompt');
-          } else {
-            console.log('User dismissed the install prompt');
-          }
-          installButton.style.display = 'none'; // Hide the install button
-        });
-      });
-    });
 </script>
 
 </html>
