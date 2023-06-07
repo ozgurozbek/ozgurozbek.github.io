@@ -20,7 +20,7 @@
                 75% { transform: translate(-2px,  -4px) scale(1.05); }
                 100%   { transform: translate(0, 0px); }   
             }
-            #GLOW{filter: blur(8px)}#GLASS{filter:opacity(0.9)}.cls-1,.cls-2{fill:none;}.cls-1{stroke:#01few9a;}.cls-1,.cls-2,.cls-3{stroke-miterlimit:10;stroke-width:4px;}.cls-2,.cls-3{stroke:#ffffff;}.cls-3{fill:#38df38;}.cls-4{fill:#f2f2f2;}</style>
+            #GLOW{filter: blur(8px)}#GLASS{filter:opacity(0.9)}.cls-1,.cls-2{fill:none;}.cls-1{stroke:#01fe9a;}.cls-1,.cls-2,.cls-3{stroke-miterlimit:10;stroke-width:4px;}.cls-2,.cls-3{stroke:#ffffff;}.cls-3{fill:#38df38;}.cls-4{fill:#f2f2f2;}</style>
     </defs>
     <title>shotglass</title>
     <g id="GLOW">
