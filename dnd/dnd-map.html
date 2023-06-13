@@ -31,20 +31,18 @@
 
             <center>
                 <h1 id="map-resource-legend">Map Resource Legend</h1>
-                <p>Adds new skills named Mining, Research, Farming and Influence. Difficulty classes are averaged out.
-                    They can change depending on the situation.</p>
-                <a style="text-decoration:none; color: gold;" href="./MapResourcesDoc.pdf"><b>Map
-                        Resources Document [176KB Download]</b></a>
+                <p>Adds new skills named Artifice and Influence. Difficulty classes are averaged out. They can change depending on the situation.</p>
+                <a style="text-decoration:none; color: gold;" href="./MapResourcesDoc.pdf"><b>Map Resources Document [176KB Download]</b></a>
             </center>
             <hr>
 
             <table> <!-- This is the most chaotic thing, but it used to be a markdown. This'll do. -->
                 <thead>
                     <tr class="header">
-                        <th align="left">Name</th>
-                        <th align="left">Type</th>
-                        <th align="left">Image</th>
-                        <th align="left">DC for PCs</th>
+                        <th align="left" style="width:20%">Name</th>
+                        <th align="left" style="width:20%">Type</th>
+                        <th align="left" style="width:20%">Image</th>
+                        <th align="left" style="width:40%">DC for PCs</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -64,13 +62,13 @@
                         <td align="left">Antique</td>
                         <td align="left">Artifact</td>
                         <td align="left"><img src="./map_resources/Antiquity_Site.png" alt="img" width="50" /></td>
-                        <td align="left">DC20 History</td>
+                        <td align="left">DC20 History with Mason's Tools</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Bananas</td>
                         <td align="left">Common</td>
                         <td align="left"><img src="./map_resources/Bananas.png" alt="img" width="50" /></td>
-                        <td align="left">DC12 Farming</td>
+                        <td align="left">DC12 Nature with appropriate tools</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Cattle</td>
@@ -82,7 +80,7 @@
                         <td align="left">Copper</td>
                         <td align="left">Common</td>
                         <td align="left"><img src="./map_resources/Copper.png" alt="img" width="50" /></td>
-                        <td align="left">-</td>
+                        <td align="left">DC12 Athletics with a Pickaxe</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Crabs</td>
@@ -94,7 +92,7 @@
                         <td align="left">Deer</td>
                         <td align="left">Common</td>
                         <td align="left"><img src="./map_resources/Deer.png" alt="img" width="50" /></td>
-                        <td align="left">DC12 Animal Handling</td>
+                        <td align="left">DC12 Animal Handling with Thieve's Tools</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Fish</td>
@@ -106,13 +104,13 @@
                         <td align="left">Red Corn</td>
                         <td align="left">Common</td>
                         <td align="left"><img src="./map_resources/Maize.png" alt="img" width="50" /></td>
-                        <td align="left">DC12 Farming</td>
+                        <td align="left">DC12 Nature with appropriate tools</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Rice</td>
                         <td align="left">Common</td>
                         <td align="left"><img src="./map_resources/Rice.png" alt="img" width="50" /></td>
-                        <td align="left">DC12 Farming</td>
+                        <td align="left">DC12 Nature with appropriate tools</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Sheep</td>
@@ -124,13 +122,13 @@
                         <td align="left">Wheat</td>
                         <td align="left">Common</td>
                         <td align="left"><img src="./map_resources/Wheat.png" alt="img" width="50" /></td>
-                        <td align="left">DC12 Farming</td>
+                        <td align="left">DC12 Nature with appropriate tools</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Stone</td>
                         <td align="left">Common</td>
                         <td align="left"><img src="./map_resources/Stone.png" alt="img" width="50" /></td>
-                        <td align="left">DC12 Mining</td>
+                        <td align="left">DC10 Athletics with a Pickaxe or Mining Gauntlets</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Aluminum</td>
@@ -142,103 +140,103 @@
                         <td align="left">Coal</td>
                         <td align="left">Strategic</td>
                         <td align="left"><img src="./map_resources/Coal.png" alt="img" width="50" /></td>
-                        <td align="left">DC10 Mining</td>
+                        <td align="left">DC10 Athletics with a Pickaxe or Mining Gauntlets</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Horses</td>
                         <td align="left">Strategic</td>
                         <td align="left"><img src="./map_resources/Horses.png" alt="img" width="50" /></td>
-                        <td align="left">DC16 Animal Handling</td>
+                        <td align="left">DC18 Animal Handling</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Iron</td>
                         <td align="left">Strategic</td>
                         <td align="left"><img src="./map_resources/Iron.png" alt="img" width="50" /></td>
-                        <td align="left">-</td>
+                        <td align="left">DC18 Athletics with Smith's Tools</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Amber</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Amber.png" alt="img" width="50" /></td>
-                        <td align="left">DC24 Mining</td>
+                        <td align="left">DC24 Athletics with Jeweler's Tools</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Cinnamon</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Cinnamon.png" alt="img" width="50" /></td>
-                        <td align="left">DC24 Farming</td>
+                        <td align="left">DC20 Nature with Herbalism Kit</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Citrus</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Citrus.png" alt="img" width="50" /></td>
-                        <td align="left">DC24 Farming</td>
+                        <td align="left">DC20 Nature with appropriate tools</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Cloves</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Cloves.png" alt="img" width="50" /></td>
-                        <td align="left">DC30 Farming</td>
+                        <td align="left">DC25 Nature with Herbalism Kit</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Cocoa</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Cocoa.png" alt="img" width="50" /></td>
-                        <td align="left">DC30 Farming</td>
+                        <td align="left">DC25 Nature with appropriate tools</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Coffee</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Coffee.png" alt="img" width="50" /></td>
-                        <td align="left">DC36 Farming</td>
+                        <td align="left">DC25 Nature with Woodcarver's Tools</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Cosmetics</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Cosmetics.png" alt="img" width="50" /></td>
-                        <td align="left">DC24 Arcana</td>
+                        <td align="left">DC20 Arcana, or DC16 Artifice with Glassblower's Tools</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Cotton</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Cotton.png" alt="img" width="50" /></td>
-                        <td align="left">DC24 Farming</td>
+                        <td align="left">DC20 Nature with Weaver's Tools</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Diamonds</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Diamonds.png" alt="img" width="50" /></td>
-                        <td align="left">DC36 Mining</td>
+                        <td align="left">DC30 Athletics with Jeweler's Tools</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Dyes</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Dyes.png" alt="img" width="50" /></td>
-                        <td align="left">DC18 Religion</td>
+                        <td align="left">DC18 Religion with Painter's Supplies</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Furs</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Furs.png" alt="img" width="50" /></td>
-                        <td align="left">DC24 Animal Handling</td>
+                        <td align="left">DC20 Animal Handling with Leatherworker's Tools</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Gold Ore</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Gold_Ore.png" alt="img" width="50" /></td>
-                        <td align="left">DC24 Mining</td>
+                        <td align="left">DC18 Athletics with a pickaxe</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Honey</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Honey.png" alt="img" width="50" /></td>
-                        <td align="left">DC26 Animal Handling</td>
+                        <td align="left">DC20 Animal Handling with Brewer's Supplies</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Incense</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Incense.png" alt="img" width="50" /></td>
-                        <td align="left">DC14 Research</td>
+                        <td align="left">DC14 Artifice with Calligrapher's Supplies</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Ivory</td>
@@ -250,109 +248,109 @@
                         <td align="left">Jeans</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Jeans.png" alt="img" width="50" /></td>
-                        <td align="left">DC16 Research</td>
+                        <td align="left">DC18 Artifice with Weaver's Tools</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Marble</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Marble.png" alt="img" width="50" /></td>
-                        <td align="left">DC30 Mining</td>
+                        <td align="left">DC20 Athletics with Mining Gloves</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Olives</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Olives.png" alt="img" width="50" /></td>
-                        <td align="left">DC22 Nature</td>
+                        <td align="left">DC20 Nature with appropriate tools</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Pearls</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Pearls.png" alt="img" width="50" /></td>
-                        <td align="left">DC20 Research</td>
+                        <td align="left">DC20 Artifice with Jeweler's Tools</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Perfume</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Perfume.png" alt="img" width="50" /></td>
-                        <td align="left">DC26 Research</td>
+                        <td align="left">DC20 Artifice, or DC16 Arcana with Tinker's Tools</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Salt</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Salt.png" alt="img" width="50" /></td>
-                        <td align="left">DC12 Nature</td>
+                        <td align="left">DC12 Nature with Brewer's Supplies</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Silk</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Silk.png" alt="img" width="50" /></td>
-                        <td align="left">DC26 Research</td>
+                        <td align="left">DC20 Artifice with Weaver's Tools</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Silver</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Silver.png" alt="img" width="50" /></td>
-                        <td align="left">DC24 Mining</td>
+                        <td align="left">DC18 Athletics with a pickaxe</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Spices</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Spices.png" alt="img" width="50" /></td>
-                        <td align="left">DC16 Research</td>
+                        <td align="left">DC16 Artifice with Herbalism Kit</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Sugar</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Sugar.png" alt="img" width="50" /></td>
-                        <td align="left">DC16 Research</td>
+                        <td align="left">DC16 Artifice</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Tea</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Tea.png" alt="img" width="50" /></td>
-                        <td align="left">DC12 Research</td>
+                        <td align="left">DC12 Nature with Herbalism Kit</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Tobacco</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Tobacco.png" alt="img" width="50" /></td>
-                        <td align="left">DC20 Research</td>
+                        <td align="left">DC20 Artifice with Herbalism Kit</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Toys</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Toys.png" alt="img" width="50" /></td>
-                        <td align="left">DC18 Research</td>
+                        <td align="left">DC18 Artifice</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Truffles</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Truffles.png" alt="img" width="50" /></td>
-                        <td align="left">DC26 Research</td>
+                        <td align="left">DC25 Nature with Cook's Utensils</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Turtles</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Turtles.png" alt="img" width="50" /></td>
-                        <td align="left">DC24 Animal Handling</td>
+                        <td align="left">DC20 Animal Handling with appropriate tools</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Whales</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Whales.png" alt="img" width="50" /></td>
-                        <td align="left">DC36 Animal Handling</td>
+                        <td align="left">DC30 Animal Handling with Navigator's Tools</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Wine</td>
                         <td align="left">Luxury</td>
                         <td align="left"><img src="./map_resources/Wine.png" alt="img" width="50" /></td>
-                        <td align="left">DC16 Survival</td>
+                        <td align="left">DC16 Nature with Brewer's Supplies</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Runes</td>
                         <td align="left">Unique</td>
                         <td align="left"><img src="./map_resources/Uranium.png" alt="img" width="50" /></td>
-                        <td align="left">DC30 Intelligence</td>
+                        <td align="left">DC30 Intelligence with Calligrapher's Supplies</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Hexed</td>
@@ -364,13 +362,13 @@
                         <td align="left">Frostforge Steel</td>
                         <td align="left">Unique</td>
                         <td align="left"><img src="./map_resources/Gypsum.png" alt="img" width="50" /></td>
-                        <td align="left">-</td>
+                        <td align="left">DC20 Athletics, 20 Constitution Dwarf requirement</td>
                     </tr>
                     <tr class="even">
                         <td align="left">Skyforge Metal</td>
                         <td align="left">Unique</td>
                         <td align="left"><img src="./map_resources/Mercury.png" alt="img" width="50" /></td>
-                        <td align="left">DC25 Arcana</td>
+                        <td align="left">DC20 Athletics, 20 Intelligence Dwarf requirement</td>
                     </tr>
                     <tr class="odd">
                         <td align="left">Demonic</td>
