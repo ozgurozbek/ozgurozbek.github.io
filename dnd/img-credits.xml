@@ -4,13 +4,13 @@
     </info>
     <overdeities>
         <credit>
-            <author>IvanLi, MidJourney</author>
+            <author>MidJourney</author>
             <link></link>
             <usage>Mceeju</usage>
         </credit>
         <credit>
             <author>Ryan Barger, WotC</author>
-            <link></link>
+            <link>https://ryan-barger.pixels.com/featured/phenax-god-of-deception-ryan-barger.html</link>
             <usage>Nmei</usage>
         </credit>
         <credit>
@@ -19,8 +19,8 @@
             <usage>Lcaoc</usage>
         </credit>
         <credit>
-            <author>Tira-Owl</author>
-            <link>https://www.pinterest.com.mx/pin/590886413591072986/</link>
+            <author>MidJourney</author>
+            <link></link>
             <usage>Veri</usage>
         </credit>
     </overdeities>
@@ -46,8 +46,8 @@
             <usage>Buib</usage>
         </credit>
         <credit>
-            <author>Francell Garrote</author>
-            <link>https://www.artstation.com/artwork/nqK11</link>
+            <author>MidJourney</author>
+            <link></link>
             <usage>Radu</usage>
         </credit>
         <credit>
@@ -56,8 +56,8 @@
             <usage>Pwazo</usage>
         </credit>
         <credit>
-            <author>Son Trinh</author>
-            <link>ber-yaourt.deviantart.com</link>
+            <author>MidJourney</author>
+            <link></link>
             <usage>Vihi</usage>
         </credit>
         <credit>
@@ -68,20 +68,25 @@
         <credit>
             <author>王 建喜</author>
             <link>https://www.artstation.com/artwork/6Erm0</link>
-            <usage>Moradin</usage>
+            <usage>Boghradyn</usage>
         </credit>
         <credit>
             <author></author>
             <link>https://vsbattles.fandom.com/wiki/Corellon_Larethian?file=Herewwwwwwego.jpg</link>
-            <usage>Corellon</usage>
+            <usage>Yr'snn</usage>
         </credit>
         <credit>
             <author>Blizzard artist</author>
             <link>https://cdn.vox-cdn.com/thumbor/vE2MohGK_mmLXY7gETzMKbG4j6A=/0x0:2400x1350/1200x800/filters:focal(1008x483:1392x867)/cdn.vox-cdn.com/uploads/chorus_image/image/66216248/AN0JOJ14NMNS1580153151885.0.jpg</link>
-            <usage>Gruumsh</usage>
+            <usage>Guulagh</usage>
         </credit>
     </greaterdivines>
     <divines>
+        <credit>
+            <author>Jonathan Berube, Blizzard Entertainment</author>
+            <link>https://media.licdn.com/dms/image/C5612AQHs7rafoM3bsQ/article-cover_image-shrink_720_1280/0/1520060376512?e=1713398400&v=beta&t=HlWAnbr9tYZ-5NypG76vswWLeTtYmAEM_gZLWrzhgIY</link>
+            <usage>Zharathuun</usage>
+        </credit>
         <credit>
             <author></author>
             <link></link>
@@ -93,8 +98,8 @@
             <usage>Vesvjdegz</usage>
         </credit>
         <credit>
-            <author>nickhuddlestonartist</author>
-            <link>https://www.deviantart.com/nickhuddlestonartist/art/Dragon-Knight-315815843</link>
+            <author>MidJourney</author>
+            <link></link>
             <usage>Gud</usage>
         </credit>
         <credit>
@@ -125,24 +130,29 @@
         <credit>
             <author></author>
             <link></link>
-            <usage>Gond</usage>
+            <usage>Tsahnrad</usage>
         </credit>
         <credit>
             <author></author>
             <link></link>
-            <usage>Umberlee</usage>
+            <usage>Wusor</usage>
         </credit>
         <credit>
             <author></author>
             <link></link>
-            <usage>Kurtulmak</usage>
+            <usage>Yrchenn</usage>
+        </credit>
+        <credit>
+            <author></author>
+            <link></link>
+            <usage>Atlatmak</usage>
         </credit>
     </divines>
     <lesserdivines>
         <credit>
             <author></author>
             <link></link>
-            <usage>Mielikki</usage>
+            <usage>Mykthyr</usage>
         </credit>
         <credit>
             <author></author>
@@ -158,6 +168,11 @@
             <author></author>
             <link></link>
             <usage>Tezr</usage>
+        </credit>
+        <credit>
+            <author></author>
+            <link></link>
+            <usage>Maies</usage>
         </credit>
         <credit>
             <author></author>
@@ -180,12 +195,7 @@
             <usage>Cyani</usage>
         </credit>
         <credit>
-            <author></author>
-            <link></link>
-            <usage>Tharizdun</usage>
-        </credit>
-        <credit>
-            <author></author>
+            <author>My Photoshop Skills</author>
             <link></link>
             <usage>Nepi</usage>
         </credit>
@@ -202,11 +212,6 @@
         <credit>
             <author></author>
             <link></link>
-            <usage>Wusor</usage>
-        </credit>
-        <credit>
-            <author></author>
-            <link></link>
             <usage>Wugv</usage>
         </credit>
         <credit>
@@ -218,16 +223,6 @@
             <author></author>
             <link></link>
             <usage>Gezi</usage>
-        </credit>
-        <credit>
-            <author></author>
-            <link></link>
-            <usage>Pior</usage>
-        </credit>
-        <credit>
-            <author></author>
-            <link></link>
-            <usage>Czeeg</usage>
         </credit>
         <credit>
             <author></author>
@@ -257,11 +252,6 @@
         <credit>
             <author></author>
             <link></link>
-            <usage>Spina</usage>
-        </credit>
-        <credit>
-            <author></author>
-            <link></link>
             <usage>Xua</usage>
         </credit>
     </lesserdivines>
@@ -270,6 +260,11 @@
             <author></author>
             <link></link>
             <usage>Catequil</usage>
+        </credit>
+        <credit>
+            <author></author>
+            <link></link>
+            <usage>Spina</usage>
         </credit>
         <credit>
             <author></author>
@@ -304,34 +299,22 @@
         <credit>
             <author></author>
             <link></link>
+            <usage>Anomenada</usage>
+        </credit>
+        <credit>
+            <author></author>
+            <link></link>
             <usage>Jenelius Londste</usage>
         </credit>
         <credit>
             <author></author>
             <link></link>
-            <usage>Anomenada</usage>
+            <usage>Czeeg</usage>
         </credit>
         <credit>
-            <author>AI Gahaku</author>
-            <link>https://ai-art.tokyo/en/</link>
-            <usage>Boreas</usage>
+            <author></author>
+            <link></link>
+            <usage>Eve Archambeau</usage>
         </credit>
     </demigods>
-    <gatekeepers>
-        <credit>
-            <author>Concept artists for Path of Exile</author>
-            <link>https://www.pathofexile.com/forum/view-thread/3245849</link>
-            <usage>Raajod</usage>
-        </credit>
-        <credit>
-            <author>Concept artists for Path of Exile</author>
-            <link>https://store.steampowered.com/news/app/238960/view/3135073259471843217</link>
-            <usage>Raxy</usage>
-        </credit>
-        <credit>
-            <author>A lava lamp</author>
-            <link></link>
-            <usage>Onposufm</usage>
-        </credit>
-    </gatekeepers>
 </root>
